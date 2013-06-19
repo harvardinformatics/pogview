@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+my $chr = shift;
+my $start = shift;
+
+my $end = $start + 200000 - 1;
+
+my $file1 = "/ahg/scr1/DogMap/nets/Hg17/CanFam1/out/chr$chr.$start-$end";
+
+my $file2 = "/tmp/chr$chr.$start-$end.gff";
+my $file3 = "/tmp/chr$chr.$start-$end.2x";
+
+system("perl ~/cvs/mut_scripts/get_ensembl_gff_26 -chr $chr -chrstart $start -chrend $end |awk \'\$3 > 0\'> $file2");
+#system("perl /ahg/scr1/cvs/LowCoverage/aligns/getalignment.pl -chrstart 200001 -chrend 400000 -chrnum $chr > $file3");
+
+my $file4 = "/tmp/chr$chr.$start-$end.final";
+
+system("cat $file1 $file3 > $file4");
+
+system("./scripts/run $file4 $file2 ");
+
+unlink $file2;

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export POGHOME=~jcuff/cvs/pogvue/
+#export PATH=~mclamp/j2sdk1.4.2_05/bin:${PATH}
+#export POGHOME=~mclamp/cvs/pogvue/
+
+export CLASSPATH=${POGHOME}/classfiles:${POGHOME}/jars/looks-1.3.1.jar:${POGHOME}/jars/epsgraphics.jar
+
+java -mx1024M  -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel -classpath ${CLASSPATH} pogvue.gui.AlignFrame -seqfile $1 -kmerfile ${POGHOME}/data/cg.fa -gfffile $2 
+

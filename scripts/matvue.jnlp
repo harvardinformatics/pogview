@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.broad.mit.edu/~mclamp/pogvue" href="matvue.jnlp">
+<information>
+        <title>Matvue</title>
+        <vendor>Michele Clamp</vendor>
+        <description>Genome Browser</description>
+        <homepage href=""/>
+        <offline-allowed/>
+        <shortcut online="true">
+          <desktop/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+" java-vm-args="-Xmx1200m"/>
+        <jar href="pogvue.jar" main="true" download="eager"/>
+    </resources>
+	
+
+    <application-desc main-class="pogvue.gui.hub.TransfacTableModel">
+        <argument>-matrixfile</argument>
+        <argument>http://www.broad.mit.edu/~mclamp/pogvue/allmat.dat</argument>
+        <argument>-format</argument>
+        <argument>transfac</argument>
+    </application-desc>
+</jnlp>

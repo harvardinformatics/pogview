@@ -1,0 +1,2 @@
+#!/bin/sh
+java -cp ./classfiles -mx512M -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel pogvue.gui.AlignFrame $1 ./data/cg.fa ./data/real.all.mat $2

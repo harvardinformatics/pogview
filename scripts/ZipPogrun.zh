@@ -1,0 +1,2 @@
+appletviewer -J-Djava.security.policy=my.policy zip.html -J-mx1024M
+

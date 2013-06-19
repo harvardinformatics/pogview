@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#export PATH=~mclamp/j2sdk1.4.2_05/bin:${PATH}
+export POGPATH="./javabin\;${PATH}"
+export POGHOME=./
+export CLASSPATH="${POGHOME}/classfiles\;${POGHOME}/jars/looks-1.3.1.jar\;${POGHOME}/jars/psgr2.jar\;${POGHOME}/jars/epsgraphics.jar"
+
+./javabin/java -mx512M pogvue.gui.AlignFrame $1 ${POGHOME}/data/cg.fa ${POGHOME}/data/real.all.mat $2 -e 
+
+#java -cp ./classfiles:./jars/looks-1.3.1.jar -mx512M -Dswing.aatext=true pogvue.gui.AlignFrame $1 ./data/cg.fa ./data/real.all.mat $2 -e
+#java -cp ./classfiles -mx512M -Dswing.aatext=true pogvue.gui.AlignFrame $1 ./data/cg.fa ./data/real.all.mat $2 -e
+#java -cp ./classfiles -mx512M -Dswing.aatext=true pogvue.gui.AlignFrame $1 ./data/cg.fa ./data/real.all.mat $2 -e
+#java -cp /Users/michele/cvs/pogvue/classfiles -mx512M -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel pogvue.gui.AlignFrame $1 ~/cvs/pogvue/data/cg.fa ~/cvs/pogvue/data/real.both.mat
+
+#java -cp /Users/mclamp/cvs/pogvue/classfiles -mx512M -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel pogvue.gui.AlignFrame $1 ~/cvs/pogvue/data/test.kmer.fa
+#java -cp /Users/michele/cvs/pogvue/classfiles -mx512M -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel pogvue.gui.AlignFrame $1 ~/cvs/pogvue/tss3/upstream.ratio.over10.kmer.fa
+#java -cp /Users/michele/cvs/pogvue/classfiles -mx512M -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel pogvue.gui.AlignFrame $1 ~/cvs/pogvue/tss3/ratio.over10.merge.kmer.fa

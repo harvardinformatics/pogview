@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+
+
+
+use strict;
+
+
+$| = 1;
+
+
+my $name;
+my $accession;
+my $desc;
+
+my %bs;
+
+while (<>) {	
+
+      chomp;
+
+      if (/^NA +(\S+)/) {
+
+	  my $tmpname = $1;
+
+	  if (defined($accession)) {
+	      
+	      my $count = 0;
+	      
+	      foreach my $bs (keys %bs) {
+		  $bs =~ tr/atcg/ATCG/;
+
+		  print ">$name.$count\n";
+		  print $bs . "\n";
+		  $count++;
+	      }
+	  }
+	  $name = $tmpname;
+	  undef(%bs);
+
+      } elsif (/^BS +(\S+)\;/) {
+	  $bs{$1} = 1;
+      } elsif (/^AC +(\S+)/) {
+	  $accession = $1;
+      } elsif (/^DE +(.*)/) {
+	  $desc = $1;
+      }
+}

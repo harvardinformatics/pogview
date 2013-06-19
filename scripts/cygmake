@@ -1,0 +1,10 @@
+#!/bin/csh
+
+setenv POGHOME .
+
+setenv CLASSPATH ${POGHOME}:${POGHOME}/classfiles:${POGHOME}/jars/looks-1.3.1.jar:${POGHOME}/jars/epsgraphics.jar:${POGHOME}/jars/forms-1.1.0.jar:${POGHOME}/jars/pal-cvs.jar
+
+foreach i ( `find ./src -name "*.java" -print`)
+echo $i
+/cygdrive/c/Program\ Files/Java/jdk1.6.0_11/bin/javac -d classfiles -cp `cygpath -wp $CLASSPATH` -sourcepath `cygpath ./:./src:./classfiles` $i
+end

@@ -1,0 +1,1 @@
+keytool -genkey -alias pogvue -keypass poggywog -keystore ~/.keystore -storepass poggywog

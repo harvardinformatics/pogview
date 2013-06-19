@@ -1,0 +1,28 @@
+coding     16829635               3220577
+utr3       3781257                11548816
+utr5       1195798                2154986
+up150      714375                 1320327
+ctcf       610637                 5879225
+p300       927                    2691
+NRSF       110606                 857870
+srf        55853                  194053
+Stat1      2566421                21596073
+Eralpha    545440                 9873525
+gabp       183429                 913234
+Myc        158868                 2618175
+nrsf       87236                  645818
+p53        17034                  316243
+brain/limb 570614                 489593
+NfKB       4394                   25269
+duke       3768203                28114174            
+
+first_intron 5870614              215373003
+intron       14835141             474577022 
+
+siphy/phastconsonly             16985875
+siphyonly                       7777267
+phastconsonly                   8507995
+
+85177619
+
+when this is done - split the phastcons/siphy elements into 'classes' and find score/length plots.  Will need to get the score/base for the elements

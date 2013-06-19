@@ -1,0 +1,2 @@
+#!/bin/sh
+./javabin/java -cp ./classfiles -mx512M -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel pogvue.io.MafFile $1 

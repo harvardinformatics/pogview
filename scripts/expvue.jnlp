@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.broad.mit.edu/~mclamp/pogvue" href="expvue.jnlp">
+<information>
+        <title>Expvue</title>
+        <vendor>Michele Clamp</vendor>
+        <description>Expression Browser</description>
+        <homepage href=""/>
+        <offline-allowed/>
+        <shortcut online="true">
+          <desktop/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+" java-vm-args="-Xmx1200m"/>
+        <jar href="pogvue.jar" main="true" download="eager"/>
+    </resources>
+	
+
+    <application-desc main-class="pogvue.gui.ExpressionPanel">
+        <argument>-expfile</argument>
+        <argument>http://www.broad.mit.edu/~mclamp/pogvue/gnfAtlas2.gene_info.clus</argument>
+    </application-desc>
+</jnlp>

@@ -1,0 +1,30 @@
+To run :
+
+(java needs to be in your path.)
+
+./run_gff data/chr16.1-200000.fa data/chr16.1-200000.gff
+
+(i.e. ./run_gff <fasta_file> <gff_file>)
+
+Currently GFF files have the format
+
+ENSE00001291457 ensembl exon    5480    5632    100     -1      1       ENSE00001291457
+ENSE00001378093 ensembl exon    7603    7749    100     -1      0       ENSE00001378093
+
+All features are grouped by the 2nd field (if they overlap currently they are just drawn on top of each other) and are displayed in a separate line.  In the data/chr16.1-200000.gff file there are two types (ensembl and repeat) and so they are drawn in two separate lines.
+
+Colour schemes.
+
+The colours for each type (e.g. ensembl in the above example) are either taken from the data/gff.conf file or generated randomly and saved to that file when you quit the program.  The gff.conf format is
+
+
+<type> <red>,<green>,<blue>
+
+where the colour numbers range from 0-255
+
+For example to colour the CpG type red you would have
+
+CpG 255,0,0
+
+# Test for commit
+

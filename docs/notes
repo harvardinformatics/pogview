@@ -1,0 +1,94 @@
+
+proper gene display -  UTRs, coding region
+
+
+ - frequency of kmers
+
+ - start with human only
+
+ - count all human kmers in phastcons elements (4096)
+
+ - list kmer, count, positions - index - read file positions of kmers
+
+ - sample kmer incidence in non phastcons elements
+
+ - have track marking frequency of kmer
+
+
+8mers - 66,000
+7mers - 16,000
+6mers - 4,096
+
+12mer - 16,777,216
+
+AAAAAA	<count>	<chr.coord>[,<chr.coord>.....]
+
+
+public static void index_kmers(SequenceI seq,Vector feat,int kmer) {
+
+   Hashtable kmers = new Hashtable();
+
+   for (int j = 0; j < feat.size(); j++) {
+     SequenceFeature sf = (SequenceFeature)feat.elementAt(j);
+
+     int start = sf.getStart() + kmer/2;
+     int end   = sf.getEnd() - kmer/2;
+
+     for (int i = start; i <= end; i++) {
+        String tmp = seq.getSequence().substring(start-1,end);
+
+        if (!kmers.containsKey(tmp)) {
+            KmerIndex index = new KmerIndex(tmp);
+            kmers.put(tmp,index);
+        }
+        KmerIndex index = (KmerIndex)kmers.get(tmp);
+
+        index.addKmer(seq.getName(),i);
+     }
+  }
+}
+
+public class KmerIndex {
+    int count;
+    String kmer;
+
+    Vector coords;
+
+    public KmerIndex(String kmer) {
+       this.kmer = kmer;
+       count = 0;
+       coords = new Vector();
+    }
+
+    public void addKmer(String chr, int start) {
+        String pos = chr + "." + start;
+ 
+        coords.addElement(pos);
+        count++;
+    }
+
+    public Vector getCoords() {
+       return coords;
+    }
+}
+
+
+Gene neighbourhood on Karyotype panel
+
+Detect right click
+
+get genes in regions - URL call
+
+Display how?  Print to command line to start with.
+
+
+popup window?
+
+separate window?
+
+zooming in - showing genes?
+
+Selecting a score threshold
+
+
+

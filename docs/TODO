@@ -1,0 +1,395 @@
+7th Jan 2003
+
+
+0) SlowDraw doesn't resize boxes
+   SlowDraw doesn't draw characters sometimes
+
+
+1) Move to swing
+  - Scale bar update on scrolling
+  - Change to JFrame,JPanels,JScrollBars,JMenuBar
+  - Move menu to frame
+
+
+2) Calculate consensus
+   Consensus panel doesn't appear
+   Lower case residues shouldn't throw Exception in setNums
+   Calculate conservation - doesn't
+
+3) ColourSchemes
+
+   - PID doesn't work - consensus stuff isn't working
+   - User defined doesn't bring up Frame
+   - Secondary structure/hydro/helix/strand/turn/buried don't work - sets to white
+   - By conservation doesn't work
+
+4) Error dialog - Apply button - change to ok . remove cancel
+
+5) Sorting by tree error dialog - buttons oddly arranged
+   Remove redundancy dialog - buttons oddly arranged
+
+6) Selected sequence ids should colour text.
+   Drag select of sequences misses some sequences out.
+   IdPanel - large fonts don't produce the right width.
+   Background of ids should not be black
+
+7) Help
+ - Information doesn't open URL
+ - Contents doesn't open URL
+ - no about option
+
+8) PCA
+   PCA - Memory warning for large alignments.
+   PCA - doesn't calculate on selected sequences only.
+   PCA - rubber bands.
+
+9) Move selected sequences to new alignment doesn't update the screen.
+
+10) Change gap character - doesn't
+
+11) Bold should be checkbox
+    Italic should be in and checkbox
+    Colour text - should be checkbox and remove black text
+    View text - doesn't update when switched off (works when switched back on)
+
+12) Closing alignment frame when generated from input via text box exits application
+Sequence Features
+   - needs refactoring.
+  
+
+13) Trees
+    Tree dialog to set matrix and sequence selection.
+    Tree Frame should have menu for File Save and Print
+    Tree font menu is odd.
+    Size for sequence ids in TreePanel is hard coded - ids go off panel for large font sizes.
+    Clicking close on Tree Frame exits application
+
+14) Align
+ - local alignment - should be clustal
+ - should have parameter dialog - run on selected
+ - Command progress could be prettier.
+ - Remote alignment at EBI - error dialog if can't connect.  Doesn't work
+ - Remove Postal
+ - Include jnet binaries (linux,
+
+Editing is slow on osx !!!
+
+15) Groups
+    Editing groups panel is pants.
+    Group editing doesn't work. - adding selected sequences doesn't work
+    Selecting sequences is very slow to update the screen on osx
+    Group Editing - exception when >1 group.
+
+16) Columns
+    Deleting left of selected columns doesn't update the colours properly
+    Remove gapped columns doesn't work when gaps at end of alignment
+
+
+17) Scale panel should resize with font size.
+
+18) Input alignment via text box - change to edit alignment with format options and option for new alignment andButton for selected sequences only
+    Should show alignment in default format
+    Updates output automatically when the format is changed
+
+19) User defined colours - use swing colour chooser.
+    One apply button
+    Cancel button
+    Color setting isn't implemented yet
+
+20) Printing  - should be printjobified.
+
+21) View scores - doens't do anything
+
+22) Wrap alignment - doesn't work
+
+23) Consensus panel
+
+
+25) Menus 
+  Font menu - could be better designed.
+  reorganize
+  make tearoff
+New features
+------------
+
+Speed - try out JPanel for each sequence
+
+Overview panel
+  - shows whole alignment with rectangle showing viewed portion
+  - clicking on the panel moves view to that position.
+
+Popup menus for ids - showing
+   - link to URL (entry/genome position)
+   - associate with PDB structure
+   - Show pdb structure
+   - delete
+   - add/remove to group 
+   - Edit annotations
+  
+Popup menu for selected column(s)
+   - Add annotations
+   - Delete/delete to left of/right of
+
+Popup menu for selected residues
+ - Create annotation
+ - 
+ - delete/delete to left of/right of
+
+   - Realign 
+ 
+
+Multiple views of the same alignment
+ 
+Undo/Redo
+
+Rerooting of tree panel
+
+Make nodes blocky
+
+External analysis - blast,clustalw,phylogeny
+
+Sequence fetching
+
+Different editing modes
+
+Collapsing gaps
+Fixing columns/regions
+Keyboard editing
+Selected residue
+
+Jumping through selected residues/columns/ids
+
+Collapsing grouped sequences into one representative sequence/consensus
+
+Reading/writing annotations
+
+Reading from ensembl database - genes with evidence/regions
+
+Families!!
+
+Apollo interaction.
+
+Pipeline web page
+
+
+
+Pogvue - 12th October 2007
+
+Omega densities in top panel
+
+Sequence densities in top panel?  How long would it take to generate these?
+
+Sequence tracks and omega track in bottom panel
+
+Gene structures (lazy fetched)
+
+Sequence Logos
+
+   
+
+
+ 
+
+Pogvue 23rd December 2008
+
+
+Pogvue todo :
+
+
+Logos for the alignment
+
+Search panel for motifs
+
+Tree display for features
+
+Feature search
+
+Graph display
+
+Feature height proportional to score
+
+Translation of genes
+
+Gene squeeze.
+
+Gene comparison -  cartoon comparison
+
+Sequence and tree display
+
+Colour sequence by clade
+
+Logos by clade
+
+Distribution plots
+
+Beautify the display 
+
+     Clearer fonts
+     Distinguish tracks
+     Separators between tracks
+     Move tracks
+     Delete tracks
+     List tracks     
+     Change track colours
+     Simplify and clarify - not quite sure how to do this
+     Chromoview - context
+     Make obvious the bottom panel is blow up of the top panel
+     Scale with commas
+     Show chromosome and coords and no. base pairs in view
+
+          
+
+Fix AlignmentPanel
+
+Printing postscript
+
+Auto-zoom - 
+zoom to whole gene, 
+zoom to promoter,  
+Tab to next feature
+
+Gene info display - description, pid etc, publications, GO, expression, 
+
+Bookmarking
+Save to file
+
+Transfac summary
+
+Beautification??
+     Column demarcation?
+     
+
+Progress bars - on loading, sequence fetching, searching
+
+Fetch graphs - only fetch on sequence fetch in bottom panel
+
+More single key zoom levels
+
+Make arrow keys work
+
+'Adenosine!', 'Cytosine!', 'Thymine!', 'Guanine' - bugger!
+
+Position of mutations on tree
+
+Position of indels on tree
+
+Indel density
+
+Kmer frequencies
+
+Names of repeats
+
+Quality scores in alignments
+Gaps in alignments - real or otherwise
+
+Beautification
+     Better gene display
+     UTRs on genes
+     Strand displayed better - arrows etc
+     Bumping of labels
+     Better labels
+     
+
+Quickview for sequence.
+
+Pwm generation from features
+
+
+Drag select to zoom
+
+Drag to select search region
+
+Transparent overlay for bottom panel
+
+Fancy damped  scrolling
+
+Colours - more transparency - find good examples of displaying data.
+
+  - Guardian examples are good
+  - there's the Dutch guy - he was on TED
+  - Tufte
+
+Make more use of colour and size
+
+
+animations?????  Root to human motif changes?
+
+Human - Rodent - Hedgehog - Dolphin motif changes.
+
+
+Fade in and out - when changing regions?
+
+Fade to grey when waiting for new data?
+
+
+Diced data - with gffs.  Can we do this on the fly?
+
+
+
+
+************** Fix the display bug!!!!!!! **************************
+
+
+Fix yscroll
+
+Goto middle,start,end
+
+Linkouts
+
+
+Alignment coverage shadow.
+
+Scale logos by score
+
+Default analysis of genes - conserved splice sites, conserved start and stop,  TATA box polyA site, indels
+
+Alignment statistics - percent identity, coverage, feature density etc.
+
+     Add gff features
+     Read maf
+     
+
+Domain display
+
+Structure display
+
+
+Questions to ask :
+
+     I have the name of a gene
+
+     Find the gene
+     
+     Where is it
+
+     What is its structure
+
+     What are the characteristics of the gene (constraint, no exons, domains,   promoter architecture, UTR architecture, no transcripts,  likely function,  how many paralogs, how many orthologs?)
+
+     What are the likely regulatory motifs and where are they?
+
+     Are there any known mutations or associations with disease?
+
+     What genes share these regulatory motifs?
+
+     Are there any common combinations of motifs?
+
+     Common promoter architecture
+
+     Common UTR architecture
+
+     Similarly expressed genes
+
+     Comparison to paralog architecture
+
+     Comparison to common domain architecture
+
+Similarly for a region.
+
+Similarly for a collection of genes,  similarly expressed genes.
+
+Similarly for a collection of regions - e.g. chip seq.  common kmers.
+
+Search transfac table with sequence.
+
+ 
