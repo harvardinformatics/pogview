@@ -1,0 +1,2722 @@
+AC   MA0062
+XX
+NA   GABPA
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  5  1  1  0  G
+P2  1  5  1  0  G
+P3  1  6  0  0  C
+P4  0  0  7  0  G
+P5  0  0  7  0  G
+P6  7  0  0  0  A
+P7  7  0  0  0  A
+P8  0  0  7  0  G
+P9  3  1  1  2  G
+P10  0  2  4  1  G
+XX
+//
+AC   MA0073
+XX
+NA   RREB1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  3  8  0  0  C
+P2  1  10  0  0  C
+P3  3  8  0  0  C
+P4  0  11  0  0  C
+P5  7  4  0  0  C
+P6  9  2  0  0  C
+P7  8  3  0  0  C
+P8  4  6  0  1  T
+P9  0  11  0  0  C
+P10  11  0  0  0  A
+P11  4  7  0  0  C
+P12  1  10  0  0  C
+P13  3  8  0  0  C
+P14  4  6  1  0  G
+P15  2  9  0  0  C
+P16  4  5  0  2  T
+P17  4  5  1  1  G
+P18  4  6  0  1  T
+P19  1  7  3  0  G
+P20  4  4  2  1  G
+XX
+//
+AC   MA0020
+XX
+NA   Dof2
+XX
+DE   ZN-FINGER, DOF
+XX
+P0   A  C  G  T
+P1  21  0  0  0  A
+P2  21  0  0  0  A
+P3  21  0  0  0  A
+P4  0  0  21  0  G
+P5  3  14  2  2  G
+P6  7  6  3  5  G
+XX
+//
+AC   MA0098
+XX
+NA   ETS1
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  4  16  4  16  G
+P2  17  0  0  23  T
+P3  0  1  0  39  T
+P4  0  39  1  0  G
+P5  0  39  0  1  T
+P6  5  3  17  15  G
+XX
+//
+AC   MA0048
+XX
+NA   NHLH1
+XX
+DE   bHLH
+XX
+P0   A  C  G  T
+P1  13  13  17  11  G
+P2  13  39  2  0  G
+P3  3  5  37  9  G
+P4  1  53  0  0  C
+P5  54  0  0  0  A
+P6  1  1  52  0  G
+P7  1  50  3  0  G
+P8  1  1  0  52  T
+P9  0  0  53  1  G
+P10  3  37  8  6  G
+P11  2  0  37  15  G
+P12  5  17  12  20  G
+XX
+//
+AC   MA0041
+XX
+NA   Foxd3
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  11  3  26  7  G
+P2  30  2  0  15  T
+P3  24  1  0  22  T
+P4  1  4  0  42  T
+P5  12  0  34  1  G
+P6  0  0  0  47  T
+P7  1  0  0  46  T
+P8  5  0  10  32  G
+P9  14  0  21  12  G
+P10  6  7  0  34  T
+P11  1  2  4  40  G
+P12  0  12  0  35  T
+XX
+//
+AC   MA0075
+XX
+NA   Prrx2
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  52  2  4  1  G
+P2  59  0  0  0  A
+P3  0  0  1  58  G
+P4  0  0  0  59  T
+P5  58  0  1  0  G
+XX
+//
+AC   MA0060
+XX
+NA   NFYA
+XX
+DE   CAAT-BOX
+XX
+P0   A  C  G  T
+P1  34  37  27  18  G
+P2  16  33  26  41  G
+P3  7  51  25  33  G
+P4  58  14  41  3  G
+P5  51  4  56  5  G
+P6  0  116  0  0  C
+P7  2  113  1  0  G
+P8  112  0  1  3  G
+P9  116  0  0  0  A
+P10  0  1  0  115  T
+P11  14  65  33  4  G
+P12  66  6  42  2  G
+P13  13  20  73  10  G
+P14  39  43  22  12  G
+P15  36  9  47  24  G
+P16  25  35  29  27  G
+XX
+//
+AC   MA0096
+XX
+NA   bZIP910
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  15  15  5  0  G
+P2  0  0  0  35  T
+P3  0  0  35  0  G
+P4  35  0  0  0  A
+P5  0  35  0  0  C
+P6  0  0  35  0  G
+P7  0  0  0  35  T
+XX
+//
+AC   MA0081
+XX
+NA   SPIB
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  31  0  0  18  T
+P2  4  14  29  2  G
+P3  24  16  7  2  G
+P4  2  0  47  0  G
+P5  1  0  47  1  G
+P6  48  0  0  1  T
+P7  47  0  0  2  T
+XX
+//
+AC   MA0122
+XX
+NA   Bapx1
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  4  7  4  9  G
+P2  1  4  5  14  G
+P3  13  1  7  3  G
+P4  24  0  0  0  A
+P5  0  0  24  0  G
+P6  0  0  0  24  T
+P7  6  0  18  0  G
+P8  4  6  12  2  G
+P9  9  7  5  3  G
+XX
+//
+AC   MA0134
+XX
+NA   Lhx3
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  16  0  0  5  T
+P2  0  6  3  12  G
+P3  0  0  0  21  T
+P4  21  0  0  0  A
+P5  21  0  0  0  A
+P6  0  0  0  21  T
+P7  0  1  0  20  T
+P8  16  0  1  4  G
+P9  10  1  3  7  G
+XX
+//
+AC   MA0069
+XX
+NA   Pax6
+XX
+DE   PAIRED
+XX
+P0   A  C  G  T
+P1  2  4  4  33  G
+P2  2  2  0  39  T
+P3  4  26  1  12  G
+P4  39  2  1  1  G
+P5  3  34  1  5  G
+P6  1  0  41  1  G
+P7  1  37  4  1  G
+P8  21  2  2  18  G
+P9  1  4  1  37  G
+P10  2  14  25  2  G
+P11  36  0  6  1  G
+P12  11  11  13  8  G
+P13  1  5  3  34  G
+P14  1  0  17  25  G
+XX
+//
+AC   MA0105
+XX
+NA   NFKB1
+XX
+DE   REL
+XX
+P0   A  C  G  T
+P1  0  0  18  0  G
+P2  0  0  18  0  G
+P3  0  0  18  0  G
+P4  2  0  16  0  G
+P5  11  1  6  0  G
+P6  5  0  2  11  G
+P7  0  5  2  11  G
+P8  0  13  0  5  T
+P9  0  17  0  1  T
+P10  0  18  0  0  C
+P11  1  15  1  1  G
+XX
+//
+AC   MA0083
+XX
+NA   SRF
+XX
+DE   MADS
+XX
+P0   A  C  G  T
+P1  2  1  39  4  G
+P2  9  33  2  2  G
+P3  0  45  1  0  G
+P4  1  45  0  0  C
+P5  32  1  0  13  T
+P6  3  1  0  42  T
+P7  46  0  0  0  A
+P8  1  0  0  45  T
+P9  43  0  0  3  T
+P10  15  1  0  30  T
+P11  2  0  44  0  G
+P12  2  1  43  0  G
+XX
+//
+AC   MA0080
+XX
+NA   SPI1
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  14  21  19  3  G
+P2  4  2  48  3  G
+P3  3  0  52  2  G
+P4  56  1  0  0  C
+P5  56  0  0  1  T
+P6  3  18  34  2  G
+XX
+//
+AC   MA0023
+XX
+NA   Dl_2
+XX
+DE   REL
+XX
+P0   A  C  G  T
+P1  0  1  7  1  G
+P2  0  0  7  2  G
+P3  0  0  9  0  G
+P4  0  0  8  1  G
+P5  4  1  0  4  T
+P6  2  1  0  6  T
+P7  0  0  0  9  T
+P8  0  1  0  8  T
+P9  0  9  0  0  C
+P10  1  8  0  0  C
+XX
+//
+AC   MA0107
+XX
+NA   RELA
+XX
+DE   REL
+XX
+P0   A  C  G  T
+P1  0  4  11  3  G
+P2  0  0  17  1  G
+P3  0  0  18  0  G
+P4  11  0  7  0  G
+P5  10  3  4  1  G
+P6  2  0  0  16  T
+P7  0  0  0  18  T
+P8  0  2  0  16  T
+P9  0  18  0  0  C
+P10  0  18  0  0  C
+XX
+//
+AC   MA0087
+XX
+NA   Sox5
+XX
+DE   HMG
+XX
+P0   A  C  G  T
+P1  8  4  3  8  G
+P2  21  0  1  1  G
+P3  22  0  1  0  G
+P4  0  22  0  1  T
+P5  23  0  0  0  A
+P6  22  1  0  0  C
+P7  0  0  0  23  T
+XX
+//
+AC   MA0110
+XX
+NA   ATHB5
+XX
+DE   HOMEO-ZIP
+XX
+P0   A  C  G  T
+P1  3  19  9  6  G
+P2  1  29  4  3  G
+P3  30  6  0  1  T
+P4  37  0  0  0  A
+P5  0  0  0  37  T
+P6  2  5  10  20  G
+P7  37  0  0  0  A
+P8  0  0  0  37  T
+P9  0  0  0  37  T
+XX
+//
+AC   MA0054
+XX
+NA   MYB.ph3
+XX
+DE   TRP-CLUSTER
+XX
+P0   A  C  G  T
+P1  19  3  2  46  G
+P2  64  1  2  3  G
+P3  63  0  2  5  G
+P4  4  62  3  1  G
+P5  10  27  16  17  G
+P6  10  2  53  5  G
+P7  13  8  0  49  T
+P8  3  17  1  49  G
+P9  28  1  0  41  T
+XX
+//
+AC   MA0079
+XX
+NA   SP1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  1  1  4  2  G
+P2  2  1  4  1  G
+P3  0  0  8  0  G
+P4  0  0  8  0  G
+P5  0  5  2  1  G
+P6  2  0  4  2  G
+P7  0  1  5  2  G
+P8  0  0  6  2  G
+P9  1  1  6  0  G
+P10  2  0  0  6  T
+XX
+//
+AC   MA0137
+XX
+NA   STAT1
+XX
+DE   Stat
+XX
+P0   A  C  G  T
+P1  5  1  9  0  G
+P2  2  0  13  0  G
+P3  11  0  4  0  G
+P4  15  0  0  0  A
+P5  14  1  0  0  C
+P6  8  3  3  1  G
+P7  1  6  2  6  G
+P8  0  0  15  0  G
+P9  15  0  0  0  A
+P10  15  0  0  0  A
+P11  15  0  0  0  A
+P12  0  14  1  0  G
+P13  1  3  0  11  T
+P14  4  2  7  2  G
+XX
+//
+AC   MA0128
+XX
+NA   EMBP1
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  9  0  0  4  T
+P2  1  7  4  1  G
+P3  13  0  0  0  A
+P4  0  12  0  1  T
+P5  0  0  13  0  G
+P6  0  0  0  13  T
+P7  0  1  12  0  G
+P8  0  1  12  0  G
+XX
+//
+AC   MA0077
+XX
+NA   SOX9
+XX
+DE   HMG
+XX
+P0   A  C  G  T
+P1  24  7  31  14  G
+P2  54  6  7  9  G
+P3  59  4  0  13  T
+P4  0  72  2  2  G
+P5  65  4  0  7  T
+P6  71  2  1  2  G
+P7  4  0  1  71  G
+P8  24  6  38  8  G
+P9  9  9  55  3  G
+XX
+//
+AC   MA0021
+XX
+NA   Dof3
+XX
+DE   ZN-FINGER, DOF
+XX
+P0   A  C  G  T
+P1  21  0  0  0  A
+P2  21  0  0  0  A
+P3  21  0  0  0  A
+P4  0  0  21  0  G
+P5  0  10  3  8  G
+P6  6  6  9  0  G
+XX
+//
+AC   MA0013
+XX
+NA   Broad-complex_4
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  1  1  0  4  T
+P2  4  0  0  2  T
+P3  2  0  4  0  G
+P4  1  0  0  5  T
+P5  5  0  1  0  G
+P6  6  0  0  0  A
+P7  5  0  1  0  G
+P8  1  3  1  1  G
+P9  3  0  1  2  G
+P10  5  0  0  1  T
+P11  3  1  0  2  T
+XX
+//
+AC   MA0018
+XX
+NA   CREB1
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  0  7  5  4  G
+P2  3  5  4  4  G
+P3  0  3  6  7  G
+P4  2  3  11  0  G
+P5  5  1  7  3  G
+P6  0  0  0  16  T
+P7  0  0  15  1  G
+P8  16  0  0  0  A
+P9  0  16  0  0  C
+P10  0  0  16  0  G
+P11  1  5  0  10  T
+P12  5  6  3  2  G
+XX
+//
+AC   MA0129
+XX
+NA   TGA1a
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  4  4  0  7  T
+P2  13  0  1  1  G
+P3  0  14  0  1  T
+P4  2  0  13  0  G
+P5  1  0  0  14  T
+P6  0  15  0  0  C
+P7  13  0  1  1  G
+XX
+//
+AC   MA0001
+XX
+NA   AGL3
+XX
+DE   MADS
+XX
+P0   A  C  G  T
+P1  0  94  1  2  G
+P2  3  75  0  19  T
+P3  79  4  3  11  G
+P4  40  3  4  50  G
+P5  66  1  1  29  G
+P6  48  2  0  47  T
+P7  65  5  5  22  G
+P8  11  2  3  81  G
+P9  65  3  28  1  G
+P10  0  3  88  6  G
+XX
+//
+AC   MA0016
+XX
+NA   usp
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  0  1  37  0  G
+P2  1  0  36  1  G
+P3  0  0  38  0  G
+P4  0  0  38  0  G
+P5  0  0  0  38  T
+P6  0  36  1  1  G
+P7  35  0  3  0  G
+P8  5  25  3  5  G
+P9  5  8  22  3  G
+P10  6  10  16  6  G
+XX
+//
+AC   MA0090
+XX
+NA   TEAD1
+XX
+DE   TEA
+XX
+P0   A  C  G  T
+P1  1  6  1  4  G
+P2  9  0  3  0  G
+P3  0  12  0  0  C
+P4  12  0  0  0  A
+P5  0  0  0  12  T
+P6  0  0  0  12  T
+P7  0  12  0  0  C
+P8  0  11  0  1  T
+P9  5  0  0  7  T
+P10  1  7  4  0  G
+P11  2  4  3  3  G
+P12  0  2  8  2  G
+XX
+//
+AC   MA0030
+XX
+NA   FOXF2
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  1  10  7  9  G
+P2  10  7  5  5  G
+P3  17  4  2  4  G
+P4  13  5  5  5  G
+P5  3  11  8  0  G
+P6  7  0  20  0  G
+P7  0  0  0  27  T
+P8  27  0  0  0  A
+P9  27  0  0  0  A
+P10  27  0  0  0  A
+P11  0  25  0  2  T
+P12  27  0  0  0  A
+P13  16  4  2  5  G
+P14  7  4  6  10  G
+XX
+//
+AC   MA0066
+XX
+NA   PPARG
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  3  8  14  3  G
+P2  3  0  0  25  T
+P3  19  0  9  0  G
+P4  0  1  27  0  G
+P5  1  0  26  1  G
+P6  0  1  4  23  G
+P7  2  23  3  0  G
+P8  26  1  0  1  T
+P9  5  15  4  4  G
+P10  5  7  10  6  G
+P11  4  2  18  4  G
+P12  1  0  2  25  G
+P13  2  5  20  1  G
+P14  22  5  0  1  T
+P15  1  27  0  0  C
+P16  0  25  0  3  T
+P17  3  12  0  13  T
+P18  22  5  0  1  T
+P19  5  12  6  5  G
+P20  7  0  1  20  G
+XX
+//
+AC   MA0045
+XX
+NA   HMG-IY
+XX
+DE   HMG
+XX
+P0   A  C  G  T
+P1  3  5  4  2  G
+P2  7  0  3  4  G
+P3  9  1  1  3  G
+P4  3  6  4  1  G
+P5  11  0  3  0  G
+P6  11  0  2  1  G
+P7  11  0  2  1  G
+P8  3  3  2  6  G
+P9  4  1  8  1  G
+P10  3  4  6  1  G
+P11  8  5  1  0  G
+P12  8  1  4  1  G
+P13  9  0  2  3  G
+P14  9  5  0  0  C
+P15  11  0  3  0  G
+P16  2  7  0  5  T
+XX
+//
+AC   MA0005
+XX
+NA   Agamous
+XX
+DE   MADS
+XX
+P0   A  C  G  T
+P1  0  87  2  1  G
+P2  2  86  0  2  T
+P3  38  9  7  36  G
+P4  61  5  2  22  G
+P5  73  1  1  15  G
+P6  31  3  4  52  G
+P7  23  16  17  34  G
+P8  20  13  26  31  G
+P9  22  0  64  4  G
+P10  1  0  82  7  G
+P11  27  25  9  29  G
+XX
+//
+AC   MA0067
+XX
+NA   Pax2
+XX
+DE   PAIRED
+XX
+P0   A  C  G  T
+P1  10  7  5  9  G
+P2  7  1  21  2  G
+P3  3  2  0  26  T
+P4  0  28  1  2  G
+P5  26  1  3  1  G
+P6  2  17  1  11  G
+P7  2  0  19  10  G
+P8  1  11  11  8  G
+XX
+//
+AC   MA0094
+XX
+NA   Ubx
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  3  0  0  85  T
+P2  72  4  3  9  G
+P3  79  1  6  2  G
+P4  1  5  4  78  G
+XX
+//
+AC   MA0010
+XX
+NA   Broad-complex_1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  3  1  4  1  G
+P2  1  1  1  6  G
+P3  5  2  1  1  G
+P4  7  0  1  1  G
+P5  3  0  0  6  T
+P6  6  0  0  3  T
+P7  4  1  4  0  G
+P8  7  0  1  1  G
+P9  1  8  0  0  C
+P10  9  0  0  0  A
+P11  8  0  1  0  G
+P12  5  0  3  1  G
+P13  4  0  0  5  T
+P14  2  3  2  2  G
+XX
+//
+AC   MA0116
+XX
+NA   Roaz
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  7  4  22  0  G
+P2  0  16  17  0  G
+P3  16  17  0  0  C
+P4  17  16  0  0  C
+P5  0  33  0  0  C
+P6  0  33  0  0  C
+P7  1  17  0  15  T
+P8  24  0  0  9  T
+P9  13  0  16  4  G
+P10  0  0  33  0  G
+P11  0  0  33  0  G
+P12  0  0  17  16  G
+P13  0  0  16  17  G
+P14  0  8  16  9  G
+P15  11  22  0  0  C
+XX
+//
+AC   MA0103
+XX
+NA   ZEB1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  1  34  1  5  G
+P2  38  0  2  1  G
+P3  0  40  1  0  G
+P4  0  38  3  0  G
+P5  0  1  0  40  T
+P6  10  1  16  14  G
+XX
+//
+AC   MA0052
+XX
+NA   MEF2A
+XX
+DE   MADS
+XX
+P0   A  C  G  T
+P1  1  50  0  7  T
+P2  0  0  0  58  T
+P3  57  1  0  0  C
+P4  2  1  0  55  T
+P5  9  0  0  49  T
+P6  6  0  0  52  T
+P7  37  0  0  21  T
+P8  2  0  0  56  T
+P9  56  0  2  0  G
+P10  6  0  50  2  G
+XX
+//
+AC   MA0026
+XX
+NA   Eip74EF
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  2  12  2  1  G
+P2  5  12  0  0  C
+P3  0  0  17  0  G
+P4  0  0  17  0  G
+P5  17  0  0  0  A
+P6  17  0  0  0  A
+P7  5  1  10  1  G
+XX
+//
+AC   MA0036
+XX
+NA   GATA2
+XX
+DE   ZN-FINGER, GATA
+XX
+P0   A  C  G  T
+P1  13  13  18  9  G
+P2  0  5  48  0  G
+P3  52  0  1  0  G
+P4  0  0  0  53  T
+P5  25  7  15  6  G
+XX
+//
+AC   MA0043
+XX
+NA   HLF
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  1  4  8  5  G
+P2  6  0  12  0  G
+P3  1  0  0  17  T
+P4  0  0  3  15  G
+P5  13  1  2  2  G
+P6  0  15  1  2  G
+P7  6  0  12  0  G
+P8  0  9  0  9  T
+P9  13  4  1  0  G
+P10  15  0  1  2  G
+P11  2  3  1  12  G
+P12  5  5  3  5  G
+XX
+//
+AC   MA0028
+XX
+NA   ELK1
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  7  7  10  4  G
+P2  10  6  6  6  G
+P3  9  4  10  5  G
+P4  5  19  1  3  G
+P5  2  24  1  1  G
+P6  0  0  24  4  G
+P7  1  0  27  0  G
+P8  27  0  1  0  G
+P9  21  5  0  2  T
+P10  13  0  14  1  G
+XX
+//
+AC   MA0007
+XX
+NA   Ar
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  9  7  2  6  G
+P2  9  2  3  10  G
+P3  11  3  3  7  G
+P4  16  1  7  0  G
+P5  0  0  22  2  G
+P6  12  6  1  5  G
+P7  21  2  0  1  T
+P8  0  24  0  0  C
+P9  15  0  8  1  G
+P10  4  9  2  9  G
+P11  5  11  2  6  G
+P12  6  9  9  0  G
+P13  3  5  1  15  G
+P14  0  0  24  0  G
+P15  4  0  0  20  T
+P16  11  5  1  7  G
+P17  1  22  1  0  G
+P18  3  16  1  4  G
+P19  6  7  5  6  G
+P20  6  5  9  4  G
+P21  10  11  0  3  T
+P22  5  11  6  2  G
+XX
+//
+AC   MA0117
+XX
+NA   Mafb
+XX
+DE   bZIP, MAF
+XX
+P0   A  C  G  T
+P1  0  0  15  0  G
+P2  1  12  1  1  G
+P3  0  3  1  11  G
+P4  1  0  12  2  G
+P5  12  2  0  1  T
+P6  3  8  1  3  G
+P7  3  1  7  4  G
+P8  2  5  5  3  G
+XX
+//
+AC   MA0101
+XX
+NA   REL
+XX
+DE   REL
+XX
+P0   A  C  G  T
+P1  0  5  8  4  G
+P2  0  1  15  1  G
+P3  1  0  15  1  G
+P4  5  1  9  2  G
+P5  6  5  3  3  G
+P6  5  1  1  10  G
+P7  1  0  0  16  T
+P8  2  0  0  15  T
+P9  0  15  0  2  T
+P10  1  16  0  0  C
+XX
+//
+AC   MA0086
+XX
+NA   sna
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  0  39  1  0  G
+P2  39  0  0  1  T
+P3  3  0  37  0  G
+P4  2  0  38  0  G
+P5  0  0  0  40  T
+P6  0  0  38  2  G
+XX
+//
+AC   MA0012
+XX
+NA   Broad-complex_3
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  3  1  1  7  G
+P2  9  2  1  0  G
+P3  10  0  0  2  T
+P4  12  0  0  0  A
+P5  0  10  1  1  G
+P6  4  0  0  8  T
+P7  10  0  0  2  T
+P8  6  0  4  2  G
+P9  6  1  2  3  G
+P10  4  3  2  3  G
+P11  2  3  5  2  G
+XX
+//
+AC   MA0038
+XX
+NA   Gfi
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  9  20  9  15  G
+P2  28  16  7  2  G
+P3  53  0  0  0  A
+P4  53  0  0  0  A
+P5  1  0  1  51  G
+P6  1  52  0  0  C
+P7  31  7  2  13  G
+P8  8  28  11  6  G
+P9  19  11  2  21  G
+P10  7  13  28  5  G
+XX
+//
+AC   MA0064
+XX
+NA   PBF
+XX
+DE   ZN-FINGER, DOF
+XX
+P0   A  C  G  T
+P1  16  0  0  0  A
+P2  16  0  0  0  A
+P3  16  0  0  0  A
+P4  0  0  16  0  G
+P5  1  9  1  5  G
+XX
+//
+AC   MA0019
+XX
+NA   Ddit3-Cebpa
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  14  7  12  6  G
+P2  11  7  14  7  G
+P3  18  3  15  3  G
+P4  0  1  0  38  T
+P5  0  0  38  1  G
+P6  4  33  0  2  T
+P7  38  1  0  0  C
+P8  36  2  1  0  G
+P9  0  6  0  33  T
+P10  14  17  5  3  G
+P11  4  23  9  3  G
+P12  0  26  6  7  G
+XX
+//
+AC   MA0022
+XX
+NA   dl_1
+XX
+DE   REL
+XX
+P0   A  C  G  T
+P1  0  5  6  2  G
+P2  0  0  12  1  G
+P3  0  1  11  1  G
+P4  0  0  10  3  G
+P5  1  1  3  8  G
+P6  1  0  2  10  G
+P7  1  0  0  12  T
+P8  0  0  0  13  T
+P9  0  3  0  10  T
+P10  1  9  0  3  T
+P11  1  9  1  2  G
+P12  3  5  5  0  G
+XX
+//
+AC   MA0132
+XX
+NA   Pdx1
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  1  19  5  6  G
+P2  0  0  0  31  T
+P3  31  0  0  0  A
+P4  31  0  0  0  A
+P5  0  0  1  30  G
+P6  1  1  10  19  G
+XX
+//
+AC   MA0133
+XX
+NA   BRCA1
+XX
+DE   -
+XX
+P0   A  C  G  T
+P1  15  11  10  7  G
+P2  4  35  2  2  G
+P3  41  1  1  0  G
+P4  36  2  4  1  G
+P5  7  29  6  1  G
+P6  19  14  7  3  G
+P7  3  22  15  3  G
+XX
+//
+AC   MA0031
+XX
+NA   FOXD1
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  1  1  17  1  G
+P2  0  0  0  20  T
+P3  19  1  0  0  C
+P4  20  0  0  0  A
+P5  18  1  1  0  G
+P6  1  18  0  1  T
+P7  20  0  0  0  A
+P8  7  2  3  8  G
+XX
+//
+AC   MA0072
+XX
+NA   RORA_2
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  9  8  8  11  G
+P2  17  2  7  10  G
+P3  15  0  3  18  G
+P4  35  1  0  0  C
+P5  23  0  0  13  T
+P6  2  12  13  9  G
+P7  0  0  0  36  T
+P8  28  0  8  0  G
+P9  0  0  36  0  G
+P10  0  0  36  0  G
+P11  0  0  0  36  T
+P12  0  36  0  0  C
+P13  36  0  0  0  A
+P14  15  6  10  5  G
+XX
+//
+AC   MA0095
+XX
+NA   YY1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  6  1  7  3  G
+P2  0  16  0  1  T
+P3  0  17  0  0  C
+P4  17  0  0  0  A
+P5  0  0  0  17  T
+P6  3  8  3  3  G
+XX
+//
+AC   MA0131
+XX
+NA   MIZF
+XX
+DE   ZN-FINGER, C2H2 
+XX
+P0   A  C  G  T
+P1  2  6  5  7  G
+P2  13  1  0  6  T
+P3  20  0  0  0  A
+P4  2  17  1  0  G
+P5  0  0  19  1  G
+P6  0  1  0  19  T
+P7  0  19  0  1  T
+P8  0  18  2  0  G
+P9  0  0  19  1  G
+P10  2  13  1  4  G
+XX
+//
+AC   MA0091
+XX
+NA   TAL1-TCF3
+XX
+DE   bHLH
+XX
+P0   A  C  G  T
+P1  13  14  8  9  G
+P2  9  10  20  5  G
+P3  39  0  3  2  G
+P4  20  24  0  0  C
+P5  0  43  1  0  G
+P6  44  0  0  0  A
+P7  0  1  11  32  G
+P8  12  32  0  0  C
+P9  0  0  0  44  T
+P10  0  0  43  1  G
+P11  0  3  20  21  G
+P12  4  4  2  34  G
+XX
+//
+AC   MA0049
+XX
+NA   hb
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  1  5  8  2  G
+P2  6  8  2  0  G
+P3  9  3  4  0  G
+P4  4  3  1  8  G
+P5  13  1  0  2  T
+P6  16  0  0  0  A
+P7  16  0  0  0  A
+P8  14  0  2  0  G
+P9  15  1  0  0  C
+P10  9  2  2  3  G
+XX
+//
+AC   MA0109
+XX
+NA   RUSH1-alfa
+XX
+DE   ZN-FINGER, GATA
+XX
+P0   A  C  G  T
+P1  16  10  12  13  G
+P2  20  12  5  16  G
+P3  26  33  0  0  C
+P4  0  59  0  0  C
+P5  25  0  0  34  T
+P6  0  0  0  59  T
+P7  24  5  12  18  G
+P8  0  0  22  37  G
+P9  15  14  14  8  G
+P10  12  12  10  15  G
+XX
+//
+AC   MA0114
+XX
+NA   HNF4A
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  28  7  27  5  G
+P2  2  2  56  7  G
+P3  12  4  35  16  G
+P4  5  23  20  19  G
+P5  3  51  4  9  G
+P6  59  1  3  4  G
+P7  53  2  10  2  G
+P8  56  1  8  2  G
+P9  4  4  58  1  G
+P10  6  2  33  26  G
+P11  3  22  11  31  G
+P12  4  49  5  9  G
+P13  42  7  10  8  G
+XX
+//
+AC   MA0074
+XX
+NA   RXRA-VDR
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  3  0  7  0  G
+P2  0  0  10  0  G
+P3  0  0  9  1  G
+P4  0  0  0  10  T
+P5  0  9  0  1  T
+P6  9  0  1  0  G
+P7  4  2  0  4  T
+P8  2  4  2  2  G
+P9  2  0  8  0  G
+P10  5  0  5  0  G
+P11  0  0  10  0  G
+P12  0  0  0  10  T
+P13  1  0  0  9  T
+P14  0  9  0  1  T
+P15  7  1  2  0  G
+XX
+//
+AC   MA0076
+XX
+NA   ELK4
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  16  1  2  1  G
+P2  0  20  0  0  C
+P3  0  20  0  0  C
+P4  0  0  20  0  G
+P5  0  0  20  0  G
+P6  20  0  0  0  A
+P7  16  0  0  4  T
+P8  4  1  15  0  G
+P9  1  6  0  13  T
+XX
+//
+AC   MA0125
+XX
+NA   Nobox
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  0  1  0  37  T
+P2  36  0  0  2  T
+P3  38  0  0  0  A
+P4  1  1  2  34  G
+P5  2  0  4  32  G
+P6  15  0  22  1  G
+P7  4  12  18  4  G
+P8  2  13  6  17  G
+XX
+//
+AC   MA0014
+XX
+NA   Pax5
+XX
+DE   PAIRED
+XX
+P0   A  C  G  T
+P1  4  1  4  3  G
+P2  4  0  8  0  G
+P3  4  3  3  2  G
+P4  1  2  5  4  G
+P5  2  7  1  2  G
+P6  7  2  1  2  G
+P7  2  5  3  2  G
+P8  0  3  2  7  G
+P9  1  2  8  1  G
+P10  6  1  3  2  G
+P11  6  0  2  4  G
+P12  0  0  12  0  G
+P13  2  8  1  1  G
+P14  3  0  9  0  G
+P15  1  0  4  7  G
+P16  6  1  5  0  G
+P17  5  1  5  1  G
+P18  2  10  0  0  C
+P19  2  5  5  0  G
+P20  5  0  6  1  G
+XX
+//
+AC   MA0112
+XX
+NA   ESR1
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  1  5  1  2  G
+P2  1  5  1  2  G
+P3  7  1  1  0  G
+P4  2  0  7  0  G
+P5  0  0  9  0  G
+P6  0  0  0  9  T
+P7  0  7  2  0  G
+P8  6  0  2  1  G
+P9  1  7  1  0  G
+P10  2  5  1  1  G
+P11  3  2  4  0  G
+P12  1  1  1  6  G
+P13  1  0  8  0  G
+P14  5  1  3  0  G
+P15  0  8  0  1  T
+P16  0  9  0  0  C
+P17  2  4  0  3  T
+P18  3  4  1  1  G
+XX
+//
+AC   MA0057
+XX
+NA   MZF1_5-13
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  1  4  7  4  G
+P2  2  0  7  7  G
+P3  15  1  0  0  C
+P4  0  0  11  5  G
+P5  0  0  15  1  G
+P6  0  2  14  0  G
+P7  0  0  14  2  G
+P8  3  1  8  4  G
+P9  10  0  4  2  G
+P10  8  2  4  2  G
+XX
+//
+AC   MA0029
+XX
+NA   Evi1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  14  2  6  5  G
+P2  20  1  2  4  G
+P3  0  1  25  1  G
+P4  27  0  0  0  A
+P5  1  10  0  16  T
+P6  27  0  0  0  A
+P7  26  0  1  0  G
+P8  0  0  27  0  G
+P9  27  0  0  0  A
+P10  0  3  0  24  T
+P11  24  1  0  2  T
+P12  23  0  4  0  G
+P13  6  7  7  7  G
+P14  15  6  3  3  G
+XX
+//
+AC   MA0024
+XX
+NA   E2F1
+XX
+DE   E2F_TDP
+XX
+P0   A  C  G  T
+P1  0  0  0  10  T
+P2  0  0  0  10  T
+P3  0  0  0  10  T
+P4  0  4  6  0  G
+P5  0  2  8  0  G
+P6  0  10  0  0  C
+P7  0  0  10  0  G
+P8  0  9  1  0  G
+XX
+//
+AC   MA0033
+XX
+NA   FOXL1
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  7  1  4  11  G
+P2  10  4  2  7  G
+P3  6  3  6  8  G
+P4  13  4  4  2  G
+P5  4  10  2  7  G
+P6  21  0  2  0  G
+P7  0  2  0  21  T
+P8  22  1  0  0  C
+XX
+//
+AC   MA0099
+XX
+NA   Fos
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  5  2  12  0  G
+P2  0  0  0  19  T
+P3  0  1  18  0  G
+P4  18  1  0  0  C
+P5  1  6  9  3  G
+P6  1  1  0  17  T
+P7  6  13  0  0  C
+P8  18  0  0  1  T
+XX
+//
+AC   MA0113
+XX
+NA   NR3C1
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  3  2  4  0  G
+P2  4  0  5  0  G
+P3  3  0  6  0  G
+P4  7  0  1  1  G
+P5  6  1  1  1  G
+P6  1  6  2  0  G
+P7  8  0  1  0  G
+P8  2  0  2  5  G
+P9  3  2  0  4  T
+P10  5  3  0  1  T
+P11  1  3  0  5  T
+P12  0  0  8  1  G
+P13  1  0  0  8  T
+P14  2  4  0  3  T
+P15  0  8  1  0  G
+P16  1  2  1  5  G
+P17  4  0  4  1  G
+P18  3  1  2  3  G
+XX
+//
+AC   MA0046
+XX
+NA   HNF1A
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  5  0  14  2  G
+P2  1  0  20  0  G
+P3  1  0  0  20  T
+P4  1  0  0  20  T
+P5  20  0  0  1  T
+P6  16  2  1  2  G
+P7  1  0  0  20  T
+P8  8  2  4  7  G
+P9  14  0  1  6  G
+P10  2  0  0  19  T
+P11  0  4  0  17  T
+P12  13  1  3  4  G
+P13  8  8  3  2  G
+P14  5  13  0  3  T
+XX
+//
+AC   MA0082
+XX
+NA   SQUA
+XX
+DE   MADS
+XX
+P0   A  C  G  T
+P1  11  14  1  4  G
+P2  0  22  0  8  T
+P3  24  0  4  2  G
+P4  16  2  1  11  G
+P5  23  0  0  7  T
+P6  17  0  0  13  T
+P7  24  1  0  5  T
+P8  8  0  1  21  G
+P9  14  1  15  0  G
+P10  1  1  28  0  G
+P11  14  5  1  10  G
+P12  25  5  0  0  C
+P13  21  2  3  4  G
+P14  7  5  8  10  G
+XX
+//
+AC   MA0025
+XX
+NA   NFIL3
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  1  0  0  22  T
+P2  0  0  2  21  G
+P3  22  0  0  1  T
+P4  0  8  0  15  T
+P5  2  0  21  0  G
+P6  0  0  0  23  T
+P7  23  0  0  0  A
+P8  22  0  1  0  G
+P9  0  11  4  8  G
+P10  7  5  7  4  G
+P11  5  5  3  10  G
+XX
+//
+AC   MA0121
+XX
+NA   ARR10
+XX
+DE   TRP-CLUSTER
+XX
+P0   A  C  G  T
+P1  14  1  0  0  C
+P2  0  0  15  0  G
+P3  14  0  1  0  G
+P4  0  0  0  15  T
+P5  4  6  0  5  T
+P6  1  8  0  6  T
+P7  0  0  9  6  G
+P8  3  6  4  2  G
+XX
+//
+AC   MA0119
+XX
+NA   TLX1-NFIC
+XX
+DE   HOMEO/CAAT
+XX
+P0   A  C  G  T
+P1  0  0  0  16  T
+P2  0  0  16  0  G
+P3  0  0  16  0  G
+P4  0  16  0  0  C
+P5  14  1  0  1  T
+P6  2  8  5  1  G
+P7  2  8  4  2  G
+P8  7  1  5  3  G
+P9  4  3  2  7  G
+P10  0  0  16  0  G
+P11  0  16  0  0  C
+P12  0  16  0  0  C
+P13  16  0  0  0  A
+P14  14  0  1  1  G
+XX
+//
+AC   MA0097
+XX
+NA   bZIP911
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  1  0  31  1  G
+P2  17  0  16  0  G
+P3  0  0  0  33  T
+P4  0  0  33  0  G
+P5  33  0  0  0  A
+P6  0  33  0  0  C
+P7  0  0  33  0  G
+P8  0  0  0  33  T
+P9  0  1  32  0  G
+P10  1  0  22  10  G
+P11  11  20  1  1  G
+P12  1  32  0  0  C
+XX
+//
+AC   MA0044
+XX
+NA   HMG-1
+XX
+DE   HMG
+XX
+P0   A  C  G  T
+P1  0  5  8  0  G
+P2  0  0  3  10  G
+P3  0  4  0  9  T
+P4  0  2  10  1  G
+P5  0  1  0  12  T
+P6  6  1  3  3  G
+P7  3  5  0  5  T
+P8  0  1  2  10  G
+P9  0  8  1  4  G
+XX
+//
+AC   MA0068
+XX
+NA   Pax4
+XX
+DE   PAIRED-HOMEO
+XX
+P0   A  C  G  T
+P1  7  2  11  1  G
+P2  20  0  1  0  G
+P3  16  2  1  2  G
+P4  11  1  1  8  G
+P5  13  1  3  4  G
+P6  11  3  1  6  G
+P7  6  1  2  12  G
+P8  9  1  1  10  G
+P9  5  3  6  7  G
+P10  5  11  1  4  G
+P11  6  11  4  0  G
+P12  7  7  5  2  G
+P13  8  7  2  4  G
+P14  6  5  1  9  G
+P15  10  5  4  2  G
+P16  4  8  4  5  G
+P17  3  6  4  8  G
+P18  7  8  3  3  G
+P19  4  9  3  5  G
+P20  9  6  2  4  G
+P21  5  7  5  4  G
+P22  5  6  2  8  G
+P23  7  11  0  3  T
+P24  6  9  1  5  G
+P25  3  12  2  4  G
+P26  7  9  2  3  G
+P27  3  12  2  4  G
+P28  1  11  3  6  G
+P29  6  11  1  3  G
+P30  3  13  2  3  G
+XX
+//
+AC   MA0051
+XX
+NA   IRF2
+XX
+DE   TRP-CLUSTER
+XX
+P0   A  C  G  T
+P1  0  4  7  1  G
+P2  2  0  10  0  G
+P3  12  0  0  0  A
+P4  11  0  0  1  T
+P5  12  0  0  0  A
+P6  2  0  10  0  G
+P7  0  6  0  6  T
+P8  0  0  12  0  G
+P9  12  0  0  0  A
+P10  12  0  0  0  A
+P11  12  0  0  0  A
+P12  0  6  6  0  G
+P13  0  7  2  3  G
+P14  5  2  3  2  G
+P15  6  0  2  4  G
+P16  6  1  1  4  G
+P17  5  2  1  4  G
+P18  3  6  1  2  G
+XX
+//
+AC   MA0127
+XX
+NA   PEND
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  30  2  8  2  G
+P2  6  19  7  10  G
+P3  1  0  2  39  G
+P4  4  0  4  34  G
+P5  3  33  2  4  G
+P6  0  2  2  38  G
+P7  2  0  1  39  G
+P8  32  7  2  1  G
+P9  4  3  0  35  T
+P10  2  5  14  21  G
+XX
+//
+AC   MA0070
+XX
+NA   PBX1
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  5  6  2  5  G
+P2  3  9  3  3  G
+P3  16  1  1  0  G
+P4  1  1  0  16  T
+P5  0  18  0  0  C
+P6  17  1  0  0  C
+P7  17  0  0  1  T
+P8  0  0  1  17  G
+P9  0  18  0  0  C
+P10  16  1  0  1  T
+P11  12  0  1  5  G
+P12  8  2  2  6  G
+XX
+//
+AC   MA0104
+XX
+NA   Mycn
+XX
+DE   bHLH-ZIP
+XX
+P0   A  C  G  T
+P1  0  31  0  0  C
+P2  29  0  0  2  T
+P3  0  30  0  1  T
+P4  2  1  28  0  G
+P5  0  3  0  28  T
+P6  0  0  31  0  G
+XX
+//
+AC   MA0050
+XX
+NA   IRF1
+XX
+DE   TRP-CLUSTER
+XX
+P0   A  C  G  T
+P1  6  4  10  0  G
+P2  19  0  1  0  G
+P3  19  0  0  1  T
+P4  20  0  0  0  A
+P5  5  3  11  1  G
+P6  0  10  0  10  T
+P7  1  1  18  0  G
+P8  20  0  0  0  A
+P9  19  1  0  0  C
+P10  20  0  0  0  A
+P11  1  13  6  0  G
+P12  1  13  1  5  G
+XX
+//
+AC   MA0058
+XX
+NA   MAX
+XX
+DE   bHLH-ZIP
+XX
+P0   A  C  G  T
+P1  6  1  6  4  G
+P2  11  1  5  0  G
+P3  5  7  1  4  G
+P4  0  17  0  0  C
+P5  16  1  0  0  C
+P6  0  17  0  0  C
+P7  1  0  16  0  G
+P8  0  0  0  17  T
+P9  0  0  17  0  G
+P10  6  3  5  3  G
+XX
+//
+AC   MA0040
+XX
+NA   Foxq1
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  4  4  3  7  G
+P2  13  1  3  1  G
+P3  5  2  0  11  T
+P4  3  0  0  15  T
+P5  0  0  18  0  G
+P6  0  0  0  18  T
+P7  0  0  0  18  T
+P8  0  0  0  18  T
+P9  17  0  1  0  G
+P10  0  1  4  13  G
+P11  6  0  3  9  G
+XX
+//
+AC   MA0093
+XX
+NA   USF1
+XX
+DE   bHLH-ZIP
+XX
+P0   A  C  G  T
+P1  0  30  0  0  C
+P2  30  0  0  0  A
+P3  0  28  0  2  T
+P4  1  0  29  0  G
+P5  0  1  1  28  G
+P6  0  0  30  0  G
+P7  9  2  14  5  G
+XX
+//
+AC   MA0135
+XX
+NA   Lhx3
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  9  0  3  8  G
+P2  16  2  2  0  G
+P3  19  0  0  1  T
+P4  0  0  0  20  T
+P5  0  0  0  20  T
+P6  19  0  0  1  T
+P7  20  0  0  0  A
+P8  2  2  0  16  T
+P9  0  1  0  19  T
+P10  16  1  0  3  T
+P11  9  0  3  8  G
+P12  2  8  0  10  T
+P13  2  9  3  6  G
+XX
+//
+AC   MA0102
+XX
+NA   Cebpa
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  3  0  0  15  T
+P2  1  1  4  12  G
+P3  4  1  6  7  G
+P4  2  9  2  5  G
+P5  4  2  10  2  G
+P6  2  15  0  1  T
+P7  18  0  0  0  A
+P8  18  0  0  0  A
+P9  0  6  2  10  G
+P10  5  6  5  2  G
+P11  2  5  3  8  G
+P12  1  6  5  6  G
+XX
+//
+AC   MA0002
+XX
+NA   RUNX1
+XX
+DE   RUNT
+XX
+P0   A  C  G  T
+P1  10  2  3  11  G
+P2  12  2  1  11  G
+P3  4  7  1  14  G
+P4  1  1  0  24  T
+P5  2  0  23  1  G
+P6  2  8  0  16  T
+P7  0  0  26  0  G
+P8  0  0  26  0  G
+P9  0  1  0  25  T
+P10  8  2  0  16  T
+P11  13  2  4  7  G
+XX
+//
+AC   MA0124
+XX
+NA   NKX3-1
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  13  1  3  3  G
+P2  0  1  0  19  T
+P3  20  0  0  0  A
+P4  0  19  0  1  T
+P5  1  0  0  19  T
+P6  1  0  0  19  T
+P7  19  0  1  0  G
+XX
+//
+AC   MA0055
+XX
+NA   Myf
+XX
+DE   bHLH
+XX
+P0   A  C  G  T
+P1  7  8  1  0  G
+P2  9  0  7  0  G
+P3  4  2  10  0  G
+P4  0  15  1  0  G
+P5  16  0  0  0  A
+P6  7  0  9  0  G
+P7  0  15  1  0  G
+P8  6  0  0  10  T
+P9  0  0  16  0  G
+P10  0  10  6  0  G
+P11  6  0  0  10  T
+P12  0  0  16  0  G
+XX
+//
+AC   MA0003
+XX
+NA   TFAP2A
+XX
+DE   AP2
+XX
+P0   A  C  G  T
+P1  0  0  185  0  G
+P2  0  185  0  0  C
+P3  0  185  0  0  C
+P4  22  71  46  46  G
+P5  19  57  61  48  G
+P6  55  44  67  19  G
+P7  53  30  91  11  G
+P8  19  16  137  13  G
+P9  9  78  79  19  G
+XX
+//
+AC   MA0138
+XX
+NA   REST
+XX
+DE   ZN-FINGER, C2H2 
+XX
+P0   A  C  G  T
+P1  1  2  15  4  G
+P2  7  9  1  5  G
+P3  1  3  15  3  G
+P4  0  22  0  0  C
+P5  0  1  0  21  T
+P6  1  4  17  0  G
+P7  0  0  2  20  G
+P8  0  19  1  2  G
+P9  0  21  0  1  T
+P10  11  3  5  3  G
+P11  5  1  3  13  G
+P12  2  0  20  0  G
+P13  0  1  21  0  G
+P14  1  0  1  20  G
+P15  0  3  16  3  G
+P16  0  21  0  1  T
+P17  0  1  0  21  T
+P18  1  1  20  0  G
+P19  15  1  5  1  G
+XX
+//
+AC   MA0053
+XX
+NA   MNB1A
+XX
+DE   ZN-FINGER, DOF
+XX
+P0   A  C  G  T
+P1  15  0  0  0  A
+P2  15  0  0  0  A
+P3  15  0  0  0  A
+P4  0  0  15  0  G
+P5  3  9  0  3  T
+XX
+//
+AC   MA0106
+XX
+NA   TP53
+XX
+DE   P53
+XX
+P0   A  C  G  T
+P1  5  8  2  2  G
+P2  3  7  6  1  G
+P3  4  0  13  0  G
+P4  5  0  12  0  G
+P5  13  0  4  0  G
+P6  0  17  0  0  C
+P7  17  0  0  0  A
+P8  0  0  0  17  T
+P9  0  0  17  0  G
+P10  0  11  0  6  T
+P11  0  16  0  1  T
+P12  0  16  0  1  T
+P13  1  0  15  1  G
+P14  1  0  14  2  G
+P15  4  0  13  0  G
+P16  1  14  2  0  G
+P17  15  0  0  2  T
+P18  2  0  0  15  T
+P19  1  1  14  1  G
+P20  1  2  1  13  G
+XX
+//
+AC   MA0088
+XX
+NA   Staf
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  0  3  4  3  G
+P2  6  2  1  1  G
+P3  2  3  1  4  G
+P4  0  3  2  5  G
+P5  2  1  0  7  T
+P6  1  7  0  2  T
+P7  0  10  0  0  C
+P8  0  10  0  0  C
+P9  9  1  0  0  C
+P10  0  1  4  5  G
+P11  4  4  2  0  G
+P12  6  2  2  0  G
+P13  0  0  1  9  G
+P14  0  1  6  3  G
+P15  0  10  0  0  C
+P16  4  5  0  1  T
+P17  3  1  1  5  G
+P18  2  3  0  5  T
+P19  1  1  7  1  G
+P20  3  6  1  0  G
+XX
+//
+AC   MA0078
+XX
+NA   Sox17
+XX
+DE   HMG
+XX
+P0   A  C  G  T
+P1  7  9  6  9  G
+P2  8  8  4  11  G
+P3  3  18  1  9  G
+P4  30  0  0  1  T
+P5  0  1  0  30  T
+P6  0  0  0  31  T
+P7  0  0  31  0  G
+P8  0  0  2  29  G
+P9  0  17  10  4  G
+XX
+//
+AC   MA0063
+XX
+NA   Nkx2-5
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  7  0  1  9  G
+P2  0  4  0  13  T
+P3  17  0  0  0  A
+P4  17  0  0  0  A
+P5  0  0  7  10  G
+P6  4  2  0  11  T
+P7  2  1  11  3  G
+XX
+//
+AC   MA0111
+XX
+NA   Spz1
+XX
+DE   bHLH-ZIP
+XX
+P0   A  C  G  T
+P1  9  0  3  0  G
+P2  0  2  9  1  G
+P3  2  0  10  0  G
+P4  0  0  11  1  G
+P5  1  0  1  10  G
+P6  8  0  0  4  T
+P7  6  0  2  4  G
+P8  1  9  2  0  G
+P9  10  0  2  0  G
+P10  0  1  9  2  G
+P11  2  8  2  0  G
+XX
+//
+AC   MA0126
+XX
+NA   ovo
+XX
+DE   ZN-FINGER, C2H2 
+XX
+P0   A  C  G  T
+P1  10  4  0  7  T
+P2  1  4  14  2  G
+P3  4  2  2  13  G
+P4  20  0  0  1  T
+P5  21  0  0  0  A
+P6  0  21  0  0  C
+P7  7  5  3  6  G
+P8  0  0  21  0  G
+P9  5  4  2  10  G
+XX
+//
+AC   MA0035
+XX
+NA   Gata1
+XX
+DE   ZN-FINGER, GATA
+XX
+P0   A  C  G  T
+P1  13  14  15  11  G
+P2  0  0  53  0  G
+P3  50  2  0  1  T
+P4  1  0  1  51  G
+P5  13  6  25  9  G
+P6  6  16  22  9  G
+XX
+//
+AC   MA0011
+XX
+NA   Broad-complex_2
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  3  1  1  7  G
+P2  5  2  1  4  G
+P3  0  10  0  2  T
+P4  0  1  0  11  T
+P5  12  0  0  0  A
+P6  1  1  2  8  G
+P7  2  0  1  9  G
+P8  1  2  1  8  G
+XX
+//
+AC   MA0006
+XX
+NA   Arnt-Ahr
+XX
+DE   bHLH
+XX
+P0   A  C  G  T
+P1  3  8  2  11  G
+P2  0  0  23  1  G
+P3  0  23  0  1  T
+P4  0  0  23  1  G
+P5  0  0  0  24  T
+P6  0  0  24  0  G
+XX
+//
+AC   MA0115
+XX
+NA   NR1H2-RXRA
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  17  5  0  3  T
+P2  17  1  5  2  G
+P3  20  0  5  0  G
+P4  0  0  25  0  G
+P5  0  0  24  1  G
+P6  0  0  0  25  T
+P7  0  25  0  0  C
+P8  25  0  0  0  A
+P9  24  0  0  1  T
+P10  25  0  0  0  A
+P11  0  0  25  0  G
+P12  0  0  25  0  G
+P13  0  0  0  25  T
+P14  0  25  0  0  C
+P15  25  0  0  0  A
+P16  20  1  2  2  G
+P17  0  15  6  4  G
+XX
+//
+AC   MA0056
+XX
+NA   MZF1_1-4
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  3  5  4  8  G
+P2  0  0  19  1  G
+P3  2  0  18  0  G
+P4  0  0  19  1  G
+P5  0  0  20  0  G
+P6  18  0  2  0  G
+XX
+//
+AC   MA0071
+XX
+NA   RORA_1
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  15  1  2  7  G
+P2  9  1  0  15  T
+P3  6  12  4  3  G
+P4  11  2  5  7  G
+P5  21  0  4  0  G
+P6  0  0  25  0  G
+P7  0  0  25  0  G
+P8  0  0  0  25  T
+P9  0  25  0  0  C
+P10  25  0  0  0  A
+XX
+//
+AC   MA0123
+XX
+NA   ABI4
+XX
+DE   AP2
+XX
+P0   A  C  G  T
+P1  0  49  0  0  C
+P2  12  0  37  0  G
+P3  0  20  29  0  G
+P4  0  23  1  25  G
+P5  1  3  45  0  G
+P6  0  45  4  0  G
+P7  5  28  6  10  G
+P8  3  25  11  10  G
+P9  3  31  5  10  G
+P10  4  26  7  12  G
+XX
+//
+AC   MA0015
+XX
+NA   CF2-II
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  25  13  40  2  G
+P2  1  2  1  76  G
+P3  74  2  4  0  G
+P4  0  9  4  67  G
+P5  78  2  0  0  C
+P6  1  4  1  74  G
+P7  41  2  36  1  G
+P8  2  9  1  68  G
+P9  53  3  20  4  G
+P10  12  29  15  24  G
+XX
+//
+AC   MA0008
+XX
+NA   Athb-1
+XX
+DE   HOMEO-ZIP
+XX
+P0   A  C  G  T
+P1  3  13  4  5  G
+P2  21  1  0  3  T
+P3  25  0  0  0  A
+P4  0  0  0  25  T
+P5  0  5  0  20  T
+P6  24  0  1  0  G
+P7  1  0  0  24  T
+P8  0  0  2  23  G
+XX
+//
+AC   MA0084
+XX
+NA   SRY
+XX
+DE   HMG
+XX
+P0   A  C  G  T
+P1  5  5  10  8  G
+P2  8  3  4  13  G
+P3  15  0  3  10  G
+P4  18  3  3  4  G
+P5  25  0  0  3  T
+P6  0  26  0  2  T
+P7  28  0  0  0  A
+P8  27  0  1  0  G
+P9  7  0  2  19  G
+XX
+//
+AC   MA0108
+XX
+NA   TBP
+XX
+DE   TATA-box
+XX
+P0   A  C  G  T
+P1  61  145  152  31  G
+P2  16  46  18  309  G
+P3  352  0  2  35  G
+P4  3  10  2  374  G
+P5  354  0  5  30  G
+P6  268  0  0  121  T
+P7  360  3  10  6  G
+P8  222  2  44  121  G
+P9  155  44  157  33  G
+P10  56  135  150  48  G
+P11  83  147  128  31  G
+P12  82  127  128  52  G
+P13  82  118  128  61  G
+P14  68  107  139  75  G
+P15  77  101  140  71  G
+XX
+//
+AC   MA0120
+XX
+NA   id1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  1  1  2  20  G
+P2  3  3  4  14  G
+P3  1  2  9  12  G
+P4  0  9  3  12  G
+P5  0  13  4  7  G
+P6  2  11  4  7  G
+P7  3  8  2  11  G
+P8  1  1  1  21  G
+P9  8  5  1  10  G
+P10  0  6  7  11  G
+P11  0  17  0  7  T
+P12  2  0  18  4  G
+XX
+//
+AC   MA0059
+XX
+NA   MYC-MAX
+XX
+DE   bHLH-ZIP
+XX
+P0   A  C  G  T
+P1  7  1  9  4  G
+P2  15  1  4  1  G
+P3  2  9  9  1  G
+P4  1  20  0  0  C
+P5  21  0  0  0  A
+P6  0  20  0  1  T
+P7  1  0  20  0  G
+P8  0  1  0  20  T
+P9  0  0  21  0  G
+P10  1  1  18  1  G
+P11  3  5  0  13  T
+XX
+//
+AC   MA0061
+XX
+NA   NF-kappaB
+XX
+DE   REL
+XX
+P0   A  C  G  T
+P1  0  0  38  0  G
+P2  0  0  38  0  G
+P3  1  0  37  0  G
+P4  25  0  13  0  G
+P5  19  13  1  5  G
+P6  7  1  3  27  G
+P7  1  2  2  33  G
+P8  2  17  0  19  T
+P9  2  35  0  1  T
+P10  0  36  0  2  T
+XX
+//
+AC   MA0017
+XX
+NA   NR2F1
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  0  0  2  11  G
+P2  1  0  12  0  G
+P3  12  0  1  0  G
+P4  6  7  0  0  C
+P5  0  13  0  0  C
+P6  0  3  0  10  T
+P7  0  2  0  11  T
+P8  1  0  0  12  T
+P9  2  0  11  0  G
+P10  6  4  3  0  G
+P11  6  5  1  1  G
+P12  1  10  1  1  G
+P13  3  6  0  4  T
+P14  0  3  3  7  G
+XX
+//
+AC   MA0130
+XX
+NA   ZNF354C
+XX
+DE   ZN-FINGER, C2H2 
+XX
+P0   A  C  G  T
+P1  7  6  3  0  G
+P2  3  2  0  11  T
+P3  0  16  0  0  C
+P4  0  16  0  0  C
+P5  16  0  0  0  A
+P6  0  15  1  0  G
+XX
+//
+AC   MA0037
+XX
+NA   GATA3
+XX
+DE   ZN-FINGER, GATA
+XX
+P0   A  C  G  T
+P1  25  14  4  20  G
+P2  0  1  62  0  G
+P3  61  0  1  1  G
+P4  0  0  5  58  G
+P5  39  1  4  19  G
+P6  15  3  37  8  G
+XX
+//
+AC   MA0004
+XX
+NA   Arnt
+XX
+DE   bHLH
+XX
+P0   A  C  G  T
+P1  4  16  0  0  C
+P2  19  0  1  0  G
+P3  0  20  0  0  C
+P4  0  0  20  0  G
+P5  0  0  0  20  T
+P6  0  0  20  0  G
+XX
+//
+AC   MA0047
+XX
+NA   Foxa2
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  6  7  3  1  G
+P2  11  3  1  2  G
+P3  8  3  1  5  G
+P4  0  1  0  16  T
+P5  11  0  6  0  G
+P6  0  1  0  16  T
+P7  0  1  0  16  T
+P8  0  0  6  11  G
+P9  9  0  8  0  G
+P10  0  9  0  8  T
+P11  1  1  1  14  G
+P12  0  5  0  12  T
+XX
+//
+AC   MA0085
+XX
+NA   Su(H)
+XX
+DE   IPT/TIG domain
+XX
+P0   A  C  G  T
+P1  1  3  3  3  G
+P2  0  4  0  6  T
+P3  0  0  10  0  G
+P4  0  0  0  10  T
+P5  0  0  10  0  G
+P6  3  0  7  0  G
+P7  0  0  10  0  G
+P8  10  0  0  0  A
+P9  10  0  0  0  A
+P10  5  5  0  0  C
+P11  1  7  1  1  G
+P12  1  2  4  3  G
+P13  4  2  2  2  G
+P14  3  1  4  2  G
+P15  4  3  2  1  G
+P16  2  1  2  5  G
+XX
+//
+AC   MA0065
+XX
+NA   PPARG-RXRA
+XX
+DE   NUCLEAR RECEPTOR
+XX
+P0   A  C  G  T
+P1  10  12  7  12  G
+P2  7  13  8  13  G
+P3  19  4  6  12  G
+P4  13  1  27  0  G
+P5  17  0  24  0  G
+P6  0  0  41  0  G
+P7  0  0  39  2  G
+P8  0  2  0  39  T
+P9  2  37  2  0  G
+P10  41  0  0  0  A
+P11  41  0  0  0  A
+P12  39  0  2  0  G
+P13  0  0  41  0  G
+P14  0  0  39  2  G
+P15  0  2  0  39  T
+P16  2  36  1  2  G
+P17  38  1  2  0  G
+P18  10  12  4  15  G
+P19  13  15  9  4  G
+P20  7  10  12  12  G
+XX
+//
+AC   MA0009
+XX
+NA   T
+XX
+DE   T-BOX
+XX
+P0   A  C  G  T
+P1  2  28  8  2  G
+P2  1  1  0  38  T
+P3  40  0  0  0  A
+P4  0  0  40  0  G
+P5  0  0  40  0  G
+P6  0  0  0  40  T
+P7  0  0  40  0  G
+P8  0  2  0  38  T
+P9  1  7  28  4  G
+P10  40  0  0  0  A
+P11  31  5  0  4  T
+XX
+//
+AC   MA0092
+XX
+NA   Hand1-Tcfe2a
+XX
+DE   bHLH
+XX
+P0   A  C  G  T
+P1  4  8  10  7  G
+P2  10  0  15  4  G
+P3  2  2  1  24  G
+P4  0  28  0  1  T
+P5  0  0  0  29  T
+P6  0  0  29  0  G
+P7  0  3  25  1  G
+P8  9  14  1  5  G
+P9  16  0  3  10  G
+P10  5  4  4  16  G
+XX
+//
+AC   MA0032
+XX
+NA   FOXC1
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  4  4  5  3  G
+P2  2  5  6  3  G
+P3  4  4  3  5  G
+P4  6  4  5  1  G
+P5  7  3  2  4  G
+P6  0  0  16  0  G
+P7  0  0  0  16  T
+P8  16  0  0  0  A
+XX
+//
+AC   MA0039
+XX
+NA   Klf4
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  18  9  2  20  G
+P2  33  0  13  3  G
+P3  30  3  15  1  G
+P4  23  1  19  6  G
+P5  13  6  29  1  G
+P6  20  4  23  2  G
+P7  36  4  5  4  G
+P8  32  2  13  2  G
+P9  13  1  33  2  G
+P10  2  1  46  0  G
+XX
+//
+AC   MA0100
+XX
+NA   Myb
+XX
+DE   TRP-CLUSTER
+XX
+P0   A  C  G  T
+P1  8  4  34  5  G
+P2  22  1  25  3  G
+P3  2  48  1  0  G
+P4  16  17  16  2  G
+P5  1  0  50  0  G
+P6  2  1  0  48  T
+P7  0  0  0  51  T
+P8  6  0  44  1  G
+XX
+//
+AC   MA0089
+XX
+NA   TCF11-MafG
+XX
+DE   bZIP
+XX
+P0   A  C  G  T
+P1  7  11  10  6  G
+P2  29  2  3  0  G
+P3  0  0  0  34  T
+P4  1  0  32  1  G
+P5  34  0  0  0  A
+P6  0  26  2  6  G
+XX
+//
+AC   MA0027
+XX
+NA   En1
+XX
+DE   HOMEO
+XX
+P0   A  C  G  T
+P1  4  1  2  3  G
+P2  5  2  2  1  G
+P3  3  0  7  0  G
+P4  0  0  2  8  G
+P5  4  0  3  3  G
+P6  3  0  7  0  G
+P7  3  0  0  7  T
+P8  2  1  4  3  G
+P9  1  3  3  3  G
+P10  1  4  1  4  G
+P11  1  6  1  2  G
+XX
+//
+AC   MA0034
+XX
+NA   GAMYB
+XX
+DE   TRP-CLUSTER
+XX
+P0   A  C  G  T
+P1  4  6  11  4  G
+P2  10  5  7  3  G
+P3  3  13  0  9  T
+P4  23  1  1  0  G
+P5  25  0  0  0  A
+P6  1  24  0  0  C
+P7  3  14  6  2  G
+P8  6  0  19  0  G
+P9  10  11  0  4  T
+P10  5  19  1  0  G
+XX
+//
+AC   MA0136
+XX
+NA   ELF5
+XX
+DE   ETS
+XX
+P0   A  C  G  T
+P1  12  9  3  20  G
+P2  29  3  7  5  G
+P3  2  20  5  17  G
+P4  14  0  1  29  G
+P5  0  1  0  43  T
+P6  0  44  0  0  C
+P7  0  44  0  0  C
+P8  4  3  11  26  G
+P9  4  8  11  21  G
+XX
+//
+AC   MA0042
+XX
+NA   FOXI1
+XX
+DE   FORKHEAD
+XX
+P0   A  C  G  T
+P1  6  1  14  10  G
+P2  4  8  12  7  G
+P3  11  4  8  8  G
+P4  0  0  0  31  T
+P5  13  0  18  0  G
+P6  0  0  0  31  T
+P7  0  0  0  31  T
+P8  0  0  0  31  T
+P9  15  0  16  0  G
+P10  0  0  7  24  G
+P11  8  1  4  18  G
+P12  2  1  4  24  G
+XX
+//
+AC   MA0118
+XX
+NA   Macho-1
+XX
+DE   ZN-FINGER, C2H2
+XX
+P0   A  C  G  T
+P1  5  15  6  16  G
+P2  9  2  23  8  G
+P3  0  0  42  0  G
+P4  0  0  42  0  G
+P5  3  4  23  12  G
+P6  0  0  42  0  G
+P7  5  7  15  15  G
+P8  5  14  4  19  G
+P9  13  14  10  5  G
+XX
+//

@@ -1,0 +1,1938 @@
+Cluster	16
+Cluster_0_16	                    BARX2.01.5	-----------AATTAATTGGG------------
+Cluster_0_16	                     DLX1.01.3	------------TATAATTAA-------------
+Cluster_0_16	                     DLX3.01.5	------------TATAATTGCA------------
+Cluster_0_16	                     GSH2.01.6	-------------CTAATTGG-------------
+Cluster_0_16	                      MSX.01.3	------------TTTAATTGG-------------
+Cluster_0_16	                     MSX2.01.3	------------ACTAATTCA-------------
+Cluster_0_16	                    NKX25.02.3	------------CTTAATTG--------------
+Cluster_0_16	                    NOBOX.01.8	-------------TTAATTGGT-------------
+Cluster_0_16	                     PCE1.01.8	-----------TCCTAATTGACC-----------
+Cluster_0_16	               PDX1_G_SAAB2.10	---------TTAGCTAATTACTT-----------
+Cluster_0_16	                   PDX1_Gabi.8	---------GACTCTAATGACAC-----------
+Cluster_0_16	                    PHOX2.01.4	-----------CTCTAATTGACT-----------
+Cluster_0_16	                       S8.01.8	-------------TTAATTGAT------------
+Cluster_0_16	                     SIX3.01.5	------------TGTAATCTC-------------
+Cluster_0_16	                       PM23.11	--------------TAATTA--------------
+Cluster_0_16	                       PM61.14	-------------TTAATTAA-------------
+Cluster	14
+Cluster_1_14	                    FHXA.01.11	----------ATAAATAAACATT-----------
+Cluster_1_14	                   FREAC2.01.9	------------ACGTAAACAATC-----------
+Cluster_1_14	                  FREAC4.01.11	---------CTTAAGTAAACAATGG---------
+Cluster_1_14	                   FREAC7.01.8	------------ACATAAACAAG------------
+Cluster_1_14	                     HFH1.01.8	------------AAATAAACAATA-----------
+Cluster_1_14	                     HFH2.01.8	------------AAACAAACAATC-----------
+Cluster_1_14	                     HFH3.01.9	-----------TAAACAAACATC-----------
+Cluster_1_14	                    HFH8.01.10	-----------CATATAAACAAT-----------
+Cluster_1_14	                    HNF3B.01.8	-----------TAAATAAATATT-----------
+Cluster_1_14	                     XFD1.01.5	-----------CATGTAAATAATGC----------
+Cluster_1_14	                     XFD2.01.4	-----------AATATAAACATAC-----------
+Cluster_1_14	                       PM36.12	--------------ATAAACA--------------
+Cluster_1_14	                   UTR3M2_1.13	--------------ATAAATA-------------
+Cluster_1_14	                  UTR3M15_1.13	--------------GTAAACA-------------
+Cluster	13
+Cluster_2_13	                      ATF.01.8	----------CTCTGACGTCACCC----------
+Cluster_2_13	                      ATF.02.7	------------GTGACGTCATC------------
+Cluster_2_13	                     ATF2.01.5	-----------TGTGACGTAAGG-----------
+Cluster_2_13	                     ATF6.02.8	-----------CGTGACGTG--------------
+Cluster_2_13	                     CREB.02.6	-----------GGTGACGTCC-------------
+Cluster_2_13	                     CREB.03.7	-----------GGTGACGTAAGG-----------
+Cluster_2_13	                    CREB1.01.8	-------------TGACGTCA-------------
+Cluster_2_13	                   CREB2.01.11	-------------TGACGTAA-------------
+Cluster_2_13	               CREB2CJUN.01.10	-------------TGACGTTA-------------
+Cluster_2_13	                      E4F.01.3	------------GTGACGTAACAA-----------
+Cluster_2_13	                        PM9.13	-------------TGATATCA-------------
+Cluster_2_13	                       PM14.15	-------------TGACGTCA-------------
+Cluster_2_13	                       PM20.12	------------GTGACGT---------------
+Cluster	13
+Cluster_3_13	                 CETS1P54.01.6	------------ACCGGAAGTA------------
+Cluster_3_13	                     ELF2.01.6	---------CTGACAGGAAGTG------------
+Cluster_3_13	                     ELK1.01.3	----------AAACAGGAAGT-CGT---------
+Cluster_3_13	                     ELK1.02.7	-----------AACCGGAAGTCC-----------
+Cluster_3_13	                     ETS2.01.6	-----------GACAGGAAGTAATT----------
+Cluster_3_13	                     FLI.01.10	---------TAGACCGGAAGTAA-----------
+Cluster_3_13	                     GABP.01.7	------------ACCGGAAGTGCA-----------
+Cluster_3_13	                   GABPB1.01.5	-----------ACCCGGAAGTGAC-----------
+Cluster_3_13	                     NRF2.01.5	------------ACCGGAAGAG------------
+Cluster_3_13	                 SPI1_PU1.02.8	------------AGCGGAAGTA------------
+Cluster_3_13	                        PM3.13	-------------CCGGAAGT-------------
+Cluster_3_13	                       PM11.14	--------------AGGAAGTG-------------
+Cluster_3_13	                       PM16.13	-------------CAGGAAAT-------------
+Cluster	13
+Cluster_4_13	                     COUP.01.8	----------TGACCTTTGAACCT----------
+Cluster_4_13	                    HNF4.01.10	---------GTGACCTTTGACCC-----------
+Cluster_4_13	                     HNF4.02.5	----------TGACCTTTTGACCTC---------
+Cluster_4_13	                     HNF4.03.8	----------TGAACTTTGCCCAG----------
+Cluster_4_13	                    HPF1.01.13	-----AAGGATGGCCTTTGTCCTCTG--------
+Cluster_4_13	                     LXRE.02.8	-------CGTTGACCTTTGACCTTTA--------
+Cluster_4_13	                     PNR.01.12	----------TGACCTTTGACCTC----------
+Cluster_4_13	                PPAR_RXR.01.10	----------TGACCTTTGACCTAGTT--------
+Cluster_4_13	                PPAR_RXR.02.21	--------GATGACCTTTGACCCCTG--------
+Cluster_4_13	                  RAR_RXR.01.6	-------TCATGACCTTTGACCCC----------
+Cluster_4_13	                  RXR_RXR.01.5	-------GGCTGACCTCTGACCTCTA--------
+Cluster_4_13	                  TR2_TR4.01.8	--------TCTGACCTCTGACCTTTA--------
+Cluster_4_13	                      TR4.02.7	--------CTTGACCTTTGACCTATG--------
+Cluster	12
+Cluster_5_12	                     GATA.01.6	------------CAGATAAGGA------------
+Cluster_5_12	                    GATA1.01.6	------------AAGATAGGGGA------------
+Cluster_5_12	                    GATA1.02.4	------------AAGATAACC-------------
+Cluster_5_12	                    GATA1.03.8	----------ATCAGATAAGG-------------
+Cluster_5_12	                    GATA1.04.5	-----------GCAGATAACA-------------
+Cluster_5_12	                    GATA1.05.6	-----------ATAGATAAGA-------------
+Cluster_5_12	                    GATA1.06.7	------------CAGATAGGG-------------
+Cluster_5_12	                    GATA2.01.8	-----------AGAGATAAGA-------------
+Cluster_5_12	                    GATA2.02.7	-----------AGAGATAAGA-------------
+Cluster_5_12	                    GATA3.01.7	-----------AGAGATAAGA-------------
+Cluster_5_12	                      PM131.12	--------------GATAAGA--------------
+Cluster_5_12	                   UTR3M5_6.14	-----------TTTGATAA-A-------------
+Cluster	11
+Cluster_6_11	                    AREB6.01.6	----------TACTTACCTGTGT-----------
+Cluster_6_11	                    AREB6.02.6	-----------ATTCACCTGTAC-----------
+Cluster_6_11	                    AREB6.03.7	-----------CTGCACCTGTGC-----------
+Cluster_6_11	                 DELTAEF1.01.8	------------CTCACCTGA-------------
+Cluster_6_11	                     E47.02.12	---------GTGAACACCTGTTAA----------
+Cluster_6_11	                     MYOD.01.3	-----------CAACACCTGTTC-----------
+Cluster_6_11	                MYOGENIN.01.10	-----------TTGCACCTGTTGT----------
+Cluster_6_11	                     SIP1.01.6	----------GGCACACCTGGC------------
+Cluster_6_11	                 TAL1_E2A.01.7	-----------CAGCACCTGGC------------
+Cluster_6_11	                       PM12.11	--------------CACCTG--------------
+Cluster_6_11	                       PM35.12	-------------GCA-CTG-T-------------
+Cluster	10
+Cluster_7_10	                 AHRARNT.01.10	-----------GGTTGCGTGCCC-----------
+Cluster_7_10	                    HELT.01.11	-----------GGTCACGTGCCC-----------
+Cluster_7_10	                    HES1.02.15	-----------CGGCACGTGCCG-----------
+Cluster_7_10	                   MYCMAX.03.6	------------CGCGCGTGGC------------
+Cluster_7_10	                     NMYC.01.8	------------CCCACGTGTC------------
+Cluster_7_10	                     USF.01.10	------------ATCACGTGAT------------
+Cluster_7_10	                      USF.02.5	------------GTCACGTGAC------------
+Cluster_7_10	                      USF.03.5	------------GCCACGTGAC------------
+Cluster_7_10	                      USF.04.6	-----------GACCACGTGACTG----------
+Cluster_7_10	                        PM2.11	--------------CACGTG--------------
+Cluster	10
+Cluster_8_10	                     MEF2.01.7	---------CTCTAAAAATAACTCT---------
+Cluster_8_10	                     MEF2.06.6	-----------TTAAAAATAGCCCC----------
+Cluster_8_10	                    MEF2.07.12	---------CTCTAAAAATAGCCC----------
+Cluster_8_10	                  RSRFC4.01.14	--------AAGCTATAAATAGAAT----------
+Cluster_8_10	                     SL1.01.12	-----------CTATAAATAG-------------
+Cluster_8_10	                       PM28.14	-----------CTAAAAATA--------------
+Cluster_8_10	                       PM54.15	------------TAAAAATAG-------------
+Cluster_8_10	                   UTR3M2_3.13	-------------AAAAATAG-------------
+Cluster_8_10	                   UTR3M4_1.13	-------------AAAAATA--------------
+Cluster_8_10	                   UTR3M4_3.13	-------------AAAAATAG-------------
+Cluster	9
+Cluster_9_9	                    ARNT.01.11	----------GTTGTCACGTGCT-----------
+Cluster_9_9	              CLOCK_BMAL1.01.8	-----------GGGTCACGTGTT-----------
+Cluster_9_9	                    DEC1.01.10	-----------TGCTCACGTGACAG----------
+Cluster_9_9	                     DEC2.01.4	-------------CTCACGTGCG------------
+Cluster_9_9	                     HIF1.02.4	-----------TACCCACGTGC------------
+Cluster_9_9	                     MAX.01.11	-------------ACCACGTGGT------------
+Cluster_9_9	                  MYCMAX.01.13	-----------TGACCACGTGGTCA----------
+Cluster_9_9	                   MYCMAX.02.7	-------------GACACGTGGT------------
+Cluster_9_9	                   SREBP.03.10	-------------GTCACGTGATC-----------
+Cluster	8
+Cluster_10_8	                      AP1.01.6	------------ATGAGTCAG-------------
+Cluster_10_8	                      AP1.02.5	-------------TGAGTCACC------------
+Cluster_10_8	                      AP1.03.6	-------------TTAGTCACT------------
+Cluster_10_8	                   BACH1.01.11	----------CGATGAGTCATGCT----------
+Cluster_10_8	                    BACH2.01.8	-----------CGTGAGTCATC------------
+Cluster_10_8	                     NFE2.01.6	------------ATGACTCAGCA------------
+Cluster_10_8	                        PM7.11	-------------TGA-TCA--------------
+Cluster_10_8	                       PM32.15	-------------TGACTAAGC-------------
+Cluster	8
+Cluster_11_8	                    CKROX.01.5	-----------TGGGGGAGGGGG-----------
+Cluster_11_8	                     SP1.01.10	-----------GGGGGGCGGGGCC-----------
+Cluster_11_8	                      SP1.02.9	-----------TAGGGGCGGGGCTT----------
+Cluster_11_8	                    ZBP89.01.8	----------TGGGGGGAGGGG------------
+Cluster_11_8	                      ZF9.01.7	----------GGGGGGGCGGCCCC----------
+Cluster_11_8	                        PM6.12	--------------GGGCGGA--------------
+Cluster_11_8	                       PM24.13	--------------GGGAGGAA-------------
+Cluster_11_8	                       PM56.13	--------------GGGTGGAA-------------
+Cluster	7
+Cluster_12_7	                     CMYB.01.8	------------CAACCGCCAT------------
+Cluster_12_7	                     CMYB.02.8	----------ACTAACGGTC--------------
+Cluster_12_7	                     VMYB.02.7	----------TCTAACGGC---------------
+Cluster_12_7	                     VMYB.03.8	----------TTTAACGGCAA-------------
+Cluster_12_7	                     VMYB.04.9	----------AGTAACGGTC--------------
+Cluster_12_7	                     VMYB.05.8	----------AATAACGGTA--------------
+Cluster_12_7	                      PM146.13	------------TAACGGTT--------------
+Cluster	7
+Cluster_13_7	                      CRX.01.6	-----------TGGGATTAGAAT-----------
+Cluster_13_7	                      GSC.01.5	----------ATGGGATTACCT------------
+Cluster_13_7	                   GTF3R4.01.7	-----------CGGGATTAGG-------------
+Cluster_13_7	                     OTX2.01.5	-----------CGGGATTAAATA-----------
+Cluster_13_7	                     PTX1.01.5	----------AAGGGATTAGTA------------
+Cluster_13_7	                 TFII-IR4.01.7	-----------TGGGATTAG--------------
+Cluster_13_7	                       PM93.11	-------------GGATTA---------------
+Cluster	7
+Cluster_14_7	                   HOXC13.01.6	----------ATTCCAATAAAAT-----------
+Cluster_14_7	                   UTR3M1_1.11	---------------AATAAA--------------
+Cluster_14_7	                   UTR3M1_2.13	--------------AAATAAA--------------
+Cluster_14_7	                   UTR3M1_3.13	--------------CAATAAA--------------
+Cluster_14_7	                   UTR3M1_5.13	--------------GAATAAA--------------
+Cluster_14_7	                  UTR3M30_1.17	--------------CAATAAATA------------
+Cluster_14_7	                  UTR3M46_1.17	-----------TTG-AATAAA-------------
+Cluster	7
+Cluster_15_7	                LYL1_E12.01.15	-----------GAACAGATGTTC-----------
+Cluster_15_7	            TAL1ALPHAE47.01.13	----------CGAACAGATGGTGA----------
+Cluster_15_7	             TAL1BETAE47.01.13	----------TGAACAGATGGTCG----------
+Cluster_15_7	             TAL1BETAHEB.01.13	----------TGAACAGATGGTGC----------
+Cluster_15_7	            TAL1BETAITF2.01.13	----------GGAACAGATGGTCT----------
+Cluster_15_7	                       LM24.20	--------TGAAAACAGATGGCA-----------
+Cluster_15_7	                       LM28.20	---------AGAAACAGATGTTCT----------
+Cluster	7
+Cluster_16_7	                 REV-ERBA.01.9	----------GAAAGTAGGTCATT----------
+Cluster_16_7	                 REV-ERBA.02.5	--------AGTAAAATAGGTCACGG---------
+Cluster_16_7	                     RORA.01.8	---------AGAAAGTAGGTCAGGGG---------
+Cluster_16_7	                   RORA2.01.13	----------ATAAGTAGGTCAA-----------
+Cluster_16_7	                RORGAMMA.01.12	---------GGTAAGTAGGTCACC----------
+Cluster_16_7	                      LM111.21	-----------AAAGTAGGTCAG-----------
+Cluster_16_7	                      LM139.22	---------GGAAAGTAGGTCAGT----------
+Cluster	6
+Cluster_17_6	                     CREL.01.6	------------GGGGATTTCC------------
+Cluster_17_6	                   HIVEP1.01.6	----------AGGGGACTTTCCA-----------
+Cluster_17_6	                NFKAPPAB.01.10	------------GGGAATTTCC------------
+Cluster_17_6	                NFKAPPAB.02.10	-----------GGGGACTTTCCA-----------
+Cluster_17_6	               NFKAPPAB65.01.8	------------GGGAATTTCC------------
+Cluster_17_6	                       PM86.15	------------GGG--TTTCC------------
+Cluster	6
+Cluster_18_6	                      ERR.01.9	----------GCTCAAGGTCACAC----------
+Cluster_18_6	                    RORA1.01.9	---------ATATCAAGGTCAT------------
+Cluster_18_6	                      SF1.01.5	------------TCAAGGTCA-------------
+Cluster_18_6	                      TR2.01.4	-------------AGAGGTCACA------------
+Cluster_18_6	                       PM25.12	--------------AAGGTCA-------------
+Cluster_18_6	                       PM38.15	-------------CAAGGTCA-------------
+Cluster	6
+Cluster_19_6	                    IRF1.01.11	----------GAAAAGTGAAACC-----------
+Cluster_19_6	                    IRF2.01.11	----------GAAAAGTGAAACC-----------
+Cluster_19_6	                     IRF3.01.9	-----------GAAACCGAAACT-----------
+Cluster_19_6	                     IRF7.01.9	-----------GAAATCGAAAGT-----------
+Cluster_19_6	                    ISRE.01.10	---------GGGAAAGTGAAACTG----------
+Cluster_19_6	                       PM85.15	------------AAA-TGAAAC------------
+Cluster	6
+Cluster_20_6	                      OCT.01.9	----------GTATGCAAATGAG-----------
+Cluster_20_6	                    OCT1.01.14	---------AATATGCAAATTT------------
+Cluster_20_6	                     OCT1.02.9	-----------TATGCAAATC-------------
+Cluster_20_6	                     OCT1.04.6	---------AATATGCAAATTAT-----------
+Cluster_20_6	                       PM44.13	-----------TATG-AAAT--------------
+Cluster_20_6	                  UTR3M24_2.12	------------ATGCAAA---------------
+Cluster	5
+Cluster_21_5	                     CAAT.01.9	-----------CTAGCCAATCA------------
+Cluster_21_5	                     NFY.01.11	-----------TCAGCCAATCAGAG----------
+Cluster_21_5	                      NFY.02.7	------------TAACCAATCAC------------
+Cluster_21_5	                      NFY.03.8	------------GAGCCAATCAGA-----------
+Cluster_21_5	                      LM130.20	---------TGCCAGCCAATCAGA----------
+Cluster	5
+Cluster_22_5	                   E4BP4.01.10	-----------CGTTATGTAACG-----------
+Cluster_22_5	                      HLF.01.7	------------ATTACGTAAC------------
+Cluster_22_5	                 TEF_HLF.01.12	----------GGATTACGTAACCG----------
+Cluster_22_5	                      VBP.01.7	------------ATTACGTAAC------------
+Cluster_22_5	                       PM26.13	-------------TTATATAA-------------
+Cluster	5
+Cluster_23_5	                     EVI1.02.9	-----------AGATAAGATAA------------
+Cluster_23_5	                    EVI1.03.13	-----------AGATAAGATAA------------
+Cluster_23_5	                     EVI1.05.9	-----------AGATAAGATAA------------
+Cluster_23_5	                     EVI1.06.9	-------------ACAAGATAA-------------
+Cluster_23_5	                    MEL1.01.13	----------TAGATAAGATAAGA----------
+Cluster	5
+Cluster_24_5	                     RU49.01.7	-------------AAGTACC--------------
+Cluster_24_5	                  UTR3M11_1.11	--------------AGCACC--------------
+Cluster_24_5	                  UTR3M11_3.14	-------------TAGCACCA-------------
+Cluster_24_5	                  UTR3M11_6.14	------------TTAGCACC--------------
+Cluster_24_5	                  UTR3M11_7.14	------------ATAGCACC--------------
+Cluster	5
+Cluster_25_5	                     SOX5.01.7	------------TTAACAATAC------------
+Cluster_25_5	                     SOX9.01.9	------------AGAACAATGGGA-----------
+Cluster_25_5	                      SRY.01.7	-----------GTAAACAATAGA-----------
+Cluster_25_5	                       PM49.13	-------------AAACAATG-------------
+Cluster_25_5	                       PM71.13	--------------CACAATAC-------------
+Cluster	5
+Cluster_26_5	                     TEAD.01.6	----------GAACATTCCTGAC-----------
+Cluster_26_5	                     TEF1.01.7	-----------CACATTCCTCCG-----------
+Cluster_26_5	                       PM79.13	------------ACATTCCA--------------
+Cluster_26_5	                  UTR3M40_3.13	------------ACATTCC---------------
+Cluster_26_5	                  UTR3M40_4.15	------------ACATTCCA--------------
+Cluster	5
+Cluster_27_5	                       LM17.21	-------TTTGCATCTGGTTTGCATTT-------
+Cluster_27_5	                       LM18.25	------ATTTGCATCTCATTTGCAT---------
+Cluster_27_5	                       LM21.24	------ATTTGCATCTCATTTGCATA--------
+Cluster_27_5	                       LM27.23	------ATTTGCATCTCATTAGCA----------
+Cluster_27_5	                       LM98.25	-----GATTTGCATTTCATTTGCAT---------
+Cluster	5
+Cluster_28_5	                   UTR3M6_2.15	-------------AAGTGCCT-------------
+Cluster_28_5	                  UTR3M14_1.13	------------AAAGTGC---------------
+Cluster_28_5	                  UTR3M14_2.15	------------AAAGTGCA--------------
+Cluster_28_5	                  UTR3M14_3.12	------------A-AGTGCA--------------
+Cluster_28_5	                  UTR3M80_1.14	------------AAAGTACAT-------------
+Cluster	5
+Cluster_29_5	                  UTR3M13_3.12	-----------TGTA----TTT------------
+Cluster_29_5	                  UTR3M13_6.13	-----------TGTA---TTT-------------
+Cluster_29_5	                 UTR3M13_10.16	-----------TGT--ATATTT------------
+Cluster_29_5	                 UTR3M13_13.16	-----------TGTA-TATTTA------------
+Cluster_29_5	                 UTR3M13_15.15	-----------TGTATA-ATTA------------
+Cluster	5
+Cluster_30_5	                  UTR3M29_1.12	------------TGTA--ATA-------------
+Cluster_30_5	                  UTR3M29_3.14	------------TGTA--ATAA------------
+Cluster_30_5	                  UTR3M29_4.13	------------TGTA---TAG------------
+Cluster_30_5	                  UTR3M44_1.13	------------TGTA---TAT------------
+Cluster_30_5	                  UTR3M70_2.15	------------TGTAAAATA-------------
+Cluster	4
+Cluster_31_4	                    BRN5.01.10	-----------GCATAATTTAT------------
+Cluster_31_4	                  UTR3M16_1.15	--------------TAATTTAT-------------
+Cluster_31_4	                  UTR3M16_3.14	-------------CTAA-TTAA-------------
+Cluster_31_4	                  UTR3M16_5.15	--------------TAAGTTAT-------------
+Cluster	4
+Cluster_32_4	                      E2F.01.5	---------TACGCGCGAAAATTG----------
+Cluster_32_4	                      E2F.02.6	------------GCGCCAAA--------------
+Cluster_32_4	                      E2F.03.6	----------TGGCGCGAAAATG-----------
+Cluster_32_4	                       PM69.14	-----------CGCGCCAAA--------------
+Cluster	4
+Cluster_33_4	                    EGR1.01.15	-----------ATGCGTGGGCGT-----------
+Cluster_33_4	                    EGR2.01.15	-----------TTGCGTGGGCGT-----------
+Cluster_33_4	                    EGR3.01.15	-----------ATGCGTGGGCGT-----------
+Cluster_33_4	                   NGFIC.01.15	-----------ATGCGTGGGCGG-----------
+Cluster	4
+Cluster_34_4	                     GLI1.01.6	----------CAGACCACCCAGAA----------
+Cluster_34_4	                    GLI1.02.15	------------GACCACCCACG------------
+Cluster_34_4	                    GLI2.01.15	------------GACCACCCAAG------------
+Cluster_34_4	                    GLI3.01.14	------------GACCACCCACG------------
+Cluster	4
+Cluster_35_4	                    HNF1.01.10	----------GGTTAATAATTACC----------
+Cluster_35_4	                     HNF1.02.8	--------TTTGTTAATTATTAACT---------
+Cluster_35_4	                     HNF1.03.9	----------GGTTAATAATTACC----------
+Cluster_35_4	                       PM84.16	----------AGTTAAA-ATT-------------
+Cluster	4
+Cluster_36_4	                      IK1.01.8	-----------TTTGGGAATACC-----------
+Cluster_36_4	                      IK2.01.6	-----------TTTGGGAATA-------------
+Cluster_36_4	                     IK3.01.10	----------TACTGGGAATACC-----------
+Cluster_36_4	                    RBPJK.02.8	----------GCGTGGGAAATT------------
+Cluster	4
+Cluster_37_4	                     LEF1.01.6	---------GGAACAACAAAGGGCT---------
+Cluster_37_4	                     LEF1.02.6	-----------GACTTCAAAGT------------
+Cluster_37_4	                       PM13.11	---------------ACAAAG--------------
+Cluster_37_4	                       PM73.11	---------------TCAAAG--------------
+Cluster	4
+Cluster_38_4	                     MIF1.01.6	--------TAGTTGCTAGGTAACTGG--------
+Cluster_38_4	                     RFX1.01.9	--------TTGTTGCCAGGCTACTA---------
+Cluster_38_4	                        LM3.20	---------GGTTGCTAAGCAACC----------
+Cluster_38_4	                       PM53.16	----------GTT-CT--GCAAT-----------
+Cluster	4
+Cluster_39_4	                     MOK2.02.6	-------------GGGCCTTT-------------
+Cluster_39_4	                   UTR3M6_1.13	-------------GTGCCTT--------------
+Cluster_39_4	                  UTR3M10_1.12	--------------AGCCTTA--------------
+Cluster_39_4	                  UTR3M10_2.14	--------------TGCCTTAA-------------
+Cluster	4
+Cluster_40_4	                     RFX1.02.9	--------TAGTAGCCATGGCAACAA--------
+Cluster_40_4	                        LM1.23	--------CGGTTGCCATGGCAACCG--------
+Cluster_40_4	                       LM10.23	--------TTGTTTCCATGGAAACCA--------
+Cluster_40_4	                       LM39.22	-------TCTGTTTCCTAGGAAACA---------
+Cluster	4
+Cluster_41_4	                     STAT.01.6	------------TTCCGGGAA-------------
+Cluster_41_4	                   STAT1.01.16	----------ATTTCCGGGAAATGGG---------
+Cluster_41_4	                   STAT3.01.20	-------GGCATTTCCCGGAAATGAT--------
+Cluster_41_4	                   STAT5.01.10	----------ATTTCTTAGAAAACA----------
+Cluster	4
+Cluster_42_4	                      PM172.15	------------TTGCACAAT-------------
+Cluster_42_4	                  UTR3M24_1.12	------------TTGCACA---------------
+Cluster_42_4	                  UTR3M24_4.13	------------TTGTACAA--------------
+Cluster_42_4	                  UTR3M24_5.15	------------TTGCACAA--------------
+Cluster	4
+Cluster_43_4	                  UTR3M12_1.12	-------------ACCAAAG--------------
+Cluster_43_4	                  UTR3M12_4.14	-------------TCCAAAGA-------------
+Cluster_43_4	                  UTR3M12_5.15	--------------CCAAAGAT-------------
+Cluster_43_4	                  UTR3M12_6.15	--------------CCAAAGAC-------------
+Cluster	4
+Cluster_44_4	                  UTR3M25_1.11	--------------TGTGAA--------------
+Cluster_44_4	                  UTR3M25_3.15	------------ACTGTGAA--------------
+Cluster_44_4	                  UTR3M25_5.14	------------ACTTTGAAT-------------
+Cluster_44_4	                  UTR3M25_6.15	------------ACTGTAAAT-------------
+Cluster	3
+Cluster_45_3	                      AP4.01.3	------------CTCAGCTGGT------------
+Cluster_45_3	                      AP4.02.3	------------CACAGCTGGT------------
+Cluster_45_3	                       PM15.11	--------------CAGCTG--------------
+Cluster	3
+Cluster_46_3	                     ARE.01.14	-------GAGGTACACGGTGTTCTTT--------
+Cluster_46_3	                      GRE.01.9	-------TGGGTACAATCTGTTCTGG--------
+Cluster_46_3	                     PRE.01.13	-------GGGGGACATGGTGTTCTTG--------
+Cluster	3
+Cluster_47_3	                    BCL6.01.14	----------AAATTCCTAGAAAG----------
+Cluster_47_3	                     BCL6.02.8	----------CATTTCCTAGAAATTC---------
+Cluster_47_3	                       PM40.13	-------------TTCT-AGAA-------------
+Cluster	3
+Cluster_48_3	                   BRIGHT.01.8	----------AATTAATTAAATT-----------
+Cluster_48_3	                    LHX3.01.10	------------TTAATTAATTA-----------
+Cluster_48_3	                    LMX1B.01.4	----------AAATAATTAATTTTC---------
+Cluster	3
+Cluster_49_3	                 CAR_RXR.01.10	-------AAAGGTCACTTAAGTTCAGA-------
+Cluster_49_3	                  PXR_RXR.01.9	-------ATAGGTCAGGAAAGTTCA---------
+Cluster_49_3	                      THR.01.7	---------AGGTCACTGAAGGTCA---------
+Cluster	3
+Cluster_50_3	                     CDX1.01.5	-----------CTTTTTATTATT-----------
+Cluster_50_3	                   UTR3M1_4.13	--------------TTTATTA-------------
+Cluster_50_3	                  UTR3M26_1.13	--------------TTTAATA-------------
+Cluster	3
+Cluster_51_3	                     CHOP.01.9	----------AGATGCAATCCCC-----------
+Cluster_51_3	                  UTR3M18_2.15	------------GTGCAATA--------------
+Cluster_51_3	                  UTR3M18_3.14	------------GTGCAATA--------------
+Cluster	3
+Cluster_52_3	                 E2F1_DP1.01.9	----------AAAGGCGGGAAAA-----------
+Cluster_52_3	                E2F1_DP2.01.10	----------AATGGCGGGAAAAA----------
+Cluster_52_3	                E2F4_DP2.01.11	---------AAAAGGCGGGAAA------------
+Cluster	3
+Cluster_53_3	                  FKHRL1.01.10	----------ATGTAAACAACAA-----------
+Cluster_53_3	                  FREAC3.01.10	----------AAGTAAATAAACA-----------
+Cluster_53_3	                     XFD3.01.5	---------TGAGTAAACAAAAA-----------
+Cluster	3
+Cluster_54_3	                     GFI1.01.7	----------AGAAATCACAGCC-----------
+Cluster_54_3	                    GFI1.02.10	----------ATAAATCACAGCAT----------
+Cluster_54_3	                   GFI1B.01.12	------------AAATCACTGCAA-----------
+Cluster	3
+Cluster_55_3	                    HOXA9.01.7	-----------ATGATTTATGGT-----------
+Cluster_55_3	                PBX_HOXA9.01.9	-----------ATGATTTATGAC-----------
+Cluster_55_3	                       PM94.13	------------TGATTTAT--------------
+Cluster	3
+Cluster_56_3	                     HSF1.01.6	------------AGAATGTTCG------------
+Cluster_56_3	                     HSF2.02.6	------------AGAATAATC-------------
+Cluster_56_3	                       PM68.12	------------AGAA--TTC-------------
+Cluster	3
+Cluster_57_3	                    MEF2.02.14	---------GTGCTAAAAATAGCAC---------
+Cluster_57_3	                    MEF2.03.16	-------TGGTTCTAAAAATAGAAT---------
+Cluster_57_3	                    MEF2.04.23	-----ACTGTTACTAAAAATAGAAACT-------
+Cluster	3
+Cluster_58_3	             MEIS1A_HOXA9.01.9	----------TGACAGTTTTACGA----------
+Cluster_58_3	            MEIS1B_HOXA9.01.10	----------TGACAGTTTTATGG----------
+Cluster_58_3	                       LM97.20	---------CTGACAGCTTAATG-----------
+Cluster	3
+Cluster_59_3	                    NANOG.01.5	-----------AGTGAATGGGTA-----------
+Cluster_59_3	                       PM58.12	-------------TTAATGA--------------
+Cluster_59_3	                  UTR3M57_2.14	------------TTTAATGA--------------
+Cluster	3
+Cluster_60_3	                      NF1.01.8	--------TCTTGGCAAGAAGCCAA---------
+Cluster_60_3	                     NF1.02.11	--------TCTTGGCATGGTGCCA----------
+Cluster_60_3	                       PM27.13	----------TTGGA------CCA----------
+Cluster	3
+Cluster_61_3	                      NF1.03.4	-----------GCTGCCAGAAA------------
+Cluster_61_3	                       PM47.12	-------------TGCCAAA--------------
+Cluster_61_3	                  UTR3M22_1.12	-------------TGCCAAA--------------
+Cluster	3
+Cluster_62_3	                     NRSE.01.8	------TTCAGCACCACGGAGAGCGCC-------
+Cluster_62_3	                    NRSF.01.21	------TTCAGCACCACGGACAGCGCC-------
+Cluster_62_3	                        LM9.23	------TTCAGCACCATGGACAGCGCC-------
+Cluster	3
+Cluster_63_3	                     P53.01.19	-------GGACATGCCCGGGCATGTCT-------
+Cluster_63_3	                     P53.04.13	-------GGACATGCCCGGGCATGTCC-------
+Cluster_63_3	                     P53.06.12	-----CCGGACATGTCCAGGCATGTCTC------
+Cluster	3
+Cluster_64_3	                     PAX8.01.3	----------CATTCAAGTATTA-----------
+Cluster_64_3	                     TTF1.01.5	---------CCACTCAAGTGTTC-----------
+Cluster_64_3	                  UTR3M27_3.15	-------------TCAAGTAT-------------
+Cluster	3
+Cluster_65_3	                     SRF.01.17	--------ATGCCCATATATGGTAA---------
+Cluster_65_3	                      SRF.02.9	----------GTCCATATAAGGAC----------
+Cluster_65_3	                     SRF.03.10	--------CTGTCCATATATGGA-----------
+Cluster	3
+Cluster_66_3	                     TATA.02.7	------------TCTATAAAAG------------
+Cluster_66_3	                       PM51.11	--------------TATAAA--------------
+Cluster_66_3	                   UTR3M7_1.13	--------------TATAAAA-------------
+Cluster	3
+Cluster_67_3	                       LM19.20	---------TGCTAATTAGCAGCT----------
+Cluster_67_3	                       LM38.21	----------GCAAATTAGCAGCT----------
+Cluster_67_3	                       LM49.19	----------TGTAATTAGCAGCTG----------
+Cluster	3
+Cluster_68_3	                       LM30.20	---------CTTTGAAATGTCAAT----------
+Cluster_68_3	                       LM41.23	---------CTTTGAAATGCTAATG---------
+Cluster_68_3	                       LM65.23	--------CTTTTGAAATGCAAATGAGC-------
+Cluster	3
+Cluster_69_3	                       LM32.20	----------CTGACATTTCCAAA----------
+Cluster_69_3	                       LM82.20	--------ACTTGACATTTGCA------------
+Cluster_69_3	                      PM145.13	-----------TTACATTT---------------
+Cluster	3
+Cluster_70_3	                   UTR3M2_4.15	-------------GTAAATAG-------------
+Cluster_70_3	                   UTR3M3_1.13	------------TGTA-ATA--------------
+Cluster_70_3	                  UTR3M91_2.15	------------TGTA-A-AGA------------
+Cluster	3
+Cluster_71_3	                   UTR3M5_1.11	--------------TTTGTA--------------
+Cluster_71_3	                   UTR3M5_2.11	--------------TTT-TAC--------------
+Cluster_71_3	                   UTR3M5_4.11	--------------TTTCTA--------------
+Cluster	3
+Cluster_72_3	                  UTR3M13_5.13	-------------TGTA-ATT-------------
+Cluster_72_3	                  UTR3M17_1.13	-------------TGTACATA-------------
+Cluster_72_3	                  UTR3M19_1.12	-------------TGTATA-A-------------
+Cluster	3
+Cluster_73_3	                  UTR3M32_1.15	-------------AAGCACAA-------------
+Cluster_73_3	                  UTR3M32_2.13	-------------AAGCACA--------------
+Cluster_73_3	                  UTR3M32_3.13	-------------AAGTACAA-------------
+Cluster	3
+Cluster_74_3	                  UTR3M35_1.15	-------------GTACTGTA-------------
+Cluster_74_3	                  UTR3M35_2.15	--------------TACTGTAT-------------
+Cluster_74_3	                  UTR3M70_4.14	------------T-TAC-ATAT-T-----------
+Cluster	2
+Cluster_75_2	                    ACAAT.01.8	------------CCACCAATC-------------
+Cluster_75_2	                        PM5.12	--------------ACCAATC-------------
+Cluster	2
+Cluster_76_2	                     AML1.01.6	------------CTGTGGTTA-------------
+Cluster_76_2	                      PM111.13	------------TTGTGGTT--------------
+Cluster	2
+Cluster_77_2	                    AREB6.04.4	------------CTGTTTCAG-------------
+Cluster_77_2	                       PM83.12	-------------TGTTTGT--------------
+Cluster	2
+Cluster_78_2	                     ARP1.01.6	---------TGAACCCTTGACCCCT---------
+Cluster_78_2	                  RAR_RXR.02.6	---------TGAACTTTTGACCC-----------
+Cluster	2
+Cluster_79_2	                    ATATA.01.8	------------GTATTTAAGT------------
+Cluster_79_2	                   UTR3M2_2.13	-------------TATTTAA--------------
+Cluster	2
+Cluster_80_2	                     BKLF.01.8	-----------CGGGGTGGGGCC-----------
+Cluster_80_2	                       PM31.13	-------------GGGTGTG-T-------------
+Cluster	2
+Cluster_81_2	                     CABL.01.9	------------AAAACAACAA------------
+Cluster_81_2	                       PM60.11	-------------AAACAA---------------
+Cluster	2
+Cluster_82_2	                     CDP.02.12	-----------AATAATCGATAT-----------
+Cluster_82_2	                    CLOX.01.12	-----------AATAATCGATATA-----------
+Cluster	2
+Cluster_83_2	                     CEBP.02.5	---------GGTATTATGCAAGGA----------
+Cluster_83_2	                    CEBPB.01.6	----------AGATTGTGCAATGT----------
+Cluster	2
+Cluster_84_2	                    DREAM.01.4	------------ATGTCAGGGG------------
+Cluster_84_2	                     TGIF.01.5	-------------TGTCAAA--------------
+Cluster	2
+Cluster_85_2	                       ER.01.7	-------TCAGGTCACAGTGACCTGA--------
+Cluster_85_2	                       ER.02.9	-------GTAGGTCACGGTGACCTGC--------
+Cluster	2
+Cluster_86_2	                    EVI1.01.13	---------AGATAAGATAAGATAA---------
+Cluster_86_2	                     EVI1.04.5	---------AGATAAGATAAGATA----------
+Cluster	2
+Cluster_87_2	                     EVI1.07.8	------------AAGATGAGTA------------
+Cluster_87_2	                     MEL1.02.7	-------------TGATGAGT-------------
+Cluster	2
+Cluster_88_2	                     HBP1.01.7	-----------TGAATGAATGAA-----------
+Cluster_88_2	                       PM52.15	-------------AATGAATGAA------------
+Cluster	2
+Cluster_89_2	                    HEN1.01.15	------TGGGGCGCAGCTGCGCCCCTC-------
+Cluster_89_2	                    HEN1.02.16	------GGGGGCGCAGCTGCGTCCCCT-------
+Cluster	2
+Cluster_90_2	                    HMX2.01.13	----------CCACTTAAGTGGT-----------
+Cluster_90_2	                     HMX3.02.9	----------GCAATTAAGTGG------------
+Cluster	2
+Cluster_91_2	                  HOX_PBX.01.7	---------GGATTGATTGATGGCC---------
+Cluster_91_2	                    PBX1.01.12	----------ATTTGATTGATGT-----------
+Cluster	2
+Cluster_92_2	                    MEIS1.01.9	------------GTGACAGCT-------------
+Cluster_92_2	                       PM41.12	-------------TGACAG-T-------------
+Cluster	2
+Cluster_93_2	                    MTATA.01.6	--------CTCTATAAAACGCGGCG---------
+Cluster_93_2	                     TATA.01.9	----------GTATAAAAGGC-------------
+Cluster	2
+Cluster_94_2	                     MYT1.02.9	-----------GAAAAGTTTTA------------
+Cluster_94_2	                       PM17.11	-------------AAAGTT---------------
+Cluster	2
+Cluster_95_2	                     MZF1.01.5	-------------GTGGGGA--------------
+Cluster_95_2	                     MZF1.02.5	-------------AAGGGGAA-------------
+Cluster	2
+Cluster_96_2	                  NEUROD1.01.8	----------TGGCCATCTGCCG-----------
+Cluster_96_2	                   NEUROG.01.4	-----------CGCCATCTGTTT-----------
+Cluster	2
+Cluster_97_2	                     NFAT.01.7	-----------ATAGGAAAAAT------------
+Cluster_97_2	                       PM55.11	-------------TGGAAA---------------
+Cluster	2
+Cluster_98_2	                    NKX25.01.4	-------------TCAAGTG--------------
+Cluster_98_2	                    NKX32.01.7	------------GTTAAGTGGAC------------
+Cluster	2
+Cluster_99_2	                    NKX31.01.8	----------TAATAAGTATATA-----------
+Cluster_99_2	                  SMARCA3.02.3	------------AAAAGTAC--------------
+Cluster	2
+Cluster_100_2	                     NMP4.01.9	------------GGAAAAAGTC------------
+Cluster_100_2	                 UTR3M104_1.15	-----------CGCAAAAA---------------
+Cluster	2
+Cluster_101_2	                     NRF1.01.7	---------ACCGCGCATGCGCACC---------
+Cluster_101_2	                        PM1.15	------------ACGCA-GCGT------------
+Cluster	2
+Cluster_102_2	                      NRL.01.4	-------AATGGCTGA-TCAGCATCT--------
+Cluster_102_2	                      LM106.18	----------TGCTGACTCAGCA-----------
+Cluster	2
+Cluster_103_2	                    OCT1P.01.9	----------ATGAATATGCATA-----------
+Cluster_103_2	                       LM60.18	-------CTCATGAATATTCATGAG---------
+Cluster	2
+Cluster_104_2	                      P53.02.6	-----------CTGGACATGTCC-----------
+Cluster_104_2	                      P53.03.6	------------GAGACATGTCT-----------
+Cluster	2
+Cluster_105_2	                    PAX6.01.11	--------TTTTCACGCATGAGTTCA--------
+Cluster_105_2	                     PAX6.03.7	--------TATTCACGCTTCAATGAC--------
+Cluster	2
+Cluster_106_2	              PBX1_MEIS1.01.17	----------ATGATTGACAGGT-----------
+Cluster_106_2	              PBX1_MEIS1.02.17	---------TTTGATTGACAGGG-----------
+Cluster	2
+Cluster_107_2	                     PIT1.01.6	------------AATTATTCAT------------
+Cluster_107_2	                        LM8.21	--------CATGAATTATTCATG-----------
+Cluster	2
+Cluster_108_2	                      PU1.01.7	---------CGAAGAGGAAGTGAAT---------
+Cluster_108_2	                    SPIB.01.12	---------AAAAGAGGAAGTT------------
+Cluster	2
+Cluster_109_2	                    RP58.01.14	-----------GAAACATCTGGA-----------
+Cluster_109_2	                       LM68.22	---------GCCAAACATCTGGATGAA--------
+Cluster	2
+Cluster_110_2	                    SMAD3.01.5	-------------GTCTGGAT-------------
+Cluster_110_2	                    SMAD4.01.6	-------------GTCTAGCC-------------
+Cluster	2
+Cluster_111_2	                    SREBP.01.5	---------AGATCACCCCACTCC----------
+Cluster_111_2	                    SREBP.02.7	----------TATCACCCCAC-------------
+Cluster	2
+Cluster_112_2	                    STAF.01.18	------TTTACCCACAATGCATTGCGCT------
+Cluster_112_2	                     STAF.02.7	------ATTTCCCATCATGCCTTGCGA-------
+Cluster	2
+Cluster_113_2	                TCF11MAFG.01.9	--------AAATGACTCAGCAATTAT--------
+Cluster_113_2	                       PM67.13	-----------TGA--TAGCA-------------
+Cluster	2
+Cluster_114_2	                  VDR_RXR.01.6	---------AGGTGAAGGAGGTCA----------
+Cluster_114_2	                  VDR_RXR.02.5	---------AGGTGAATGAGGGCA----------
+Cluster	2
+Cluster_115_2	                      YY1.01.7	-------CGCGGCCATCTTGGCTGCT--------
+Cluster_115_2	                       PM10.15	-----------GCCAT-TTG--------------
+Cluster	2
+Cluster_116_2	                       CTCF.20	----------CACTAGATGGCAG-----------
+Cluster_116_2	                        LM2.20	------TGACCACTAGATGGCAGTA---------
+Cluster	2
+Cluster_117_2	                        LM7.20	-------TGGCCAGCAGATGGCGCTGT-------
+Cluster_117_2	                       LM23.22	-------TGACCACCAGGTGGTGCTGT-------
+Cluster	2
+Cluster_118_2	                       LM29.21	---------TGCTAATTGCAAATG----------
+Cluster_118_2	                      LM125.19	----------GCTAATTACAAATCA----------
+Cluster	2
+Cluster_119_2	                       LM33.20	--------GTAATTGGAAACAGCTG---------
+Cluster_119_2	                       LM44.22	------GTGTAATTGGAAACAGCTG---------
+Cluster	2
+Cluster_120_2	                       LM34.22	-------TGATTTGCATTGCAAATGA--------
+Cluster_120_2	                       LM53.20	-------TCATTTGCATTGCAAAT----------
+Cluster	2
+Cluster_121_2	                       LM40.22	-----TCCCATTGACTTCAAAGGGAGCT------
+Cluster_121_2	                      LM105.23	-------CCATTGAAGTCAATGGGAG--------
+Cluster	2
+Cluster_122_2	                       LM50.23	-------TGGGTAATTACATTCTGCC--------
+Cluster_122_2	                       LM81.20	---------GGTAATTACATTCTGCCT--------
+Cluster	2
+Cluster_123_2	                       LM62.19	---------AATTGCTTCCAGATG----------
+Cluster_123_2	                       LM89.22	-------GTAATTGATTCCAGATG----------
+Cluster	2
+Cluster_124_2	                       LM77.22	------TGGATAATTGAGAGTTGACTG-------
+Cluster_124_2	                      LM117.23	--------GATAATTGAGAGTTGAC---------
+Cluster	2
+Cluster_125_2	                       LM80.20	----------AGCAATTAACCTTT----------
+Cluster_125_2	                      LM115.20	----------AGCCATTAATCTTG----------
+Cluster	2
+Cluster_126_2	                       PM33.13	------------TTATTTT-A-------------
+Cluster_126_2	                  UTR3M31_1.13	-----------A-TATATTG--------------
+Cluster	2
+Cluster_127_2	                       PM46.13	-------------ATTGTCTG-------------
+Cluster_127_2	                  UTR3M38_3.13	-------------TTTGGCT--------------
+Cluster	2
+Cluster_128_2	                       PM62.13	-------------CATTTTGT-------------
+Cluster_128_2	                   UTR3M9_1.11	---------------TTTTGT--------------
+Cluster	2
+Cluster_129_2	                       PM64.11	-------------TTA-TCA--------------
+Cluster_129_2	                   UTR3M1_7.13	------------TTTATTCA--------------
+Cluster	2
+Cluster_130_2	                   UTR3M1_6.13	-------------CAAAAAAA-------------
+Cluster_130_2	                   UTR3M1_8.15	------------GCAATAAAA-------------
+Cluster	2
+Cluster_131_2	                   UTR3M3_2.13	------------TGTA-ATAT-------------
+Cluster_131_2	                   UTR3M3_5.15	-----------CTGT-T-TAT-------------
+Cluster	2
+Cluster_132_2	                   UTR3M3_3.15	-----------TGTA--TATAT------------
+Cluster_132_2	                  UTR3M13_1.12	-----------TGTA--TTT--------------
+Cluster	2
+Cluster_133_2	                   UTR3M4_2.13	-------------TATATTT--------------
+Cluster_133_2	                   UTR3M4_5.17	-----------AATATATTTG-------------
+Cluster	2
+Cluster_134_2	                   UTR3M8_1.11	--------------TGCATG--------------
+Cluster_134_2	                   UTR3M8_2.13	-------------TTGCATGT-------------
+Cluster	2
+Cluster_135_2	                   UTR3M9_3.18	------------TATTTTTGTA------------
+Cluster_135_2	                   UTR3M9_4.16	-----------TTA-ATTTGTA------------
+Cluster	2
+Cluster_136_2	                  UTR3M10_3.12	-------------TGCA-TAA-------------
+Cluster_136_2	                  UTR3M10_4.15	------------TTGTATTAA-------------
+Cluster	2
+Cluster_137_2	                  UTR3M13_2.13	-------------AGTATTTA-------------
+Cluster_137_2	                 UTR3M13_11.14	------------ATGTATAT--------------
+Cluster	2
+Cluster_138_2	                  UTR3M13_4.12	-------------TGTA-TTT-------------
+Cluster_138_2	                  UTR3M13_9.12	-------------TGTA--TTA-------------
+Cluster	2
+Cluster_139_2	                 UTR3M13_14.14	------------TGTA-AGTT-------------
+Cluster_139_2	                  UTR3M17_3.15	-------------GTACAGTT-------------
+Cluster	2
+Cluster_140_2	                  UTR3M15_2.15	-------------GTTTACAT-------------
+Cluster_140_2	                  UTR3M36_1.15	-------------GTTTACAG-------------
+Cluster	2
+Cluster_141_2	                  UTR3M15_3.15	-------------ACGTTTAC-------------
+Cluster_141_2	                  UTR3M15_4.15	-------------CCGTTTAC-------------
+Cluster	2
+Cluster_142_2	                  UTR3M16_2.15	-------------TAATTTAA-------------
+Cluster_142_2	                  UTR3M16_4.15	-----------T-TAA-TAAAG------------
+Cluster	2
+Cluster_143_2	                  UTR3M17_4.15	-------------ACGGTACA-------------
+Cluster_143_2	                  UTR3M35_4.15	------------CACGGTAC--------------
+Cluster	2
+Cluster_144_2	                  UTR3M20_1.12	-----------TGTA----TGT------------
+Cluster_144_2	                  UTR3M20_2.14	-----------TGTA---TTGT------------
+Cluster	2
+Cluster_145_2	                  UTR3M25_2.13	-------------ACTGTGA--------------
+Cluster_145_2	                  UTR3M25_4.13	-------------AATGTGA--------------
+Cluster	2
+Cluster_146_2	                  UTR3M27_1.12	-------------ACTTGAA--------------
+Cluster_146_2	                  UTR3M27_2.15	------------TACTTGAA--------------
+Cluster	2
+Cluster_147_2	                  UTR3M29_2.15	-----------TGT--AATAAA------------
+Cluster_147_2	                  UTR3M60_1.15	-----------TGC--AATAAA------------
+Cluster	2
+Cluster_148_2	                  UTR3M30_2.16	------------TATTTA-TGT------------
+Cluster_148_2	                  UTR3M30_3.16	------------TATTTA-TGA------------
+Cluster	2
+Cluster_149_2	                  UTR3M31_3.14	----------T-TAT----TGTA-----------
+Cluster_149_2	                  UTR3M31_4.15	-------------ATATA-TGTA------------
+Cluster	2
+Cluster_150_2	                  UTR3M39_2.16	------------TATTTA-CTA------------
+Cluster_150_2	                  UTR3M39_3.15	------------TATATA--TAG------------
+Cluster	2
+Cluster_151_2	                  UTR3M40_1.14	-------------TGAATGTA-------------
+Cluster_151_2	                  UTR3M40_2.12	-------------TGAATGT--------------
+Cluster	2
+Cluster_152_2	                  UTR3M41_1.12	-------------AAGTATT--------------
+Cluster_152_2	                  UTR3M41_2.15	-------------CAGTATTA-------------
+Cluster	2
+Cluster_153_2	                  UTR3M41_3.13	-------------ACTACTG--------------
+Cluster_153_2	                  UTR3M41_4.14	-------------ACTACTGA-------------
+Cluster	2
+Cluster_154_2	                  UTR3M42_3.15	------------TTGTAA-AAA------------
+Cluster_154_2	                  UTR3M42_4.15	--------------GTACCAAA-------------
+Cluster	2
+Cluster_155_2	                  UTR3M45_1.17	----------TGTA--AA-TGTA-----------
+Cluster_155_2	                  UTR3M45_2.15	----------TGT-----TTGTA-----------
+Cluster	2
+Cluster_156_2	                  UTR3M47_1.15	-------------CTATGCAA-------------
+Cluster_156_2	                  UTR3M47_2.14	-------------CTATAAAAA------------
+Cluster	2
+Cluster_157_2	                  UTR3M48_1.16	-----------TTC--AATAAA------------
+Cluster_157_2	                  UTR3M48_3.15	----------GTT---AATAAA------------
+Cluster	2
+Cluster_158_2	                  UTR3M50_1.12	-------------ACACTAA--------------
+Cluster_158_2	                  UTR3M50_2.14	------------AACACTAA--------------
+Cluster	2
+Cluster_159_2	                  UTR3M67_1.14	------------GTTAT-TAT-------------
+Cluster_159_2	                  UTR3M67_2.14	------------CTTAT-TAT-------------
+Cluster	2
+Cluster_160_2	                  UTR3M68_1.16	-----------AATAAA--CTT------------
+Cluster_160_2	                  UTR3M68_2.16	-----------AATAAA--GTT------------
+Cluster	2
+Cluster_161_2	                  UTR3M70_1.14	------------ATA-TGTA-A------------
+Cluster_161_2	                  UTR3M70_3.14	-----------T-TATTGTA--------------
+Cluster	2
+Cluster_162_2	                  UTR3M72_1.14	------------TGCAATAAA-------------
+Cluster_162_2	                  UTR3M72_2.14	-------------GCAATAAAT------------
+Cluster	2
+Cluster_163_2	                  UTR3M79_2.13	-------------TTGAACTA-------------
+Cluster_163_2	                  UTR3M79_3.14	------------TTTTTACTA-------------
+Cluster	2
+Cluster_164_2	                  UTR3M81_1.15	-------------TTTCAATA-------------
+Cluster_164_2	                  UTR3M81_2.14	------------GTT-TAATA-------------
+Cluster	2
+Cluster_165_2	                  UTR3M82_1.15	------------TCTATA-ATA------------
+Cluster_165_2	                  UTR3M82_2.15	------------TCTATATAT-------------
+Cluster	2
+Cluster_166_2	                  UTR3M83_1.15	------------AATAAAGTT-------------
+Cluster_166_2	                  UTR3M83_2.15	------------AATAAAGTT-------------
+Cluster	2
+Cluster_167_2	                  UTR3M84_1.15	------------TGTATAAATA------------
+Cluster_167_2	                  UTR3M84_2.13	-------------GTGT-AATA-------------
+Cluster	2
+Cluster_168_2	                  UTR3M85_2.15	-------------ATGTAGCA-------------
+Cluster_168_2	                  UTR3M85_3.15	-------------ATGCAGCA-------------
+Cluster	2
+Cluster_169_2	                  UTR3M90_1.15	-----------ATTACA-TAAA------------
+Cluster_169_2	                  UTR3M90_2.16	------------TTACAA-AAAA-----------
+Cluster	2
+Cluster_170_2	                  UTR3M99_1.15	-------------TCGCATGA-------------
+Cluster_170_2	                  UTR3M99_2.15	-------------TCGCATGG-------------
+Cluster	2
+Cluster_171_2	                Oct4-Weeder.13	---------TATTGTTATGCAAAT----------
+Cluster_171_2	                 Oct4-NMICA.12	----------ATTGTCATGCTAATG----------
+Cluster	1
+Cluster_172_1	                     AARE.01.7	------------GTTTCATCA-------------
+Cluster	1
+Cluster_173_1	                      AHR.01.8	--------CCCCCGGCTAGCGTGAGA--------
+Cluster	1
+Cluster_174_1	                 AHRARNT.02.18	-------GGGGATCGCGTGACAACCC--------
+Cluster	1
+Cluster_175_1	                    AIRE.01.10	----TTATATATTGGTTATTATGGATAAAT----
+Cluster	1
+Cluster_176_1	                     AML3.01.7	----------AACTGTGGTTTGTG----------
+Cluster	1
+Cluster_177_1	                      AP2.01.5	-----------CGCCCGCCGGCG-----------
+Cluster	1
+Cluster_178_1	                     AP2.02.11	----------ACCGCCTGAGGGGA----------
+Cluster	1
+Cluster_179_1	                      ARE.02.6	----------GAACTTTCTGTTCT----------
+Cluster	1
+Cluster_180_1	                    ATBF1.01.5	--------AATGGTTAATAATTAAT---------
+Cluster	1
+Cluster_181_1	                     ATF6.01.4	----------CTGCCACGCGGGG-----------
+Cluster	1
+Cluster_182_1	                   BARBIE.01.7	---------ATCAAAAGCTGGAGG----------
+Cluster	1
+Cluster_183_1	                   BLIMP1.01.8	---------GAAAGTGAAAGTGGTG---------
+Cluster	1
+Cluster_184_1	                      BNC.01.4	--------CGGGCATCGATGTCCCTG--------
+Cluster	1
+Cluster_185_1	                   BRACH.01.23	-----CTAGTCACACCTAGGTGTGAAATT-----
+Cluster	1
+Cluster_186_1	                     BRN2.01.6	---------GTCATTCAAAATGAAC---------
+Cluster	1
+Cluster_187_1	                    BRN2.02.12	----------ATGCATATATTCAT----------
+Cluster	1
+Cluster_188_1	                     BRN2.03.5	---------GAATTAATTTGAATG----------
+Cluster	1
+Cluster_189_1	                    BRN3.01.10	----------AGCTCATTAATTAT----------
+Cluster	1
+Cluster_190_1	                     BRN3.02.4	---------TACTATTAATTAATT----------
+Cluster	1
+Cluster_191_1	                     BRN4.01.3	----------TCCACTTAACTAAT----------
+Cluster	1
+Cluster_192_1	                    BTEB3.01.3	----------TAAAGGGAGTTGT-----------
+Cluster	1
+Cluster_193_1	                   CART1.01.10	---------ACTAATTACCATTATC---------
+Cluster	1
+Cluster_194_1	                      CDE.01.5	-----------GCGGCGCGGTTT-----------
+Cluster	1
+Cluster_195_1	                     CDP.01.10	-----------CCAATAATCGAT-----------
+Cluster	1
+Cluster_196_1	                  CDPCR3.01.11	---------CACCAATATGTATGG----------
+Cluster	1
+Cluster_197_1	                 CDPCR3HD.01.7	------------GATCGATCCC------------
+Cluster	1
+Cluster_198_1	                     CDX2.01.5	-------TAAAAGTTTTATGACCACA--------
+Cluster	1
+Cluster_199_1	                      CHR.01.5	-----------CTATTTGAATTG-----------
+Cluster	1
+Cluster_200_1	               CHREBP_MLX.01.4	--------CACGTGGCACTCCCGTG---------
+Cluster	1
+Cluster_201_1	                CJUN_ATF2.01.5	-----------TACTGACTTCAG-----------
+Cluster	1
+Cluster_202_1	                    COMP1.01.5	-------TGTTTTGATTGACAACAAAA-------
+Cluster	1
+Cluster_203_1	                      CP2.01.4	-----------CTGGGTAGAGC------------
+Cluster	1
+Cluster_204_1	                      CP2.02.5	--------TACTGCATATTTCTGGCT--------
+Cluster	1
+Cluster_205_1	                    CUT2.01.16	--------TATCGGTAAATTATCGG---------
+Cluster	1
+Cluster_206_1	                      DBP.01.5	---------CGGTGTTATGCAAGA----------
+Cluster	1
+Cluster_207_1	                     DICE.01.7	----------TGTTCTCTCCACAG----------
+Cluster	1
+Cluster_208_1	                     DMP1.01.9	----------TACCCGGATGTAG-----------
+Cluster	1
+Cluster_209_1	                E2F4_DP1.01.10	------------TTGCGCGAAA------------
+Cluster	1
+Cluster_210_1	                      E47.01.7	----------ACGGCAGGTGTCC-----------
+Cluster	1
+Cluster_211_1	                     EGR1.02.6	---------CCCGGCGGGGGCGGAG---------
+Cluster	1
+Cluster_212_1	                     EKLF.01.3	-----------CCCGTAGGGTG------------
+Cluster	1
+Cluster_213_1	                      EN1.01.6	----------GAATTTAATTGAA-----------
+Cluster	1
+Cluster_214_1	                     ETS1.01.7	-----------CAGGAAGTGAG------------
+Cluster	1
+Cluster_215_1	                    FAST1.01.9	----------GGTTGTGTATTGGG----------
+Cluster	1
+Cluster_216_1	                     FHXB.01.5	----------ATCATAATATTTTT----------
+Cluster	1
+Cluster_217_1	                      FTF.01.6	-----------ATTCCAAGGTCC-----------
+Cluster	1
+Cluster_218_1	                     FXRE.01.4	----------GGGTCAATGACCT-----------
+Cluster	1
+Cluster_219_1	                     GAGA.01.9	-----GGCAGAGAGAGAGAGAGAGAGAGA-----
+Cluster	1
+Cluster_220_1	                    GATA3.02.7	------------AAAGATCTTA------------
+Cluster	1
+Cluster_221_1	                      GC.01.11	----------AGGGGGCGGGGCTG----------
+Cluster	1
+Cluster_222_1	                     GCM1.01.4	-----------TACCCTCATGC------------
+Cluster	1
+Cluster_223_1	                     GKLF.01.8	----------AAAAAAAAAAAGGG----------
+Cluster	1
+Cluster_224_1	                     GKLF.02.4	------------ATCAAAGGAG------------
+Cluster	1
+Cluster_225_1	                   GRHL3.01.12	----------TAAACCGGTTTTA-----------
+Cluster	1
+Cluster_226_1	                     GSH1.01.3	----------CAAAATTAGTTTGC----------
+Cluster	1
+Cluster_227_1	                    GZF1.01.11	-----------TGCGCGTCTATA-----------
+Cluster	1
+Cluster_228_1	               HAND2_E12.01.17	---------GGGGGGGCCATCTGG----------
+Cluster	1
+Cluster_229_1	                     HES1.01.3	---------AAGTCGCGTGCACCC----------
+Cluster	1
+Cluster_230_1	                     HIC1.01.8	----------AGGGGTGCCCGCA-----------
+Cluster	1
+Cluster_231_1	                     HIF1.01.5	----------AGCCGTACGTGAC-----------
+Cluster	1
+Cluster_232_1	                     HMGA.01.4	--------AGTAATTAATTACGAAC---------
+Cluster	1
+Cluster_233_1	                    HMGIY.01.4	----------GCAAATTTACGAA-----------
+Cluster	1
+Cluster_234_1	                    HMX2.02.12	-----------ACAAACGTTTC------------
+Cluster	1
+Cluster_235_1	                     HMX3.01.5	-----------CACAAGTGGGTG-----------
+Cluster	1
+Cluster_236_1	                     HNF6.01.7	----------AAAAATCAATATTT----------
+Cluster	1
+Cluster_237_1	                   HOX1-3.01.6	----------TTCCCCATTAGTGC----------
+Cluster	1
+Cluster_238_1	                    HOXB9.01.5	-----------GGTCGTAAATC------------
+Cluster	1
+Cluster_239_1	                     HSF1.02.8	------CGAAGATTCGAGAACATTCTA-------
+Cluster	1
+Cluster_240_1	                     HSF1.03.9	------CTGGAAAATACTAGAATGTTC-------
+Cluster	1
+Cluster_241_1	                     HSF2.01.4	--------GGTATAGAACATTCAGCA--------
+Cluster	1
+Cluster_242_1	                     ILF1.01.4	------------AGAAAACACA------------
+Cluster	1
+Cluster_243_1	                    INSM1.01.8	-----------TGTCAGGGGGCA-----------
+Cluster	1
+Cluster_244_1	                     IRF4.01.5	----------AAATGAAAGCATAA----------
+Cluster	1
+Cluster_245_1	                    IRF4.02.16	-------CACCGAAACCGAAACCATG--------
+Cluster	1
+Cluster_246_1	                     ISL1.01.7	-------TTGAGAGCCTAATGACCCAA-------
+Cluster	1
+Cluster_247_1	                   KAISO.01.10	------------ATTCCTGCTA------------
+Cluster	1
+Cluster_248_1	                     KKLF.01.7	---------GAGGAGGGGAGTTGG----------
+Cluster	1
+Cluster_249_1	                    LTATA.01.8	---------ATATAAGCAGCTGCT----------
+Cluster	1
+Cluster_250_1	                    LXRE.01.10	---------AGGTCACT-AAGGTCA---------
+Cluster	1
+Cluster_251_1	                     LYF1.01.5	------------TTTGGGAGA-------------
+Cluster	1
+Cluster_252_1	                      MAZ.01.4	-----------GGCGAGGGGAG------------
+Cluster	1
+Cluster_253_1	                    MAZR.01.10	----------GGGGGGGGGGCCA-----------
+Cluster	1
+Cluster_254_1	                     MEF2.05.4	------------TCTTTAAAAA------------
+Cluster	1
+Cluster_255_1	                     MEF3.01.5	----------GGGTCAGGTTTCA-----------
+Cluster	1
+Cluster_256_1	                     MEL1.03.6	------------TGAAGATGAT------------
+Cluster	1
+Cluster_257_1	                      MIT.01.7	-------AGAAAGTCATGTGATTATC--------
+Cluster	1
+Cluster_258_1	                    MOK2.01.12	------GACCTTGTCAGGGCCTTTAAC-------
+Cluster	1
+Cluster_259_1	                     MRF2.01.5	-------------AATACCAA-------------
+Cluster	1
+Cluster_260_1	                     MTBF.01.4	------------TGGTATTTG-------------
+Cluster	1
+Cluster_261_1	                    MTF-1.01.9	---------GTCTGCACACGGCCC----------
+Cluster	1
+Cluster_262_1	                     MYF5.01.8	-----------CAGCAGCTGCTG-----------
+Cluster	1
+Cluster_263_1	                    MYT1.01.14	-----------CAAAGTTTACTT-----------
+Cluster	1
+Cluster_264_1	                    MYT1L.01.3	------------TGAAAGTTT-------------
+Cluster	1
+Cluster_265_1	                     NBRE.01.3	-------------GAAGGTCA-------------
+Cluster	1
+Cluster_266_1	                    NFAT5.01.8	--------AATGGAAACATACATGCT--------
+Cluster	1
+Cluster_267_1	                   NFE2L2.01.8	-----GGCTCACAGTGACTAAGCAAAATT-----
+Cluster	1
+Cluster_268_1	               NFKAPPAB50.01.9	------------GGGGATTCCC------------
+Cluster	1
+Cluster_269_1	                    NUDR.01.11	--------CATTCGGGTATTTCCGGG--------
+Cluster	1
+Cluster_270_1	                 NXF_ARNT.01.5	-----GGCGGGAAGTCGTGGGGGGCAAG------
+Cluster	1
+Cluster_271_1	                      OC2.01.6	--------AAAAAAAATCAATATAT---------
+Cluster	1
+Cluster_272_1	                     OCT1.05.3	----------AACATGTAATTATG----------
+Cluster	1
+Cluster_273_1	                    OCT1.06.15	-----------TCTATGCTAATT-----------
+Cluster	1
+Cluster_274_1	                     OLF1.01.7	------CACAATTCCCCAGGGAGTTTGT------
+Cluster	1
+Cluster_275_1	                      P53.05.6	------AAACAAGCCAAGGACATGCCT-------
+Cluster	1
+Cluster_276_1	                  PARAXIS.01.4	---------GCAACACATGTTTCGA---------
+Cluster	1
+Cluster_277_1	                    PAX1.01.11	--------CCGTTCCGCTCTAGATAT--------
+Cluster	1
+Cluster_278_1	                     PAX2.01.5	-----TACACTGTACAGACCTGAAACTC------
+Cluster	1
+Cluster_279_1	                    PAX3.01.11	----------TCGTCACGCTTCA-----------
+Cluster	1
+Cluster_280_1	                     PAX3.02.6	--------TAAGTCACACTGCTAATA--------
+Cluster	1
+Cluster_281_1	                     PAX4.01.5	-----------GAATAATTACC------------
+Cluster	1
+Cluster_282_1	                  PAX4_PD.01.5	---------GCACTCTTGCGTGAC----------
+Cluster	1
+Cluster_283_1	                     PAX5.01.6	---TCGAGGCGCAATGATGCGTAGCCGCCCC---
+Cluster	1
+Cluster_284_1	                     PAX5.02.6	---AAACAGATATCTGAAGCGTGACCATACA---
+Cluster	1
+Cluster_285_1	                     PAX5.03.5	-----GAGTGGCACAGTCAACTATTGCC------
+Cluster	1
+Cluster_286_1	                     PAX6.02.6	---------TTAGTTCCAGGTCAG----------
+Cluster	1
+Cluster_287_1	                     PAX6.04.4	--------TTCCACTAATGTCTGCAC--------
+Cluster	1
+Cluster_288_1	                     PAX9.01.4	-------CGCACCGATGCGTGACCGCT-------
+Cluster	1
+Cluster_289_1	              PBX1_MEIS1.03.10	---------AGGTTGATTGACAGG----------
+Cluster	1
+Cluster_290_1	                     PDEF.01.4	-----------CGCAGGATGCA------------
+Cluster	1
+Cluster_291_1	                     PDX1.01.6	-------TTAAGAATCTAATGACCCA--------
+Cluster	1
+Cluster_292_1	                PDX1_G_SAAB1.9	----------TTAAGTAATGACTT----------
+Cluster	1
+Cluster_293_1	               PDX1_G_SAAB3.10	----------TTCATTAATAGGTT----------
+Cluster	1
+Cluster_294_1	                    PLAG1.01.9	-------GAGGCGCTAAAAAGGGGGGG-------
+Cluster	1
+Cluster_295_1	                     PLZF.01.4	----------AGGTACAGTTCGAG----------
+Cluster	1
+Cluster_296_1	                    PPARA.01.9	-------CAAAACTAGGTCAAAGGTCA-------
+Cluster	1
+Cluster_297_1	                   PPARG.01.20	-----AAGTAGGTCACGGTGACCTACTT------
+Cluster	1
+Cluster_298_1	                    PRDM1.01.8	---------AAGTGAAAGTGAATTC---------
+Cluster	1
+Cluster_299_1	                      PSE.01.8	--------GTCGCCGTGAGTAAAAA---------
+Cluster	1
+Cluster_300_1	                      PSE.02.8	--------TCACCCTAACTGTAAAAT--------
+Cluster	1
+Cluster_301_1	                     PTF1.01.7	------TCCACCTGCATTTTTTCCCAT-------
+Cluster	1
+Cluster_302_1	                 PURALPHA.01.4	----------GGAGGCGGGGGAT-----------
+Cluster	1
+Cluster_303_1	                 RAR_RXR.03.10	------CGGGTTCACAGAGAGTTCAGC-------
+Cluster	1
+Cluster_304_1	             RB_E2F1_DP1.01.15	-----------TTTCGCGCCAAA-----------
+Cluster	1
+Cluster_305_1	                    RBPJK.01.4	---------AGGGTGGGAAAATCC----------
+Cluster	1
+Cluster_306_1	                 REV-ERBA.03.7	--------AAGTAGGTCACTAGGTCA--------
+Cluster	1
+Cluster_307_1	                    ROAZ.01.13	---------TGGCACCCAAGGGTGA---------
+Cluster	1
+Cluster_308_1	                    RREB1.01.8	----------CCCCAAACCACCCC----------
+Cluster	1
+Cluster_309_1	                     RTR.01.19	--------CTCAAGTTCAAGTTCACC--------
+Cluster	1
+Cluster_310_1	                    SATB1.01.6	---------AAATAATATTAATAAA---------
+Cluster	1
+Cluster_311_1	                  SMARCA3.01.3	-----------TACCATATATA------------
+Cluster	1
+Cluster_312_1	                     SP2.01.10	-----------TGGGCGGGACTA-----------
+Cluster	1
+Cluster_313_1	                SPI1_PU1.01.10	-------AAAAAAGAGGAAGTAAAATG-------
+Cluster	1
+Cluster_314_1	                    STAT6.01.6	---------GACTTCCTAGGAAGT----------
+Cluster	1
+Cluster_315_1	                     SZF1.01.8	---------CCAGGGTATCAGCCG----------
+Cluster	1
+Cluster_316_1	                  TAXCREB.01.9	---------GGGGGTTGACGTATA----------
+Cluster	1
+Cluster_317_1	                  TAXCREB.02.6	---------ATGACGCATACCCCC----------
+Cluster	1
+Cluster_318_1	                     TBX5.01.9	------------AAAGGTGTCA------------
+Cluster	1
+Cluster_319_1	                    TCF11.01.6	-------------GTCATTT--------------
+Cluster	1
+Cluster_320_1	                      TEF.01.5	--------GGAAAACATTCCACATT---------
+Cluster	1
+Cluster_321_1	                   TH1E47.01.7	-----------AATGCCAGACGC-----------
+Cluster	1
+Cluster_322_1	                   THAP1.01.13	-----------AGTACGGGCAA------------
+Cluster	1
+Cluster_323_1	                    TIEG.01.10	------------GGGGTGTGT-------------
+Cluster	1
+Cluster_324_1	                      TR4.01.7	---------AGAGGTCAAAGTACA----------
+Cluster	1
+Cluster_325_1	                     TST1.01.3	---------GAGGAATTAAAATAC----------
+Cluster	1
+Cluster_326_1	                  VDR_RXR.03.5	-------GAAAGGTTCAAAGGAGACTG-------
+Cluster	1
+Cluster_327_1	                  VDR_RXR.04.7	------AGATGGGTCACGAAGGTCA-G-------
+Cluster	1
+Cluster_328_1	                  VDR_RXR.05.6	------GCGAAGTTAAAGAGGGTCAATA------
+Cluster	1
+Cluster_329_1	                  VDR_RXR.06.5	-----AT-GGGGTCACAGGGAGGTGAGGG-----
+Cluster	1
+Cluster_330_1	                    VERBA.01.9	---------ATTGAGGTCACGCCA----------
+Cluster	1
+Cluster_331_1	                    VMAF.01.10	--------AATGCTGACTCAGCACA---------
+Cluster	1
+Cluster_332_1	                     VMYB.01.6	------------AATAACGGAA------------
+Cluster	1
+Cluster_333_1	                      WHN.01.8	------------ACGACGCTTT------------
+Cluster	1
+Cluster_334_1	                      WT1.01.9	----------GCGTGGGCGCGGG-----------
+Cluster	1
+Cluster_335_1	                     XBP1.01.9	---------GATGACGTGTCCTAT----------
+Cluster	1
+Cluster_336_1	                  XVENT2.01.17	---------CTAATTACCTGATTAG---------
+Cluster	1
+Cluster_337_1	                      YY1.02.5	----------CACCATTTTCGAAC----------
+Cluster	1
+Cluster_338_1	                   ZBRK1.01.14	------GGGGCCGCAGTCCTTTGTTGCC------
+Cluster	1
+Cluster_339_1	                      ZF5.01.5	------------GTGCGCGCGA------------
+Cluster	1
+Cluster_340_1	                     ZIC2.01.4	------------GACCACCCC-------------
+Cluster	1
+Cluster_341_1	                     ZID.01.10	----------CGGCTCTATCATC-----------
+Cluster	1
+Cluster_342_1	                  ZNF202.01.16	-----CCCCCCCCCACCCCCACCCCAAC------
+Cluster	1
+Cluster_343_1	                   ZNF219.01.9	-----------CCCCCCCGCCCC-----------
+Cluster	1
+Cluster_344_1	                    ZNF35.01.5	-----------GCCGGGAATACA-----------
+Cluster	1
+Cluster_345_1	                ZNF76_143.01.6	-------TTTCCCAGCAGGCCTTGCGG-------
+Cluster	1
+Cluster_346_1	                    AT_rich.22	-----AAAAAAAAAAAAAAAAAAAAAAAA-----
+Cluster	1
+Cluster_347_1	                    GC_rich.22	-----CCCCCCCCCCCCCCCCCCCCCCCC-----
+Cluster	1
+Cluster_348_1	             AC_rich_coding.22	-----AAAAAAAAAAAAAAAAAAAAAAAA-----
+Cluster	1
+Cluster_349_1	             AG_rich_coding.22	-----AAAAAAAAAAAAAAAAAAAAAAAA-----
+Cluster	1
+Cluster_350_1	                     poly_A.44	-----AAAAAAAAAAAAAAAAAAAAAAAA-----
+Cluster	1
+Cluster_351_1	                     poly_C.44	-----CCCCCCCCCCCCCCCCCCCCCCCC-----
+Cluster	1
+Cluster_352_1	                        LM4.29	------GGCCTGCTGGGAGTTGTAGTTC------
+Cluster	1
+Cluster_353_1	                        LM5.20	-------TCCCATTAACATTAATGGGA-------
+Cluster	1
+Cluster_354_1	                        LM6.31	-----CAAAGGCTCTTTTCAGAGCCACC------
+Cluster	1
+Cluster_355_1	                       LM11.24	-----ATGGAAATGCTGACAGACCCTTAA-----
+Cluster	1
+Cluster_356_1	                       LM12.25	------GTGGCCTGAAAGAGTTAATGCA------
+Cluster	1
+Cluster_357_1	                       LM13.22	----------ATGCTAATTAGCA-----------
+Cluster	1
+Cluster_358_1	                       LM14.23	------TTATCCAGATGTTTGGCATCA-------
+Cluster	1
+Cluster_359_1	                       LM15.22	--------CATTTGCATGCAAATGA---------
+Cluster	1
+Cluster_360_1	                       LM16.24	-----CTTTGAGATCCTCAGATGAAAGG------
+Cluster	1
+Cluster_361_1	                       LM20.17	-----------TGACAGCTGTCA-----------
+Cluster	1
+Cluster_362_1	                       LM22.20	--------CAGCTGTTAAACAGCTG---------
+Cluster	1
+Cluster_363_1	                       LM25.17	---------AAAGGAAATTTCCTTT---------
+Cluster	1
+Cluster_364_1	                       LM26.22	----------TAAACACAGCTGT-----------
+Cluster	1
+Cluster_365_1	                       LM31.23	------CTTTTCATCTTCAAAGCACTTT------
+Cluster	1
+Cluster_366_1	                       LM35.22	--------TGACTTCAAAGGGAGCTC--------
+Cluster	1
+Cluster_367_1	                       LM36.16	--------GGAAAATTAATTTTCTT---------
+Cluster	1
+Cluster_368_1	                       LM37.21	---------CATGCAAATGAGCCC----------
+Cluster	1
+Cluster_369_1	                       LM42.21	----------AAGCCTAATTAGCA----------
+Cluster	1
+Cluster_370_1	                       LM43.11	---------TTGGCAGGAAATGAAA---------
+Cluster	1
+Cluster_371_1	                       LM45.21	----------GCTAATTGGATTTG----------
+Cluster	1
+Cluster_372_1	                       LM46.14	----------AACAGCTGTTGAAA----------
+Cluster	1
+Cluster_373_1	                       LM47.24	-------AGAGTGCCACCTACTGAAT--------
+Cluster	1
+Cluster_374_1	                       LM48.21	---------TTAATGAGCTCATTAA---------
+Cluster	1
+Cluster_375_1	                       LM51.22	--------CATTTGCATATGCAAAT---------
+Cluster	1
+Cluster_376_1	                       LM52.24	------ACCTAATTAGGAAGGTAAATC-------
+Cluster	1
+Cluster_377_1	                       LM54.21	--------TCATTCATCACTGTCAG---------
+Cluster	1
+Cluster_378_1	                       LM55.21	---------AGCTAATTAGCACTT----------
+Cluster	1
+Cluster_379_1	                       LM56.19	----------CTCATTAATCAAAG----------
+Cluster	1
+Cluster_380_1	                       LM57.20	----------TGACAGTAATTAGC----------
+Cluster	1
+Cluster_381_1	                       LM58.20	---------CATAAATCACAGCTGA---------
+Cluster	1
+Cluster_382_1	                       LM59.20	----------TGACATTTTGACAG----------
+Cluster	1
+Cluster_383_1	                       LM61.26	-------TGTCAGCATTTCCATTATGA-------
+Cluster	1
+Cluster_384_1	                       LM63.20	----------TGATTTATGAGGTG----------
+Cluster	1
+Cluster_385_1	                       LM64.22	-----------TGACAGCTGTTT-----------
+Cluster	1
+Cluster_386_1	                       LM66.20	---------GAATGATTAATGACC----------
+Cluster	1
+Cluster_387_1	                       LM67.20	---------TGGAAATGCAATTAAG---------
+Cluster	1
+Cluster_388_1	                       LM69.12	------TGCTAATTAGCTTTCAATTAGC------
+Cluster	1
+Cluster_389_1	                       LM70.21	----------CTGAACAGATGGCC----------
+Cluster	1
+Cluster_390_1	                       LM71.20	----------TGATTAATTGCAAA----------
+Cluster	1
+Cluster_391_1	                       LM72.12	---------AATGCCTCATTAACT----------
+Cluster	1
+Cluster_392_1	                       LM73.22	---------ATGGAAACAGATGGT----------
+Cluster	1
+Cluster_393_1	                       LM74.16	---------AAGCCTTTGAAGTTCA---------
+Cluster	1
+Cluster_394_1	                       LM75.20	---------CAATTTGCAATTCAAT---------
+Cluster	1
+Cluster_395_1	                       LM76.24	-------CCAATTTGCATTTCATTTGC-------
+Cluster	1
+Cluster_396_1	                       LM78.20	---------TTTCCAGGAAATTGCA---------
+Cluster	1
+Cluster_397_1	                       LM79.20	--------TGCTAATGCAAATCAGAT--------
+Cluster	1
+Cluster_398_1	                       LM83.19	----------CTGTCAAAATCAAT----------
+Cluster	1
+Cluster_399_1	                       LM84.21	-------GACATCTGGTTGCAATTTG--------
+Cluster	1
+Cluster_400_1	                       LM85.14	---------TGGTTTTCATTAAAGC---------
+Cluster	1
+Cluster_401_1	                       LM86.12	---------CAGCTGCTTTTGATT----------
+Cluster	1
+Cluster_402_1	                       LM87.20	-------GGAAATTGAAGCAATTAGCT-------
+Cluster	1
+Cluster_403_1	                       LM88.20	--------AAGTTAATTGGAATCAAT--------
+Cluster	1
+Cluster_404_1	                       LM90.20	---------CTGGCAGCCTGCCAG----------
+Cluster	1
+Cluster_405_1	                       LM91.13	----------CAGCTGTGAAATTG----------
+Cluster	1
+Cluster_406_1	                       LM92.19	--------CTAATTTGATTTGGCAGA--------
+Cluster	1
+Cluster_407_1	                       LM93.22	-----TAAAGTGCTTTGAGCTCCTTGGA------
+Cluster	1
+Cluster_408_1	                       LM94.20	------AGGCAAATTCAATTTTCCATA-------
+Cluster	1
+Cluster_409_1	                       LM95.21	---------CTGCTCTGTAATTAG----------
+Cluster	1
+Cluster_410_1	                       LM96.12	-----TCATGCTACATTGATGTAAATTAG-----
+Cluster	1
+Cluster_411_1	                       LM99.21	---------AGAGGAAATGACTCA----------
+Cluster	1
+Cluster_412_1	                      LM100.20	---------ACTGAGCATGCTCAG----------
+Cluster	1
+Cluster_413_1	                      LM101.22	--------ATTTGCATACATTTGCAT--------
+Cluster	1
+Cluster_414_1	                      LM102.20	--------TCAAAGCACTTTACAAAC--------
+Cluster	1
+Cluster_415_1	                      LM103.20	--------AAATGTCACCATCTGTT---------
+Cluster	1
+Cluster_416_1	                      LM104.20	---------TTGACCTTTAAAGCT----------
+Cluster	1
+Cluster_417_1	                      LM107.12	---------TGCAATTAGCCATCTG---------
+Cluster	1
+Cluster_418_1	                      LM108.23	------TGAATTATCCAGATAATTGCT-------
+Cluster	1
+Cluster_419_1	                      LM109.13	---------AGCTGTGAATCACAG----------
+Cluster	1
+Cluster_420_1	                      LM110.25	------ATTTCCTGGGGATTAATGACC-------
+Cluster	1
+Cluster_421_1	                      LM112.22	---------CTCATTTGCATATTC----------
+Cluster	1
+Cluster_422_1	                      LM113.21	---------TCTGTTTTGCTTGGCA---------
+Cluster	1
+Cluster_423_1	                      LM114.20	----------TTTCCAATTAAGCT----------
+Cluster	1
+Cluster_424_1	                      LM116.15	--------TTAAAGCTGAAAATTGCT--------
+Cluster	1
+Cluster_425_1	                      LM118.18	--------TCATTTACTGTAAATGA---------
+Cluster	1
+Cluster_426_1	                      LM119.17	---------AAACCAATTAGCATC----------
+Cluster	1
+Cluster_427_1	                      LM120.20	----------CTTAATTACAGGCT----------
+Cluster	1
+Cluster_428_1	                      LM121.22	--------AGCTGCAAATTGCATTC---------
+Cluster	1
+Cluster_429_1	                      LM122.20	----------GCAGCTTTTAATGA----------
+Cluster	1
+Cluster_430_1	                      LM123.14	--------AGCTGTCATTTTTCATT---------
+Cluster	1
+Cluster_431_1	                      LM124.14	---------TTGCCAAATGGAAAA----------
+Cluster	1
+Cluster_432_1	                      LM126.20	----------CTGCTCTAATTGCA----------
+Cluster	1
+Cluster_433_1	                      LM127.21	----------TTTTGACAGCTCAG----------
+Cluster	1
+Cluster_434_1	                      LM128.24	-------TGCCAAGTTTCAGCCTGGAG-------
+Cluster	1
+Cluster_435_1	                      LM129.13	--------TGACAGATGGTCTGTCA---------
+Cluster	1
+Cluster_436_1	                      LM131.19	-------TCCAACTTGGATAATTGCAT-------
+Cluster	1
+Cluster_437_1	                      LM132.20	----------TGGTTCTCATTAAG----------
+Cluster	1
+Cluster_438_1	                      LM133.22	---------ACAGCCATAAATCAC----------
+Cluster	1
+Cluster_439_1	                      LM134.20	----------CTTAATTAGCTGAA----------
+Cluster	1
+Cluster_440_1	                      LM135.20	-------ACCCTGGTGGCCTGAAAGAG-------
+Cluster	1
+Cluster_441_1	                      LM136.20	--------TGTTGCCAAGAGCAACA---------
+Cluster	1
+Cluster_442_1	                      LM137.13	-------TTGAAGCAATTTGGCAGCT--------
+Cluster	1
+Cluster_443_1	                      LM138.18	---------ACAAAAGCCAGGAAAT---------
+Cluster	1
+Cluster_444_1	                      LM140.21	----------GTGACCTTTTGTTC----------
+Cluster	1
+Cluster_445_1	                      LM141.20	---------AGCCAAACCAAACAGT---------
+Cluster	1
+Cluster_446_1	                      LM142.16	-------TGTTCACAGATCATTAACT--------
+Cluster	1
+Cluster_447_1	                      LM143.20	----------CATTAATCAGCATT----------
+Cluster	1
+Cluster_448_1	                      LM144.19	--------TGCTAATGAGGCCAAGGT--------
+Cluster	1
+Cluster_449_1	                      LM145.21	------ATTCTCAGATGAAAGGTGCTA-------
+Cluster	1
+Cluster_450_1	                      LM146.25	-------CCTTTGCTGCCCTCTTCTG--------
+Cluster	1
+Cluster_451_1	                      LM147.21	---------CAGAAATCCATTAACA---------
+Cluster	1
+Cluster_452_1	                      LM148.21	----------CAGATTGACATTTC----------
+Cluster	1
+Cluster_453_1	                      LM149.22	-------TTGCTTTCAAATGCCAGGA--------
+Cluster	1
+Cluster_454_1	                      LM150.21	----------CATTAACCTTTAAC----------
+Cluster	1
+Cluster_455_1	                      LM151.22	-----CCCTGAAGCATGAGATTTGATTA------
+Cluster	1
+Cluster_456_1	                      LM152.13	--------AGAGAAGCCATTTATCT---------
+Cluster	1
+Cluster_457_1	                      LM153.20	---------TCTGTGATTAAAGCA----------
+Cluster	1
+Cluster_458_1	                      LM154.21	--------CATCTGGATGAAAAATG---------
+Cluster	1
+Cluster_459_1	                      LM155.24	-------CACTAGGGTACCATTTAGT--------
+Cluster	1
+Cluster_460_1	                      LM156.20	----------CCTTTGTAAACAAG----------
+Cluster	1
+Cluster_461_1	                      LM157.20	----------TGCCTAATTACACA----------
+Cluster	1
+Cluster_462_1	                      LM158.16	-------ATGGAAATCAGTTTTCCAT--------
+Cluster	1
+Cluster_463_1	                      LM159.22	--------TTGCTTTGGAAGCAGCT---------
+Cluster	1
+Cluster_464_1	                      LM160.15	-------GCTTTCAGAAATGCCATTT--------
+Cluster	1
+Cluster_465_1	                      LM161.21	----------CTAATGATTTCCTG----------
+Cluster	1
+Cluster_466_1	                      LM162.21	-------CCATTAGGAAGACAAATGG--------
+Cluster	1
+Cluster_467_1	                      LM163.22	-------TCATTTCCTCCTAATTGGT--------
+Cluster	1
+Cluster_468_1	                      LM164.22	--------TTGAAATGAAATGTGAC---------
+Cluster	1
+Cluster_469_1	                      LM165.21	----------GATTTCCTGTTGTG----------
+Cluster	1
+Cluster_470_1	                      LM166.21	----------CATGCTGAGATCAA----------
+Cluster	1
+Cluster_471_1	                      LM167.21	----------TTTTGACCTTTTCA----------
+Cluster	1
+Cluster_472_1	                      LM168.21	----------GCTTGTCAGAAACA----------
+Cluster	1
+Cluster_473_1	                      LM169.20	----------TTCCCAGCTGTTGC----------
+Cluster	1
+Cluster_474_1	                      LM170.14	--------TTGCTTGTAAATAAGAA---------
+Cluster	1
+Cluster_475_1	                      LM171.20	----------GTGTTAATGACTTC----------
+Cluster	1
+Cluster_476_1	                      LM172.22	---------AAATGAAATTCATTTG---------
+Cluster	1
+Cluster_477_1	                      LM173.22	--------ACTGATTTTCCTGACAA---------
+Cluster	1
+Cluster_478_1	                      LM174.21	----------AGCTGCCAAAAATC----------
+Cluster	1
+Cluster_479_1	                      LM175.21	----------CTGTTGACAGTAAA----------
+Cluster	1
+Cluster_480_1	                      LM176.21	---------GAGCCAGCTGGCTCC----------
+Cluster	1
+Cluster_481_1	                      LM177.22	-------CTTTGGCTTCAGACCAAAT--------
+Cluster	1
+Cluster_482_1	                      LM178.21	-------TGAATTCATTTTCCAAAGCA-------
+Cluster	1
+Cluster_483_1	                      LM179.13	-------CTGCTAAATTCATTTGGCAG-------
+Cluster	1
+Cluster_484_1	                      LM180.22	--------GATTTCATTTGAATGCT---------
+Cluster	1
+Cluster_485_1	                      LM181.21	---------ATTTGGCTTTAATGA----------
+Cluster	1
+Cluster_486_1	                      LM182.22	--------TCATTTTGCAAGTGCAA---------
+Cluster	1
+Cluster_487_1	                      LM183.22	--------AGCTGTCATTCTTGGAA---------
+Cluster	1
+Cluster_488_1	                      LM184.21	----------CTGCCCTTGATTTG----------
+Cluster	1
+Cluster_489_1	                      LM185.22	--------GCTTTGCTTCATTTCAG---------
+Cluster	1
+Cluster_490_1	                      LM186.21	----------GGCAGTAATTTTCC----------
+Cluster	1
+Cluster_491_1	                      LM187.22	---------CTTTGATCTTTCATT----------
+Cluster	1
+Cluster_492_1	                      LM188.21	--------TCTGACAGAAATGTCAA---------
+Cluster	1
+Cluster_493_1	                      LM189.20	-------TGTTCATTTGAAAGGAAATG-------
+Cluster	1
+Cluster_494_1	                      LM190.22	-------TTAATGGCCCATGAAATGA--------
+Cluster	1
+Cluster_495_1	                      LM191.21	-------ATCCATTTGTTGCCATGGT--------
+Cluster	1
+Cluster_496_1	                      LM192.14	-------TTTTCCTTTGCAAATTACAA-------
+Cluster	1
+Cluster_497_1	                      LM193.22	--------GTTCTCTGAAATGAAGT---------
+Cluster	1
+Cluster_498_1	                      LM194.23	-------AGAGGGCAGCAAAGTCCCA--------
+Cluster	1
+Cluster_499_1	                      LM195.22	---------TTTCCTTTCCAGCTG----------
+Cluster	1
+Cluster_500_1	                      LM196.23	-------ATTCATTTTGGCTTTGAAAG-------
+Cluster	1
+Cluster_501_1	                      LM197.23	-------AAAGATGCAGTATCCCTTTT-------
+Cluster	1
+Cluster_502_1	                      LM198.21	--------CTGAACTTTGTTTGAACT--------
+Cluster	1
+Cluster_503_1	                      LM199.22	--------GCTCTGGAAATTTCCAG---------
+Cluster	1
+Cluster_504_1	                      LM200.21	----TACTTTTAATGGGAAATCTGCATTT-----
+Cluster	1
+Cluster_505_1	                      LM201.22	--------CTTTCAAAGGCTCATTA---------
+Cluster	1
+Cluster_506_1	                      LM202.22	--------CTTGCCAAATGTGAATT---------
+Cluster	1
+Cluster_507_1	                      LM203.20	--------TGACTGTGAAATTACAG---------
+Cluster	1
+Cluster_508_1	                      LM204.24	--------CTCAAATCCTTTCTGGAA--------
+Cluster	1
+Cluster_509_1	                      LM205.22	---------TTTCAAGTCAAAACA----------
+Cluster	1
+Cluster_510_1	                      LM206.24	--------GAAAACAGTTTGTTCTCT--------
+Cluster	1
+Cluster_511_1	                      LM207.16	-------AGAACTTTTGCCAAAAGCAA-------
+Cluster	1
+Cluster_512_1	                      LM208.21	---------TGTGAAATGAGTTGG----------
+Cluster	1
+Cluster_513_1	                      LM209.23	-------CATTTCCTTTGTGGAATGAG-------
+Cluster	1
+Cluster_514_1	                      LM210.23	-------TCATCTTGCTTCTGAAAATG-------
+Cluster	1
+Cluster_515_1	                      LM211.23	-------TGACCTAGAGGTGAAAGGC--------
+Cluster	1
+Cluster_516_1	                      LM212.22	---------ATGGCTTTCCAAATG----------
+Cluster	1
+Cluster_517_1	                      LM213.23	-------CTTTGAGTTCCTTGGAAGAA-------
+Cluster	1
+Cluster_518_1	                      LM214.23	-------TCTGGAAAAGCACATTTGAT-------
+Cluster	1
+Cluster_519_1	                      LM215.23	--------CATTTCTCAGAAATGACT--------
+Cluster	1
+Cluster_520_1	                      LM216.23	-------TTTCTCTTTGAAACCTGCAA-------
+Cluster	1
+Cluster_521_1	                      LM217.23	-------TTTCATTAGAAGATGAAGCA-------
+Cluster	1
+Cluster_522_1	                      LM218.22	---------GAAAATGGGCTGTTT----------
+Cluster	1
+Cluster_523_1	                      LM219.17	-------TGTTTTGCTTTAGCAAAACA-------
+Cluster	1
+Cluster_524_1	                      LM220.24	-------ATGGCACTTTGGAAAATGGA-------
+Cluster	1
+Cluster_525_1	                      LM221.23	---------TGGCTGGCTTCCCAG----------
+Cluster	1
+Cluster_526_1	                      LM222.23	--------TTGGAAAGACTTCAAAGA--------
+Cluster	1
+Cluster_527_1	                      LM223.24	-------AGCAGTAATTTACTAAATTG-------
+Cluster	1
+Cluster_528_1	                      LM224.22	---------AATCATGTTTGAAAG----------
+Cluster	1
+Cluster_529_1	                      LM225.22	---------CTGTGGAAAATCTGA----------
+Cluster	1
+Cluster_530_1	                      LM226.22	---------AAAGCTTTCTTAATG----------
+Cluster	1
+Cluster_531_1	                      LM227.23	-------GAATTTAGTGCTTGTGAAAA-------
+Cluster	1
+Cluster_532_1	                      LM228.22	---------TGTTTCATAAAGCTG----------
+Cluster	1
+Cluster_533_1	                      LM229.22	---------TTTCCATCATAAATC----------
+Cluster	1
+Cluster_534_1	                      LM230.24	--------TGGAATTCAAAACACATT--------
+Cluster	1
+Cluster_535_1	                      LM231.22	---------CCACATCTGGAAAAG----------
+Cluster	1
+Cluster_536_1	                      LM232.23	-------TGGAAGCAGTGAAACAAATG-------
+Cluster	1
+Cluster_537_1	                      LM233.23	-------TGTTGATTCTTTCCAGGAAA-------
+Cluster	1
+Cluster_538_1	                        PM4.16	----------ACTATA---CCCA-----------
+Cluster	1
+Cluster_539_1	                        PM8.15	------------TATCGCGA-A------------
+Cluster	1
+Cluster_540_1	                       PM18.12	------------TCA--TGAT-------------
+Cluster	1
+Cluster_541_1	                       PM19.17	--------GTCGC-------TGATG---------
+Cluster	1
+Cluster_542_1	                       PM21.18	-----------GGAA-CGGAA-T-----------
+Cluster	1
+Cluster_543_1	                       PM22.12	-------------TGCGCA-T-------------
+Cluster	1
+Cluster_544_1	                       PM29.12	-------------CTTTAAA--------------
+Cluster	1
+Cluster_545_1	                       PM30.14	------------TGCGTACGC-------------
+Cluster	1
+Cluster_546_1	                       PM34.15	------------CTTAGCAAT-------------
+Cluster	1
+Cluster_547_1	                       PM37.15	------------GTTATCATAA------------
+Cluster	1
+Cluster_548_1	                       PM39.15	-----------TCCCA--ATGC------------
+Cluster	1
+Cluster_549_1	                       PM42.12	-------------TGACATT--------------
+Cluster	1
+Cluster_550_1	                       PM43.17	----------GTTG-T--AG-AAC----------
+Cluster	1
+Cluster_551_1	                       PM45.17	-----------CCA--AGATGGC-----------
+Cluster	1
+Cluster_552_1	                       PM48.15	-----------GCG--A-TTCC------------
+Cluster	1
+Cluster_553_1	                       PM50.14	------------AGAGGAAAT-------------
+Cluster	1
+Cluster_554_1	                       PM57.15	-------------ACCTGTTG-------------
+Cluster	1
+Cluster_555_1	                       PM59.15	------------ACTC-ATGGT------------
+Cluster	1
+Cluster_556_1	                       PM63.15	-----------AAGAAA-TGGC------------
+Cluster	1
+Cluster_557_1	                       PM65.16	------------AAGGGTTAA-------------
+Cluster	1
+Cluster_558_1	                       PM66.15	-----------AACT--ATTT-C-----------
+Cluster	1
+Cluster_559_1	                       PM70.12	-------------CGTCACG--------------
+Cluster	1
+Cluster_560_1	                       PM72.13	-------------TTCTAGAA-------------
+Cluster	1
+Cluster_561_1	                       PM74.15	----------GGAAT-----TCCT----------
+Cluster	1
+Cluster_562_1	                       PM75.15	-----------T-CAT-TCCTA------------
+Cluster	1
+Cluster_563_1	                       PM76.11	--------------CAGGTA--------------
+Cluster	1
+Cluster_564_1	                       PM77.13	------------AAATA-CTG-------------
+Cluster	1
+Cluster_565_1	                       PM78.13	------------GCT-ATTGT-------------
+Cluster	1
+Cluster_566_1	                       PM80.15	----------C-ACA---TCTAGA----------
+Cluster	1
+Cluster_567_1	                       PM81.18	-----------CGGAAA-GGC-G-----------
+Cluster	1
+Cluster_568_1	                       PM82.17	-----------CTGT--CTTTAA-----------
+Cluster	1
+Cluster_569_1	                       PM87.15	-----------ATTGC-ATGG-A-----------
+Cluster	1
+Cluster_570_1	                       PM88.15	-----------GGC-TCCAT-T------------
+Cluster	1
+Cluster_571_1	                       PM89.15	----------GTT-TT--GGT-A-----------
+Cluster	1
+Cluster_572_1	                       PM90.14	----------TAAT-A---T-ATT----------
+Cluster	1
+Cluster_573_1	                       PM91.14	-------------GTGGGTGT-------------
+Cluster	1
+Cluster_574_1	                       PM92.12	-------------TGCTGAT--------------
+Cluster	1
+Cluster_575_1	                       PM95.13	-----------GCC---ATAAA------------
+Cluster	1
+Cluster_576_1	                       PM96.13	------------TGCA-TGCA-------------
+Cluster	1
+Cluster_577_1	                       PM97.12	-------------TATT-ATC-------------
+Cluster	1
+Cluster_578_1	                       PM98.14	------------GTC-TTATGA------------
+Cluster	1
+Cluster_579_1	                       PM99.15	------------ATCA-TCCGT------------
+Cluster	1
+Cluster_580_1	                      PM100.15	----------CAGAAA----CGA-----------
+Cluster	1
+Cluster_581_1	                      PM101.12	-------------CTGCAGT--------------
+Cluster	1
+Cluster_582_1	                      PM102.14	-------------ATGGTGGA-------------
+Cluster	1
+Cluster_583_1	                      PM103.15	-----------ACAA-A-CACGG-----------
+Cluster	1
+Cluster_584_1	                      PM104.16	----------CCAAT--C---GCG----------
+Cluster	1
+Cluster_585_1	                      PM105.14	-----------ACTAC-ACT-T------------
+Cluster	1
+Cluster_586_1	                      PM106.14	-----------CCG-A--T-ACG-----------
+Cluster	1
+Cluster_587_1	                      PM107.14	-----------ATTT---TTGGA-----------
+Cluster	1
+Cluster_588_1	                      PM108.14	------------AACAACAA-T------------
+Cluster	1
+Cluster_589_1	                      PM109.15	------------TGTCCTTGA-------------
+Cluster	1
+Cluster_590_1	                      PM110.14	----------ACAAT-----GCG-----------
+Cluster	1
+Cluster_591_1	                      PM112.15	------------TTGGTACGAA------------
+Cluster	1
+Cluster_592_1	                      PM113.15	----------AACT----TTCCC-----------
+Cluster	1
+Cluster_593_1	                      PM114.16	-----------TTCCCA--AGGT-----------
+Cluster	1
+Cluster_594_1	                      PM115.14	-----------TATCA--ACGC------------
+Cluster	1
+Cluster_595_1	                      PM116.14	-----------TACAT--AGGA------------
+Cluster	1
+Cluster_596_1	                      PM117.15	---------TGTT-----AGCAAA----------
+Cluster	1
+Cluster_597_1	                      PM118.15	-----------GGC-A-ACTTTC-----------
+Cluster	1
+Cluster_598_1	                      PM119.14	-----------GGG-AA--TCAT-----------
+Cluster	1
+Cluster_599_1	                      PM120.16	---------TACTC----AA-AGC----------
+Cluster	1
+Cluster_600_1	                      PM121.15	------------CCAAA-AAGG------------
+Cluster	1
+Cluster_601_1	                      PM122.15	---------A-TCA--A--T-ATTA---------
+Cluster	1
+Cluster_602_1	                      PM123.15	----------GGC--ACAT-TTG-----------
+Cluster	1
+Cluster_603_1	                      PM124.14	-----------CCAAT--GAAA------------
+Cluster	1
+Cluster_604_1	                      PM125.14	-----------AAAG-T--CTTT-----------
+Cluster	1
+Cluster_605_1	                      PM126.14	----------ATAAA--A---GCG----------
+Cluster	1
+Cluster_606_1	                      PM127.13	-------------AATAAGGC-------------
+Cluster	1
+Cluster_607_1	                      PM128.15	---------ATCAC--A--A-CAG----------
+Cluster	1
+Cluster_608_1	                      PM129.13	-------------AAAGTTGT-------------
+Cluster	1
+Cluster_609_1	                      PM130.14	------------CCC--GGGAA------------
+Cluster	1
+Cluster_610_1	                      PM132.13	-------------TCCATTTA-------------
+Cluster	1
+Cluster_611_1	                      PM133.15	----------ATTAAA---TGAT-----------
+Cluster	1
+Cluster_612_1	                      PM134.13	-------------CATAAAGC-------------
+Cluster	1
+Cluster_613_1	                      PM135.14	------------AGCTAATTC-------------
+Cluster	1
+Cluster_614_1	                      PM136.13	-----------TAAT-A--TCC------------
+Cluster	1
+Cluster_615_1	                      PM137.14	-----------GAA-T-TGAC-T-----------
+Cluster	1
+Cluster_616_1	                      PM138.13	---------ATAAT-------GGC----------
+Cluster	1
+Cluster_617_1	                      PM139.14	------------AAATAAACA-------------
+Cluster	1
+Cluster_618_1	                      PM140.12	-------------A-GTGGGC-------------
+Cluster	1
+Cluster_619_1	                      PM141.14	----------TTC-AG----TTC-----------
+Cluster	1
+Cluster_620_1	                      PM142.15	------------ACAATAAAG-------------
+Cluster	1
+Cluster_621_1	                      PM143.15	----------CAG-AAC---GAC-----------
+Cluster	1
+Cluster_622_1	                      PM144.13	------------AAA-AATGC-------------
+Cluster	1
+Cluster_623_1	                      PM147.15	----------TAAT-A-A---CAG----------
+Cluster	1
+Cluster_624_1	                      PM148.16	------------GATGTAAGCG------------
+Cluster	1
+Cluster_625_1	                      PM149.14	-----------TGAC--TACAA------------
+Cluster	1
+Cluster_626_1	                      PM150.16	----------TTTCC---GGAAA-----------
+Cluster	1
+Cluster_627_1	                      PM151.15	---------ATAAAT------TTGA---------
+Cluster	1
+Cluster_628_1	                      PM152.13	-----------ACAA---TCAG------------
+Cluster	1
+Cluster_629_1	                      PM153.15	-----------CTGATTT-ATT------------
+Cluster	1
+Cluster_630_1	                      PM154.15	---------A-CTG-T-A-CTG-T----------
+Cluster	1
+Cluster_631_1	                      PM155.12	-----------AGTT-----AAA-----------
+Cluster	1
+Cluster_632_1	                      PM156.16	----------TACCAT--G-CGC-----------
+Cluster	1
+Cluster_633_1	                      PM157.14	------------TCCG-CATTT------------
+Cluster	1
+Cluster_634_1	                      PM158.14	----------CCC------AAGAT----------
+Cluster	1
+Cluster_635_1	                      PM159.15	------------GGCTCATGC-------------
+Cluster	1
+Cluster_636_1	                      PM160.15	-----------CAG-TGT-AAA------------
+Cluster	1
+Cluster_637_1	                      PM161.15	-----------TTA-A-A-TGGA-----------
+Cluster	1
+Cluster_638_1	                      PM162.13	------------TAA--TCGCG------------
+Cluster	1
+Cluster_639_1	                      PM163.16	-----------GGAA-TTTCCA------------
+Cluster	1
+Cluster_640_1	                      PM164.15	------------GCGCCA-TTT------------
+Cluster	1
+Cluster_641_1	                      PM165.14	----------CCAA-AA---GGC-----------
+Cluster	1
+Cluster_642_1	                      PM166.16	---------T-TTT---A-GCAAA----------
+Cluster	1
+Cluster_643_1	                      PM167.14	------------CCT-TAAGA-------------
+Cluster	1
+Cluster_644_1	                      PM168.13	------------TTAAT-GCT-------------
+Cluster	1
+Cluster_645_1	                      PM169.15	-----------TTT--A-AGCTA-----------
+Cluster	1
+Cluster_646_1	                      PM170.12	-----------T-GTT---ATT------------
+Cluster	1
+Cluster_647_1	                      PM171.14	-----------CTC-A-GTG-T------------
+Cluster	1
+Cluster_648_1	                      PM173.15	-----------TAATTA--AGCT-----------
+Cluster	1
+Cluster_649_1	                      PM174.12	-------------ATGAAAT--------------
+Cluster	1
+Cluster_650_1	                   UTR3M3_4.17	------------TTGTATATAT------------
+Cluster	1
+Cluster_651_1	                   UTR3M4_4.15	------------TATATATGA-------------
+Cluster	1
+Cluster_652_1	                   UTR3M5_3.11	-------------TTT-CTA--------------
+Cluster	1
+Cluster_653_1	                   UTR3M5_5.15	-------------TTTTGATA-------------
+Cluster	1
+Cluster_654_1	                   UTR3M6_3.13	-------------GGTGCCAA-------------
+Cluster	1
+Cluster_655_1	                   UTR3M7_2.15	-------------ATTTTTAT-------------
+Cluster	1
+Cluster_656_1	                   UTR3M7_3.15	------------CTTTTTATA-------------
+Cluster	1
+Cluster_657_1	                   UTR3M9_2.11	-------------TTT-TGT--------------
+Cluster	1
+Cluster_658_1	                   UTR3M9_5.15	-----------ATA-TT-TGTA------------
+Cluster	1
+Cluster_659_1	                  UTR3M10_5.15	-------------TCGCCTTA-------------
+Cluster	1
+Cluster_660_1	                  UTR3M11_2.11	--------------GCTGCT--------------
+Cluster	1
+Cluster_661_1	                  UTR3M11_4.13	-------------TTGCTGCA-------------
+Cluster	1
+Cluster_662_1	                  UTR3M11_5.13	-------------ATGCTGCA-------------
+Cluster	1
+Cluster_663_1	                  UTR3M12_2.13	-------------ACCAAAGA-------------
+Cluster	1
+Cluster_664_1	                  UTR3M12_3.13	-------------GCCAAAGA-------------
+Cluster	1
+Cluster_665_1	                  UTR3M13_7.14	------------TTGTA--TTT------------
+Cluster	1
+Cluster_666_1	                  UTR3M13_8.14	-----------ATTGTA---TTT-----------
+Cluster	1
+Cluster_667_1	                 UTR3M13_12.16	-----------TGTA--TA-TTA-----------
+Cluster	1
+Cluster_668_1	                 UTR3M13_16.16	-----------TTTACA--TTT------------
+Cluster	1
+Cluster_669_1	                  UTR3M14_4.14	------------TGCATTTTA-------------
+Cluster	1
+Cluster_670_1	                  UTR3M14_5.15	-------------TGCACGTT-------------
+Cluster	1
+Cluster_671_1	                  UTR3M17_2.13	-------------GTACAGA--------------
+Cluster	1
+Cluster_672_1	                  UTR3M18_1.12	-------------AGCAATA--------------
+Cluster	1
+Cluster_673_1	                  UTR3M18_4.13	------------ATGCA-TAT-------------
+Cluster	1
+Cluster_674_1	                  UTR3M19_2.13	-------------CTGTATAA-------------
+Cluster	1
+Cluster_675_1	                  UTR3M19_3.16	------------T-TGTATAAA------------
+Cluster	1
+Cluster_676_1	                  UTR3M21_1.14	-------------CTCAGGAA-------------
+Cluster	1
+Cluster_677_1	                  UTR3M22_2.13	-------------TTGTAAAA-------------
+Cluster	1
+Cluster_678_1	                  UTR3M22_3.15	------------TTTACCAAA-------------
+Cluster	1
+Cluster_679_1	                  UTR3M23_1.13	-------------AGCAATAA-------------
+Cluster	1
+Cluster_680_1	                  UTR3M23_2.14	-------------AAGCCATA-------------
+Cluster	1
+Cluster_681_1	                  UTR3M24_3.14	-------------TTTGCACA-------------
+Cluster	1
+Cluster_682_1	                  UTR3M26_2.13	-------------TGTAATAA-------------
+Cluster	1
+Cluster_683_1	                  UTR3M26_3.13	-------------AGTAATAA-------------
+Cluster	1
+Cluster_684_1	                  UTR3M28_1.15	-------------CTACCTCA-------------
+Cluster	1
+Cluster_685_1	                  UTR3M31_2.13	------------T-TAT--TGT------------
+Cluster	1
+Cluster_686_1	                  UTR3M32_4.13	-------------TGGTACTT-------------
+Cluster	1
+Cluster_687_1	                  UTR3M33_1.16	------------AGTAAATATT------------
+Cluster	1
+Cluster_688_1	                  UTR3M33_2.16	-----------TTGTAAA-ATT------------
+Cluster	1
+Cluster_689_1	                  UTR3M33_3.15	-----------TGTA--T-TTG------------
+Cluster	1
+Cluster_690_1	                  UTR3M34_1.12	-----------TTT----TGTA------------
+Cluster	1
+Cluster_691_1	                  UTR3M34_2.15	-----------TTTG-A-TGTA------------
+Cluster	1
+Cluster_692_1	                  UTR3M35_3.15	-------------GTACTGTG-------------
+Cluster	1
+Cluster_693_1	                  UTR3M36_2.12	-------------T-CTGTAA-------------
+Cluster	1
+Cluster_694_1	                  UTR3M36_3.15	-----------TTTTATAGT-A------------
+Cluster	1
+Cluster_695_1	                  UTR3M37_1.15	-------------TAATATAT-------------
+Cluster	1
+Cluster_696_1	                  UTR3M37_2.14	------------TGTA-TATAA------------
+Cluster	1
+Cluster_697_1	                  UTR3M38_1.13	-------------AACCAAAA-------------
+Cluster	1
+Cluster_698_1	                  UTR3M38_2.13	-------------AACCAAAT-------------
+Cluster	1
+Cluster_699_1	                  UTR3M39_1.16	-----------TATATT--TAC------------
+Cluster	1
+Cluster_700_1	                  UTR3M42_1.12	------------TTTT--TAC-------------
+Cluster	1
+Cluster_701_1	                  UTR3M42_2.15	------------AATTTA-TAC------------
+Cluster	1
+Cluster_702_1	                  UTR3M43_1.13	-------------AATAAATG-------------
+Cluster	1
+Cluster_703_1	                  UTR3M43_2.13	-------------TGTAAATG-------------
+Cluster	1
+Cluster_704_1	                  UTR3M43_3.15	------------TGTAA-TGT-------------
+Cluster	1
+Cluster_705_1	                  UTR3M44_2.13	-----------TGTA---AATT------------
+Cluster	1
+Cluster_706_1	                  UTR3M44_3.15	----------TTGTA---TATAT-----------
+Cluster	1
+Cluster_707_1	                  UTR3M46_2.15	-----------CTT--AATAAA------------
+Cluster	1
+Cluster_708_1	                  UTR3M48_2.16	----------TGTA---AATAAA-----------
+Cluster	1
+Cluster_709_1	                  UTR3M49_1.14	------------AAGTATCTT-------------
+Cluster	1
+Cluster_710_1	                  UTR3M51_1.12	-------------GGACCAA--------------
+Cluster	1
+Cluster_711_1	                  UTR3M52_1.13	-------------CTTAATAA-------------
+Cluster	1
+Cluster_712_1	                  UTR3M53_1.15	------------CTATTTATT-------------
+Cluster	1
+Cluster_713_1	                  UTR3M54_1.16	-----------TGTA-ATA-TTT-----------
+Cluster	1
+Cluster_714_1	                  UTR3M55_1.13	-------------AACCAAAG-------------
+Cluster	1
+Cluster_715_1	                  UTR3M56_1.14	-------------TACCAGCA-------------
+Cluster	1
+Cluster_716_1	                  UTR3M57_1.14	------------CTCA-TAAA-------------
+Cluster	1
+Cluster_717_1	                  UTR3M58_1.13	-------------TACTGCCA-------------
+Cluster	1
+Cluster_718_1	                  UTR3M59_1.16	-----------T-TAT-TGTA-A-----------
+Cluster	1
+Cluster_719_1	                  UTR3M61_1.13	-------------TGTACCAA-------------
+Cluster	1
+Cluster_720_1	                  UTR3M62_1.13	-------------TGCTACTA-------------
+Cluster	1
+Cluster_721_1	                  UTR3M63_1.16	-----------TGT---AATAAA-----------
+Cluster	1
+Cluster_722_1	                  UTR3M64_1.16	-----------AATAAA--TTG------------
+Cluster	1
+Cluster_723_1	                  UTR3M65_1.14	------------ACACTGTGA-------------
+Cluster	1
+Cluster_724_1	                  UTR3M65_2.13	-------------ACACTGTA-------------
+Cluster	1
+Cluster_725_1	                  UTR3M66_1.15	---------AATAA----TGTA-A----------
+Cluster	1
+Cluster_726_1	                  UTR3M66_2.15	----------TTTACA----TTT-----------
+Cluster	1
+Cluster_727_1	                  UTR3M69_1.16	------------TATTTA-ATG------------
+Cluster	1
+Cluster_728_1	                  UTR3M71_1.13	-------------GACAATC--------------
+Cluster	1
+Cluster_729_1	                  UTR3M73_1.15	------------TTC-A-TAAA------------
+Cluster	1
+Cluster_730_1	                  UTR3M73_2.16	-----------TTTCTA--AAA------------
+Cluster	1
+Cluster_731_1	                  UTR3M74_1.13	-------------TGCCAAAA-------------
+Cluster	1
+Cluster_732_1	                  UTR3M74_2.13	-------------TGCCAAAG-------------
+Cluster	1
+Cluster_733_1	                  UTR3M75_1.15	-----------TTT---ATCAAA-----------
+Cluster	1
+Cluster_734_1	                  UTR3M76_1.16	------------TTGTAATTAA------------
+Cluster	1
+Cluster_735_1	                  UTR3M77_1.15	------------AATAAA-TGT------------
+Cluster	1
+Cluster_736_1	                  UTR3M77_2.14	-----------TAATA-ACT-T------------
+Cluster	1
+Cluster_737_1	                  UTR3M78_1.15	-------------ATACGGGT-------------
+Cluster	1
+Cluster_738_1	                  UTR3M79_1.13	-------------TTGCACTA-------------
+Cluster	1
+Cluster_739_1	                  UTR3M80_2.14	-------------ATGTACAG-------------
+Cluster	1
+Cluster_740_1	                  UTR3M85_1.14	------------TAATAAAGC-------------
+Cluster	1
+Cluster_741_1	                  UTR3M86_1.15	------------TTGTTTACA-------------
+Cluster	1
+Cluster_742_1	                  UTR3M86_2.15	------------TGTTTACAA-------------
+Cluster	1
+Cluster_743_1	                  UTR3M87_1.15	------------AGA-TATTAA------------
+Cluster	1
+Cluster_744_1	                  UTR3M88_1.15	-----------AGAT-T-TATA------------
+Cluster	1
+Cluster_745_1	                  UTR3M89_1.13	-------------GTGC-ATT-------------
+Cluster	1
+Cluster_746_1	                  UTR3M91_1.14	------------TGTA-A-AGC------------
+Cluster	1
+Cluster_747_1	                  UTR3M92_1.14	------------TAAAGT-TTA------------
+Cluster	1
+Cluster_748_1	                  UTR3M93_1.14	----------TTGTA----TATT-----------
+Cluster	1
+Cluster_749_1	                  UTR3M94_1.15	------------TACAAT-TTT------------
+Cluster	1
+Cluster_750_1	                  UTR3M95_1.13	-------------GTTGTA-A-------------
+Cluster	1
+Cluster_751_1	                  UTR3M96_1.15	-------------GGTACGAA-------------
+Cluster	1
+Cluster_752_1	                  UTR3M97_1.13	-------------ATATGCAA-------------
+Cluster	1
+Cluster_753_1	                  UTR3M98_1.15	----------TATTT----GTA-A----------
+Cluster	1
+Cluster_754_1	                 UTR3M100_1.14	------------CTTATA-ATA------------
+Cluster	1
+Cluster_755_1	                 UTR3M100_2.14	------------CTTTTGTAA-------------
+Cluster	1
+Cluster_756_1	                 UTR3M101_1.15	-------------GTCAATAA-------------
+Cluster	1
+Cluster_757_1	                 UTR3M102_1.15	-------------TAACGGGT-------------
+Cluster	1
+Cluster_758_1	                 UTR3M103_1.14	------------TATAA-TAC-------------
+Cluster	1
+Cluster_759_1	                 UTR3M105_1.15	-------------AAGGGCTA-------------
+Cluster	1
+Cluster_760_1	                 UTR3M106_1.15	-------------GGCAGCTA-------------
+Cluster	1
+Cluster_761_1	                      Nanog.11	-----------GGGCCCATTTCC-----------
