@@ -1,5 +1,5 @@
-CLASSROOT= /Users/mclamp/cvs/pogdev/classfiles
-JARFILES = /Users/mclamp/cvs/pogdev/jars
+CLASSROOT= /Users/mclamp/git/harvardinformatics/pogview/classfiles2
+JARFILES = /Users/mclamp/git/harvardinformatics/pogview/jars
 JAVA = /usr/
 
 CLASSPATH=.:$(CLASSROOT):$(JARFILES)/patbinfree153.jar:$(JARFILES)/looks-1.3.1.jar:$(JARFILES)/forms-1.1.0.jar:$(JARFILES)/epsgraphics.jar:$(JARFILES)/colt.jar:$(JARFILES)/concurrent.jar:$(JARFILES)/swing-worker-1.2.jar
@@ -9,8 +9,8 @@ install: all
 clean:
 	find . -name '*.class' -exec rm {} \;
 
-#CC      = $(JAVA)/bin/javac -target 1.6 -sourcepath ./:./src/ -classpath $(CLASSPATH) -d $(CLASSROOT)
-CC      = $(JAVA)/bin/javac -sourcepath ./:./src/ -classpath $(CLASSPATH) -d $(CLASSROOT)
+#CC      = $(JAVA)/bin/javac -target 1.6 -sourcepath ./:./src2/ -classpath $(CLASSPATH) -d $(CLASSROOT)
+CC      = $(JAVA)/bin/javac -sourcepath ./:./src2/ -classpath $(CLASSPATH) -d $(CLASSROOT)
 
 all:	datamodel io gui guihub guievent guimenus guischemes blast analysis applet renderer expression motif tree util math feature jar
 
@@ -72,37 +72,37 @@ util: $(UTILCLASS)
 feature: $(FEATURECLASS)
 	$(CC) $(FEATURE)
 
-IO = src/pogvue/io/*.java
+IO = src2/pogvue/io/*.java
 
-GUI = src/pogvue/gui/*.java
+GUI = src2/pogvue/gui/*.java
 
-GUIHUB = src/pogvue/gui/hub/*.java
+GUIHUB = src2/pogvue/gui/hub/*.java
 
-GUIEVENT = src/pogvue/gui/event/*.java
+GUIEVENT = src2/pogvue/gui/event/*.java
 
-GUIMENUS = src/pogvue/gui/menus/*.java
+GUIMENUS = src2/pogvue/gui/menus/*.java
 
-GUISCHEMES = src/pogvue/gui/schemes/*.java
+GUISCHEMES = src2/pogvue/gui/schemes/*.java
 
-MATH = src/pogvue/math/*.java
+MATH = src2/pogvue/math/*.java
 
-UTIL = src/pogvue/util/*.java
+UTIL = src2/pogvue/util/*.java
 
-DATAMODEL = src/pogvue/datamodel/*.java
+DATAMODEL = src2/pogvue/datamodel/*.java
 
-MOTIF = src/pogvue/datamodel/motif/*.java
+MOTIF = src2/pogvue/datamodel/motif/*.java
 
-EXPRESSION = src/pogvue/datamodel/expression/*.java
+EXPRESSION = src2/pogvue/datamodel/expression/*.java
 
-TREE = src/pogvue/datamodel/tree/*.java
+TREE = src2/pogvue/datamodel/tree/*.java
 
-RENDERER = src/pogvue/gui/renderer/*.java
+RENDERER = src2/pogvue/gui/renderer/*.java
 
-APPLET = src/pogvue/applet/*.java
+APPLET = src2/pogvue/applet/*.java
 
-ANALYSIS =  src/pogvue/analysis/*.java
+ANALYSIS =  src2/pogvue/analysis/*.java
 
-BLAST =  src/pogvue/analysis/blast/*.java
+BLAST =  src2/pogvue/analysis/blast/*.java
 
-FEATURE =  src/pogvue/feature/*.java
+FEATURE =  src2/pogvue/feature/*.java
 
