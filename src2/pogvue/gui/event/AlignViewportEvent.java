@@ -17,8 +17,8 @@ public final class AlignViewportEvent extends EventObject {
   public static final int DELETE    = 7;
   public static final int THRESHOLD = 8;
   public static final int WRAP      = 9;
-  public static final int HSCROLL   = 10;
-  public static final int GLASS   = 11;
+    public static final int HSCROLL   = 10;
+    public static final int GLASS   = 11;
 
   public AlignViewportEvent(Object source, AlignViewport viewport, int type) {
     super(source);

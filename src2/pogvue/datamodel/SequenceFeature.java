@@ -4,6 +4,7 @@ import pogvue.util.Format;
 import pogvue.io.GFFFile;
 
 import java.awt.*;
+
 import java.util.*;
 
 public class SequenceFeature {

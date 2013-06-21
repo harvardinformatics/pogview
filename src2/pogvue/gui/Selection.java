@@ -23,23 +23,23 @@ public final class Selection {
       System.err.println("WARNING: Tried to remove Sequence NOT in Selection");
     }
   }
-  
+
   public boolean contains(Sequence seq) {
     return selected.contains(seq);
   }
-  
+
   public Sequence sequenceAt(int i) {
     return (Sequence)selected.elementAt(i);
   }
-  
+
   public int size() {
     return selected.size();
   }
-  
+
   public Vector asVector() {
     return selected;
   }
-  
+
   public void selectAll(Alignment align) {
     for (int i=0;i<align.getSequences().size();i++) {
       Sequence seq = align.getSequenceAt(i);

@@ -78,6 +78,8 @@ public class FileMenu extends PanelMenu implements ActionListener {
       if (file != null) {
       	jibbleprint(file,true);
       }
+    } else if (e.getSource() == find) {
+      //asp.getAlignmentPanel2().getAlignViewport().search();
     }
   }
   
@@ -111,4 +113,5 @@ public class FileMenu extends PanelMenu implements ActionListener {
     }
     
   }
+    
 }

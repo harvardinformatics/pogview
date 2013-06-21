@@ -10,7 +10,6 @@ import java.text.*;
 import pogvue.analysis.*;
 import pogvue.gui.*;
 import pogvue.datamodel.*;
-
 import pogvue.gui.event.*;
 import pogvue.gui.renderer.ConsensusRenderer;
 import pogvue.gui.renderer.CpGRenderer;
@@ -119,7 +118,6 @@ public class SeqCanvasListener implements MouseListener,
     	controller.handleStatusEvent(new StatusEvent(this,formattedNumber,StatusEvent.POSITION));
 
     }
-    //av.showTree(newres);
 
   }
   
@@ -257,8 +255,8 @@ public class SeqCanvasListener implements MouseListener,
 	} else if (c == '=') { av.zoomIn();                                                 redraw = true;
 	} else if (c == 'S') { av.setHuman(!av.getHuman());                                  redraw = true;
 	} else if (c == 'x') { av.hideGappySequences();                                           redraw = true;
-	  //} else if (c == 's') { av.toggleSequence();                                           redraw = true;
-	  //} else if (c == 'X') { av.expandRegion();                                          redraw = true;
+	} else if (c == 's') { av.toggleSequence();                                           redraw = true;
+	} else if (c == 'X') { av.expandRegion();                                          redraw = true;
 	  //} else if (c == 'y') { av.toggleTree();                                             redraw = true;
 	  //} else if (c == 'Y') { av.findMutations();                                            redraw = true;
 	  //} else if (c == 'O') { av.scanLogos();                                                redraw = true;

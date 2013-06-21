@@ -379,7 +379,7 @@ public class SeqCanvas extends ControlledCanvas implements AlignViewportListener
     
     if (x2 >= x1 && (av.getEndRes()-av.getStartRes()) < 2000) {
       //System.out.println("Fetching sequence");
-      //av.getSequence(x1,x2);   // this can go down into alignment
+      av.getSequence(x1,x2);   // this can go down into alignment
     }
     long start = System.currentTimeMillis();
 

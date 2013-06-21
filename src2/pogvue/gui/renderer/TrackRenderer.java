@@ -112,6 +112,17 @@ public class TrackRenderer {
             r = av.getRenderer();
           }
 
+          if (i % 2 == 0) {
+            g.setColor(AlignViewport.stripeColor);
+            g.fillRect(offset + (int) ((x1 - startx) * charWidth), offsety
+                + av.getPixelHeight(starty, i, av.getCharHeight()),
+                (int) ((x2 - x1 + 1) * charWidth), av.getCharHeight());
+          } else {
+            g.setColor(Color.white);
+            g.fillRect(offset + (int) ((x1 - startx) * charWidth), offsety
+                + av.getPixelHeight(starty, i, av.getCharHeight()),
+                (int) ((x2 - x1 + 1) * charWidth), av.getCharHeight());
+          }
 
           if (i == 0) {
             // System.out.println("Drawing sequence " + offset + " " +

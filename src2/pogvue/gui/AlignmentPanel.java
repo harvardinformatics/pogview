@@ -85,6 +85,10 @@ public final class AlignmentPanel extends ControlledPanel implements AlignViewpo
     
     idPanel    = new IdCanvas  (av,controller);
     seqCanvas  = new SeqCanvas (av,controller);
+    //lp = new LayeredPanel(av,controller);
+    //seqCanvas   = lp.getSeqCanvas();
+    //glassCanvas = lp.getGlassCanvas();
+
     scalePanel = new ScalePanel(av,controller);
     
     hscroll = new JScrollBar(Scrollbar.HORIZONTAL);
@@ -283,6 +287,7 @@ public final class AlignmentPanel extends ControlledPanel implements AlignViewpo
   public Dimension getPreferredSize() {
     return new Dimension(20,200);
   }
+  
 }
 
 

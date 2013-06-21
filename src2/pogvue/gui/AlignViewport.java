@@ -15,7 +15,8 @@ import java.awt.event.*;
 public final class AlignViewport implements ActionListener, KeyListener {
 
   public static final Color stripeColor = Color.white;//new Color(240,240,240);
-  
+  private boolean     showLogoLabels = true;
+
   private int newres;
   private int newseq;
   
@@ -28,6 +29,9 @@ public final class AlignViewport implements ActionListener, KeyListener {
 
   public boolean showGaps = true;
   public boolean shownGFFConfigError = false;
+
+  public String tffile = "data/tf9.4.matrix.dat";
+  public Sequence[] tffasta = null;
 
   public Vector hide;
 
@@ -62,7 +66,6 @@ public final class AlignViewport implements ActionListener, KeyListener {
   private int threshold;
   private int increment;
 
-  private pogvue.datamodel.tree.Tree  tree = null;
   private boolean human       = true;
 
   private int window   = 20;
@@ -73,14 +76,14 @@ public final class AlignViewport implements ActionListener, KeyListener {
   public boolean showSequence = false;
   private Controller controller;
   
-  private int mousePos = -1;
-  private int mouseRes = -1;
-  private int mouseSeq = -1;
-  
-  private int lastres;
-  private int lastseq;
-  
-  private Image[][] images;
+    private int mousePos = -1;
+    private int mouseRes = -1;
+    private int mouseSeq = -1;
+
+    private int lastres;
+    private int lastseq;
+    
+    private Image[][] images;
     // These should be in another class that stores urls/data sourcs
   private static final String fasta_url = "http://www.broadinstitute.org/~mclamp/fetchmam_ungapped.php?";
   private static final String gff_url   = "http://www.broadinstitute.org/~mclamp/fetchmamgff.php?";
@@ -131,7 +134,7 @@ public final class AlignViewport implements ActionListener, KeyListener {
     kmers = new Vector();
   }
   
-
+   
     public void setImages(Image[][] img) {
 	this.images = img;
     }
@@ -151,6 +154,8 @@ public final class AlignViewport implements ActionListener, KeyListener {
   	if (getCharHeight() > 1) {
 			setCharHeight(getCharHeight()-1);
   	}
+  }
+  public void expandRegion() {
   }
   public void moveLeft() {
     int width    = getEndRes()- getStartRes() +1;
@@ -456,7 +461,6 @@ public final class AlignViewport implements ActionListener, KeyListener {
   // So this is sequence stuff - keep here for now but should be moved
   public void getSequence(int x1, int x2) {
   }
-  
   
   public void setFont(Graphics g, Font f) {
   	
@@ -963,7 +967,9 @@ public final class AlignViewport implements ActionListener, KeyListener {
   }
 
  
+ 
   // This is sequence fetching - not here but in FeatureSet probably
   public void actionPerformed(ActionEvent e) {
-  }    
+    
+  }
 }

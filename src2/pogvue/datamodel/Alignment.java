@@ -1,11 +1,12 @@
 package pogvue.datamodel;
 
-import pogvue.analysis.AAFrequency;
+import pogvue.analysis.*;
 
 import pogvue.io.*;
 import pogvue.gui.hub.*;
 import java.io.*;
 
+//import pogvue.util.Comparison;
 import pogvue.util.QuickSort;
 import pogvue.gui.AlignViewport;
 
@@ -19,7 +20,7 @@ import javax.swing.JFrame;
 
 public class Alignment  {
 
-  private ChrRegion      chrRegion;
+  private ChrRegion chrRegion;
   private Vector         sequences;
 
   private int maxLength = -1;
@@ -27,23 +28,21 @@ public class Alignment  {
   public Alignment() {
   	sequences = new Vector();
   }
-
   public Alignment(Sequence[] seqs) {
-    sequences = new Vector();
+  	sequences = new Vector();
     
-    for (Sequence seq : seqs) {
-      sequences.addElement(seq);
-    }
+  	for (Sequence seq : seqs) {
+  		sequences.addElement(seq);
+  	}
     maxLength = -1;
     getWidth();
+  }
+  public void addSequence(Sequence snew) {
+  	sequences.addElement(snew);
+  	maxLength = -1;
+  	getWidth();
   }
 
-  public void addSequence(Sequence snew) {
-    sequences.addElement(snew);
-    maxLength = -1;
-    getWidth();
-  }
-  
   public void addSequence(Sequence[] seq) {
     for (Sequence aSeq : seq) {
       addSequence(aSeq);
@@ -61,123 +60,123 @@ public class Alignment  {
   }
 
   public void addSequences(Vector feat, int space) {
-    
-    for (int i = 0; i < feat.size(); i++) {
-      Sequence seq = (Sequence)feat.elementAt(i);
-      
-      for (int j = 0; j < space; j++) {
-	GFF gff = new GFF(seq.getName(),"",1,2);
-	addSequence(gff);
-	j++;
-      }
+
+  	for (int i = 0; i < feat.size(); i++) {
+  		Sequence seq = (Sequence)feat.elementAt(i);
+  
+  		for (int j = 0; j < space; j++) {
+  			GFF gff = new GFF(seq.getName(),"",1,2);
+  			addSequence(gff);
+  			j++;
+  		}
       addSequence(seq);
     }
   }
 
   public void  deleteSequence(int i) {
-    sequences.removeElementAt(i);
-    maxLength = -1;
-    getWidth();
+  	sequences.removeElementAt(i);
+  	maxLength = -1;
+  	getWidth();
   }
-  
+
   public void deleteSequence(Sequence s) {
-    for (int i=0; i < getHeight(); i++) {
-      if (getSequenceAt(i) == s) {
-	deleteSequence(i);
-	maxLength = -1;
-	getWidth();
+  	for (int i=0; i < getHeight(); i++) {
+  		if (getSequenceAt(i) == s) {
+  			deleteSequence(i);
+  			maxLength = -1;
+  			getWidth();
       }
     }
   }
   
   public int findIndex(Sequence s) {
-    int i = 0;
-    
-    while (i < sequences.size()) {
-      if (s == getSequenceAt(i)) {
+  	int i = 0;
+  	
+  	while (i < sequences.size()) {
+  		if (s == getSequenceAt(i)) {
       	return i;
-      }
+  		}
       i++;
-    }
+  	}
     return -1;
   }
-  
+
   public Sequence findName(String name) {
-    int i = 0;
-    
-    while (i < sequences.size()) {
-      
-      Sequence s = getSequenceAt(i);
-      
-      if (s.getName().equals(name)) {
-	return s;
-      }
-      i++;
-    }
+  	int i = 0;
+  	
+  	while (i < sequences.size()) {
+  		
+  		Sequence s = getSequenceAt(i);
+  		
+  		if (s.getName().equals(name)) {
+  			return s;
+  		}
+  		i++;
+  	}
     return null;
   }
-  
+
   public int getHeight() {
-    return sequences.size();
+      return sequences.size();
   }
   public int getMaxIdLength() {
     int max = 0;
     int i   = 0;
-    
+
     while (i < sequences.size()) {
       Sequence seq = getSequenceAt(i);
       if (seq.getIdLength() > max) {
         max = seq.getIdLength();
       }
-      
+
       i++;
     }
     return max;
   }
-  
+
   public Hashtable getNameHash() {
     Hashtable out = new Hashtable();
-    
+
     for (int i = 0; i < sequences.size(); i++) {
       Sequence seq = getSequenceAt(i);
       out.put(seq.getName(),seq);
     }
     return out;
   }
-  
+
   public Sequence[] getSequenceArray() {
-    return (Sequence[])(sequences.toArray(new Sequence[sequences.size()]));
+  	return (Sequence[])(sequences.toArray(new Sequence[sequences.size()]));
   }
-  
+
   public Sequence getSequenceAt(int i) {
-    if (i >= 0 && i < sequences.size()) {
-      return (Sequence)sequences.elementAt(i);
-    }
-    return null;
+  	if (i >= 0 && i < sequences.size()) {
+  		return (Sequence)sequences.elementAt(i);
+  	}
+  	return null;
   }
-  
+
   public ChrRegion getChrRegion() {
     return chrRegion;
   }
-  
+
   public Vector      getSequences() {
-    return sequences;
+  	return sequences;
   }
-  
+
   public int getWidth() {
-    
-    if (maxLength == -1) {
-      for (int i = 0; i < sequences.size(); i++) {
-	
-	if (getSequenceAt(i).getLength() > maxLength) {
-	  
-	  maxLength = getSequenceAt(i).getLength();
-	}
-      }
-    }
-    return maxLength;
+
+  	if (maxLength == -1) {
+  		for (int i = 0; i < sequences.size(); i++) {
+
+  			if (getSequenceAt(i).getLength() > maxLength) {
+
+  				maxLength = getSequenceAt(i).getLength();
+  			}
+  		}
+  	}
+  	return maxLength;
   }
-  
+
   public void insertSequenceAt(Sequence seq,int pos) {
     if (pos >=0 && pos < getHeight()) {
       sequences.insertElementAt(seq,pos);
@@ -185,11 +184,11 @@ public class Alignment  {
     maxLength = -1;
     getWidth();
   }
-  
+
   public void setSequenceAt(int i,Sequence snew) {
-    Sequence oldseq = getSequenceAt(i);
+  	Sequence oldseq = getSequenceAt(i);
     deleteSequence(oldseq);
-    
+
     sequences.setElementAt(snew,i);
   }
   public void setChrRegion(ChrRegion r) {
@@ -203,27 +202,45 @@ public class Alignment  {
     getWidth();
   }
   public Sequence getSequenceByName(String name) {
-    
-    int i = 0;
-    Sequence gff = null;
-    boolean newSequence = true;
-    
-    while (i < getHeight() && gff == null) {
-      if (getSequenceAt(i) instanceof Sequence &&
-	  getSequenceAt(i).getName().equals(name)) {
-	gff = (Sequence)getSequenceAt(i);
-	newSequence = false;
-      }
-      i++;
-    }
+  	
+  	int i = 0;
+  	Sequence gff = null;
+  	boolean newSequence = true;
+  	
+  	while (i < getHeight() && gff == null) {
+  		if (getSequenceAt(i) instanceof Sequence &&
+  				getSequenceAt(i).getName().equals(name)) {
+  			gff = (Sequence)getSequenceAt(i);
+  			newSequence = false;
+  		}
+  		i++;
+  	}
     return gff;
-    
+
   }
-  public static Alignment getDummyAlignment(String name,String chr,int start, int end) {
+  public Vector getGFFByName(String name) {
+
+    int i = 0;
+    Vector out = new Vector();
+    
+    while (i < getHeight()) {
+    	if (getSequenceAt(i) instanceof GFF &&
+    			getSequenceAt(i).getName().equals(name)) {
+    		GFF gff = (GFF)getSequenceAt(i);
+    		out.addElement(gff);
+    	}
+    	i++;
+    }
+    return out;
+
+  }
+
+  
+	public static Alignment getDummyAlignment(String name,String chr,int start, int end) {
     Sequence[] s = new Sequence[1];
     
     StringBuffer tmpseq = new StringBuffer();
-    
+	
     int i = 0;
     
     while (i < end-start+1) {
@@ -240,19 +257,21 @@ public class Alignment  {
     
     return al;
   }
-  
-  public int countSequenceEntries() {
-    int count = 0;
-    
-    for (int i = 0; i < getHeight(); i++) {
-      Sequence seq = getSequenceAt(i);
-      
-      if (seq.getSequence().length() > 1) {
-	count++;
+	
+	public int countSequenceEntries() {
+	  int count = 0;
+	  
+	  for (int i = 0; i < getHeight(); i++) {
+	    Sequence seq = getSequenceAt(i);
+	    
+	    if (seq.getSequence().length() > 1) {
+	      count++;
 	    }
-    }
-    return count;
-  }
+	  }
+	  return count;
+	}
+  
+
 }
 
 

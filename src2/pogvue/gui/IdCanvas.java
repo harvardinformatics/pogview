@@ -154,6 +154,9 @@ public final class IdCanvas extends ControlledCanvas implements
 
         if (count >= starty && count <= endy) {
           gg.setColor(Color.white);
+          if (count % 2 == 0) {
+            gg.setColor(AlignViewport.stripeColor);
+          }
           gg.fillRect(0, av.getPixelHeight(starty, count, charHeight), size().width,
               charHeight);
         }

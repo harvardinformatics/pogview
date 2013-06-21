@@ -24,6 +24,26 @@ import pogvue.datamodel.*;
  * change this template use File | Settings | File Templates.
  */
 public class GenomeInfoFactory {
+  // public static final String urlstub =
+  // "http://www.broad.mit.edu/~mclamp/alpheus/";
+  // public static final String fastaurlstub =
+  // "http://www.broad.mit.edu/~mclamp/";
+  // public static final String urlstub = "http://srv/~mclamp/";
+  public static final String urlstub        = "http://localhost:8080/~mclamp/";
+  public static final String fastaurlstub   = AlignViewport.getFastaURL();
+
+  public static final String geneidstub     = "getGenesById.php?";
+  public static final String chromosomestub = "queryChromosomes.php";
+  public static final String regionstub     = "fetchmam.php?";
+  public static final String graphstub      = "fetchmamgraph.php?";
+  public static final String humanstub      = "fetchhuman.php?";
+  public static final String featurestub    = "fetchmamgff.php?";
+  public static final String genestub       = "fetchgene.php?";
+  public static final String repeatstub     = "fetchrepeat.php?";
+  public static final String mrnastub       = "fetch_mrna.php?";
+  public static final String geneinfostub   = "fetch_geneinfo.php?";
+
+
   // So this is a train wreck - where do I start?
   public static AlignSplitPanel makePanel(Alignment al, String title,
       double width1, double width2, int offset, int start, int end, int width) {
@@ -76,6 +96,8 @@ public class GenomeInfoFactory {
     jp.add("Center", ap);
     return jp;
   }
+
+ 
 
 
 }
