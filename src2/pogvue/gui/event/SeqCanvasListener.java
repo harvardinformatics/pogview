@@ -12,6 +12,7 @@ import pogvue.gui.*;
 import pogvue.datamodel.*;
 import pogvue.gui.event.*;
 import pogvue.gui.renderer.ConsensusRenderer;
+import pogvue.gui.renderer.PercentIdentityRenderer;
 import pogvue.gui.renderer.CpGRenderer;
 import pogvue.gui.renderer.FrameMismatchRenderer;
 import pogvue.gui.renderer.GraphRenderer;
@@ -248,6 +249,7 @@ public class SeqCanvasListener implements MouseListener,
 	} else if (c == 'R') { av.setRenderer(new ConsensusRenderer());                      redraw = true;
 	} else if (c == 'g') { av.setRenderer(new CpGRenderer());                            redraw = true;
 	} else if (c == 'l') { av.setRenderer(new ConflateAlignRenderer());                    redraw = true;
+	} else if (c == 'p') { av.setRenderer(new PercentIdentityRenderer());                    redraw = true;
 	} else if (c == 'c') { av.hideTrack(av.getIndex(mousepos));                          redraw = true;
 	} else if (c == 'C') { av.showAllTracks();                                            redraw = true;
 	} else if (c == 'o') { av.collapseAllTracks();                                         redraw = true;

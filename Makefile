@@ -12,7 +12,8 @@ clean:
 #CC      = $(JAVA)/bin/javac -target 1.6 -sourcepath ./:./src2/ -classpath $(CLASSPATH) -d $(CLASSROOT)
 CC      = $(JAVA)/bin/javac -sourcepath ./:./src2/ -classpath $(CLASSPATH) -d $(CLASSROOT)
 
-all:	datamodel io gui guihub guievent guimenus guischemes blast analysis applet renderer expression motif tree util math feature jar
+#all:	datamodel io gui guihub guievent guimenus guischemes blast analysis applet renderer expression motif tree util math feature jar
+all:	datamodel io gui guihub guievent guimenus guischemes analysis renderer expression motif tree util math feature jar
 
 jar:
 	cd classfiles ; ./makejar ; cd .. ; echo poggywog | jarsigner jars/pogvue.jar pogvue

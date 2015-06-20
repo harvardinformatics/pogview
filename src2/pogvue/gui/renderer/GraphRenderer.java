@@ -31,7 +31,7 @@ public final class GraphRenderer implements RendererI {
 	Vector inserts = null;
 
 
-	//System.out.println("Drawing GraphRenderer");
+	System.out.println("Drawing GraphRenderer ======");
 
 	if (seq instanceof GappedSequence) {
 	    inserts = ((GappedSequence)seq).inserts;

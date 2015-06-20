@@ -1,9 +1,12 @@
 package pogvue.gui;
 
 import pogvue.datamodel.*;
+import pogvue.datamodel.motif.*;
+import pogvue.datamodel.tree.*;
 import pogvue.analysis.*;
 import pogvue.io.*;
 import pogvue.gui.renderer.*;
+import pogvue.analysis.SequenceFetchThread;
 import pogvue.gui.event.*;
 import java.beans.*;
 import javax.swing.*;
@@ -17,6 +20,13 @@ public final class AlignViewport implements ActionListener, KeyListener {
   public static final Color stripeColor = Color.white;//new Color(240,240,240);
   private boolean     showLogoLabels = true;
 
+  private JFrame     treeframe;
+  private TreePanel  treepanel;
+  private boolean    showtree = false;
+  
+  private JFrame       sframe;
+  private ProgressPanel progressPanel;
+  
   private int newres;
   private int newseq;
   
@@ -66,11 +76,13 @@ public final class AlignViewport implements ActionListener, KeyListener {
   private int threshold;
   private int increment;
 
+  private pogvue.datamodel.tree.Tree  tree = null;
   private boolean human       = true;
 
   private int window   = 20;
   private int baseline = 70;
 
+  private SequenceFetchThread sft;
   private int offset = 0;
   private Vector kmers;
   public boolean showSequence = false;
@@ -82,6 +94,8 @@ public final class AlignViewport implements ActionListener, KeyListener {
 
     private int lastres;
     private int lastseq;
+    
+    private RegionFetchThread rft;
     
     private Image[][] images;
     // These should be in another class that stores urls/data sourcs
@@ -134,7 +148,18 @@ public final class AlignViewport implements ActionListener, KeyListener {
     kmers = new Vector();
   }
   
+
+  public void showLogoLabels(boolean flag) {
+    this.showLogoLabels = flag;
+  }
+  public boolean showLogoLabels() {
+    return showLogoLabels;
+  }
    
+  public void scanLogos() {
+
+    alignment.scanLogos(getTransfacMatrices());
+  }
     public void setImages(Image[][] img) {
 	this.images = img;
     }
@@ -156,6 +181,17 @@ public final class AlignViewport implements ActionListener, KeyListener {
   	}
   }
   public void expandRegion() {
+    if (minipog != null) {
+      System.out.println("Expanding region");
+      int width = getEndRes() - getStartRes() + 1;
+      
+      // The region needs to be requested - to be quicker we should keep the middle piece and only fetch the end pieces but let's start simple.
+      getAlignment().getChrRegion().expand(width/2);
+      
+      rft = new RegionFetchThread(getAlignment().getChrRegion());
+      rft.setActionListener(this);    /// Hmm - in the alignment ?
+      rft.start();
+    }
   }
   public void moveLeft() {
     int width    = getEndRes()- getStartRes() +1;
@@ -186,6 +222,16 @@ public final class AlignViewport implements ActionListener, KeyListener {
     
     setStartRes(newstart);
     setEndRes(newstart+width);
+  }
+  public void showTrackSelectionFrame() {
+  	TrackSelectionFrame tsf = new TrackSelectionFrame(getAlignment().getSequences(),getGFFConfig(),this);
+		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+		
+		tsf.setLocation(dim.width/5,
+				dim.height/10);
+		
+		tsf.pack();
+    tsf.setVisible(true);
   }
   public void increaseCharHeight() {
   	setCharHeight(getCharHeight()+1);
@@ -460,6 +506,28 @@ public final class AlignViewport implements ActionListener, KeyListener {
   
   // So this is sequence stuff - keep here for now but should be moved
   public void getSequence(int x1, int x2) {
+    Vector  tmpseq     = new Vector();
+    
+    if (sft != null) {
+      return;
+    }
+    
+    if (charWidth < .1 || x2 - x1 > 2000 || showSequence == false) {
+      return;
+    }
+    if (getAlignment().getSequenceAt(0).getSequence(x1,x2).indexOf("X") >= 0 ||
+        (getAlignment().countSequenceEntries() ==1 && getHuman() == false)) {
+
+      sft = new SequenceFetchThread(controller,this,x1,x2);
+      sft.setHuman(getHuman());
+      sft.setActionListener(this);
+      sft.start();
+    }
+  }
+  
+  // Not here
+  public void search() {
+    getAlignment().search(this);
   }
   
   public void setFont(Graphics g, Font f) {
@@ -838,6 +906,65 @@ public final class AlignViewport implements ActionListener, KeyListener {
   public void keyTyped(KeyEvent e) {}
 
     
+  public void setCurrentTree(pogvue.datamodel.tree.Tree tree) {
+      this.tree = tree;
+  }
+
+  public pogvue.datamodel.tree.Tree getCurrentTree() {
+
+    if (tree == null) {
+      try {
+	TreeFile tf = new TreeFile("http://www.broad.mit.edu/~mclamp/pogvue/hiram.nh","URL");
+	tree = tf.getTree();
+      } catch (IOException e) {
+	e.printStackTrace();
+      }
+    }
+    return tree;
+  }
+
+  public void toggleTree() {
+    showtree = !showtree;
+    showTree(mousePos+1);
+  }
+  public void findMutations() {
+    if (tree != null) {
+      tree.findMutations(getStartRes(),getEndRes());
+
+      treepanel.treeCanvas.repaint();
+    }
+  }
+  public void showTree(int site) {
+    
+    if (showtree) {
+      
+      tree      = getCurrentTree();
+      tree.setSequences(getAlignment().getSequenceArray());
+      tree.setSite(site);
+      tree.calcLikelihood();
+      
+      if (treeframe == null) {
+	treeframe = new JFrame();
+	treepanel = new TreePanel(null,tree);
+	
+	tree.setSequences(getAlignment().getSequenceArray());
+	
+	treeframe.setLayout(new BorderLayout());
+	treeframe.add("Center",treepanel);
+	treeframe.setSize(500,500);
+	
+	Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+	
+	treeframe.setLocation(dim.width/5,
+			      dim.height/10);
+	
+	treeframe.setVisible(true);
+      }
+      
+      treepanel.treeCanvas.repaint();
+    }
+  }
+
   public void setRenderer(RendererI rend) {
     this.renderer = rend;
   }
@@ -954,6 +1081,41 @@ public final class AlignViewport implements ActionListener, KeyListener {
     setCharWidth(pixelwidth/getAlignment().getWidth(),"Setting to full span");
   }
   
+  // this shouldn't be here - or in ViewableFeatureSet
+  public Vector getTransfacMatrices(String file) {
+    if (matrices == null) {
+      mathash = new Hashtable();
+      try {
+        
+        String type = "File";
+        
+        if (file.indexOf("http:") == 0) {
+          type = "URL";
+        }
+       
+	if (file.indexOf(".pwm") > 0) {
+	  PwmLineFile pwm = new PwmLineFile(file,"File");
+	  pwm.parse();
+	  matrices = pwm.getTFMatrices();
+	  System.out.println("MAtrix");
+	} else {
+	  OrmatFile tffile = new OrmatFile(file,type);
+	  
+	  matrices = tffile.getMatrices();
+	}
+	for (int i = 0;i < matrices.size(); i++) {
+	  TFMatrix mat = (TFMatrix)matrices.elementAt(i);
+	  mathash.put(mat.getName(),mat);
+	  System.out.println("Matrix " + mat.getName());
+	}
+
+      } catch (IOException e) {
+        System.out.println("Can't read TFMatrix File");
+      }
+      
+    }
+    return matrices;
+  }
   
   public int getPixelHeight(int i, int j,int charHeight) {
     
@@ -966,10 +1128,52 @@ public final class AlignViewport implements ActionListener, KeyListener {
     return h;
   }
 
+
+  // More transfac stuff
+  public Vector getTransfacMatrices() {
+    
+    if (matrices == null) {
+	//getTransfacMatrices("http://www.broadinstitute.org/~mclamp/pogvue/clus.pwm");
+	
+	getTransfacMatrices("data/clus.pwm");
+    }
+    
+    return matrices;
+  }
+  
+  // More transfac stuff
+  public TFMatrix getMatrix(String name) {
+    
+    if (matrices == null) {
+      getTransfacMatrices();
+    }
+    
+    if (name != null && mathash != null && mathash.containsKey(name)) {
+      return (TFMatrix)mathash.get(name);
+    }
+    return null;
+    
+  }
+
  
  
   // This is sequence fetching - not here but in FeatureSet probably
   public void actionPerformed(ActionEvent e) {
     
+    if (e.getSource() == sft) {
+      if (sft.isDone()) {
+	controller.handleAlignViewportEvent(new AlignViewportEvent(this,this,AlignViewportEvent.RESHAPE));
+	sft = null;
+      }
+    }
+    if (e.getSource() == rft) {
+      
+      Alignment      al = rft.getOutput();
+      ChrRegion sr = al.getChrRegion();
+      setAlignment(al);
+      minipog.getAlignViewport().setAlignment(al);
+      controller.handleAlignViewportEvent(new AlignViewportEvent(this,this,AlignViewportEvent.RESHAPE));
+      rft = null;
+    }
   }
 }

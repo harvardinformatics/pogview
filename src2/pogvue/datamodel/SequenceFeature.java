@@ -2,6 +2,7 @@ package pogvue.datamodel;
 
 import pogvue.util.Format;
 import pogvue.io.GFFFile;
+import pogvue.datamodel.motif.*;
 
 import java.awt.*;
 
@@ -36,6 +37,7 @@ public class SequenceFeature {
     public Hashtable scoreVector = null;
 
     public Sequence seq;
+    public TFMatrix tfm;
 
     public  Hashtable scores = null;
 
@@ -77,6 +79,12 @@ public class SequenceFeature {
 	this.description = description;
 	
 	setColor();
+    }
+    public void setTFMatrix(TFMatrix tfm) {
+	this.tfm = tfm;
+    }
+    public TFMatrix getTFMatrix() {
+	return tfm;
     }
     public void addFeature(SequenceFeature sf) {
 	if (feat == null) {

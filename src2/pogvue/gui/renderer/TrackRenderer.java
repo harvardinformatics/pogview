@@ -56,9 +56,6 @@ public class TrackRenderer {
     
     RendererI sr = av.getRenderer();
 
-    //sr = scr;
-    sr = gr;
-    //System.out.println("Renderer ******* " + sr);
     Vector tmpseq = new Vector();
     Vector hide = av.hiddenSequences();
 
@@ -86,7 +83,6 @@ public class TrackRenderer {
 				      av.getAlignment().getSequences(),
 				      50,x1,x2);
     }
-
 
     // av.getEndSeq());
 

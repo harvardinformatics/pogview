@@ -1,0 +1,8 @@
+#!/bin/tcsh
+
+export POGHOME=./
+
+export CLASSPATH=${POGHOME}:${POGHOME}/classfiles2:${POGHOME}/jars/looks-1.3.1.jar:${POGHOME}/jars/epsgraphics.jar:${POGHOME}/jars/forms-1.1.0.jar:${POGHOME}/jars/pal-cvs.jar:${POGHOME}/jars/colt.jar:${POGHOME}/jars/concurrent.jar
+
+#java -mx1024M pogvue.gui.hub.GFFTableModel -lenfile ${POGHOME}/data/hg19.chrlen -bandfile ${POGHOME}/data/hg19.cytoBand.txt -gfffile $1 $2
+java -mx2048M pogvue.gui.Pogvue -seqfile $1 -gfffile $2

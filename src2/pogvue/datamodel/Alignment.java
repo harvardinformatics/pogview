@@ -6,9 +6,11 @@ import pogvue.io.*;
 import pogvue.gui.hub.*;
 import java.io.*;
 
-//import pogvue.util.Comparison;
+import pogvue.gui.SearchPanel;
+import pogvue.util.Comparison;
 import pogvue.util.QuickSort;
 import pogvue.gui.AlignViewport;
+import pogvue.datamodel.AlignStats;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -17,7 +19,7 @@ import java.util.Vector;
 import java.util.regex.*;
 
 import javax.swing.JFrame;
-
+import pogvue.datamodel.motif.*;
 public class Alignment  {
 
   private ChrRegion chrRegion;
@@ -258,6 +260,24 @@ public class Alignment  {
     return al;
   }
 	
+	public void search(AlignViewport av) {
+	  JFrame      jf = new JFrame("Find...");
+	  SearchPanel sp = new SearchPanel(this,av,jf);
+	  
+	  // Need to listen to when it finishes
+	  int width =  450;
+	  int height = 250;
+	  
+	  jf.getContentPane().add(sp);
+	  jf.setSize(width,height);
+	  
+	  Dimension sd = Toolkit.getDefaultToolkit().getScreenSize();
+	  
+	  jf.setLocation(sd.width / 2 - width / 2,
+	      sd.height / 2 - height / 2);
+	  
+	  jf.setVisible(true);
+	} 
 	public int countSequenceEntries() {
 	  int count = 0;
 	  
@@ -271,6 +291,195 @@ public class Alignment  {
 	  return count;
 	}
   
+  public AlignStats getStats(int start, int end) {
+    int num = sequences.size();
+
+
+    double[] cov = new double[num];
+    double[] tot = new double[num];
+    double[] pid = new double[num];
+
+    Sequence topseq = (Sequence)sequences.elementAt(0);
+
+      for (int i = 0; i < num; i++) {
+	tot[i] = 0;
+	pid[i] = 0;
+	cov[i] = 0;
+	i++;
+      }
+
+
+      for (int j = start; j <= end; j++) {
+      
+
+      char refc = topseq.getCharAt(j);
+
+      if (refc != '-' && refc != 'N') {
+	for (int i = 0; i < num; i++) {
+
+	  Sequence s = (Sequence)sequences.elementAt(i);
+	  char c = s.getCharAt(j);
+
+	  if (c != '-') {
+	    tot[i]++;	  
+	  }
+
+	  if (refc == c) {
+	    pid[i]++;
+	  }
+	}
+      }
+    }
+
+
+    for (int i = 0;i < num; i++) {
+      if (tot[i] > 0) {
+	double tmpcov = tot[i]/(end-start+1);
+	double tmppid = pid[i]/tot[i];
+	
+	cov[i] = tmpcov;
+	pid[i] = tmppid;
+      } else {
+	cov[i] = 0;
+	pid[i] = 0;
+      }
+      
+    }
+
+    AlignStats as = new AlignStats(cov,pid,tot);
+
+    return as;
+  }
+
+  public Pwm getPwm(int start, int end) {
+    double[] seqvec = pogvue.analysis.Correlation4.seqvec(this, start, end);
+    
+    return new Pwm(seqvec,"Pwm");
+  }
+  public void printStats(String chr,int start, int end, int offset,String label) {
+
+    AlignStats as = getStats(start,end);
+
+    double[] cov = as.getCoverage();
+    double[] pid = as.getPID();
+    double[] bases = as.getBases();
+    
+    int j = 0;
+    
+    while (j < cov.length) {
+      System.out.printf("%10s\t%10s\t%10s\t%8d\t%8d\t%15s\t%7.2f\t%7.2f\t%7.2f",chr ,label,label,start+offset,end+offset,getSequenceAt(j).getName(), cov[j] ,pid[j],bases[j]);
+      if (getSequenceAt(j).getName().equals("Dog") || j == 0) {
+	System.out.println("\t" + getSequenceAt(j).getSequence());
+      } else {
+	System.out.println();
+      }
+      j++;
+
+      
+    }
+    System.out.println();
+  }
+  public static void main(String[] args) {
+    
+    try {
+
+
+      if (args[0].equals("-gfffile")) {
+	String gfffile = args[1];
+
+	GFFFile gff = new GFFFile(gfffile,"File");
+
+	Vector feat = gff.getFeatures();
+
+	for (int i = 0; i < feat.size(); i++) {
+
+	  SequenceFeature sf = (SequenceFeature)feat.elementAt(i);
+	  String chr = sf.getId();
+	  int start = sf.getStart();
+	  int end   = sf.getEnd();
+
+	  FastaFile ff = GenomeInfoFactory.getUngappedRegion(chr,start,end);
+	  ff.parse();
+
+	  Sequence[] seqs = ff.getSeqsAsArray();
+	
+	  Alignment al = new Alignment(seqs);
+	
+	  al.printStats(chr,0,end-start+1,start,sf.getType() + ":" + sf.getHitFeature().getId());
+	}
+      } else {
+	
+	String chr    = args[0];
+	int    start  = Integer.parseInt(args[1]);
+	int    end    = Integer.parseInt(args[2]);
+	
+	
+	int chunk = 100000;
+	
+	while (start+chunk < end) {
+	  
+	  FastaFile ff = GenomeInfoFactory.getUngappedRegion(chr,start,start+chunk-1);
+	  ff.parse();
+	  
+	  Sequence[] seqs = ff.getSeqsAsArray();
+	  
+	  Alignment al = new Alignment(seqs);
+	  
+	  int i      = start;
+	  int window = 100;
+	  
+	  while (i < start+chunk-window) {
+	    al.printStats(chr,i-start,i+window-1-start,start,chr + "." + start + "-" + end);
+	    i+= 1000;
+	  }
+	  
+	  start+= chunk;
+	}
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public void scanLogos(Vector mats) {
+    Vector newseqs = new Vector();
+    int size = sequences.size();
+    for (int i = 0; i < size; i++) {
+      Sequence s = getSequenceAt(i);
+
+      if (s instanceof GFF) {
+	GFF g = (GFF)s;
+
+	Vector feat = g.getFeatures();
+
+	for (int j = 0;j < feat.size(); j++) {
+	  SequenceFeature sf = (SequenceFeature)feat.elementAt(j);
+
+	  if (sf.getTFMatrix() != null) {
+	    TFMatrix tfm = sf.getTFMatrix();
+
+	    SearchWorker sw = new SearchWorker(tfm.getPwm(),mats);
+	    String name = "SP1 CAAT TATA OCT E2F";
+	    sw.setThreshold(0.2);
+	    //sw.setNames(name);
+	    System.out.println("Running");
+	    sw.run();
+
+	    System.out.println("Run " + i);
+
+	    Vector out = sw.getOutput();		
+	    GFF tmpg = new GFF(g.getType(), "", 1, 2);
+	    tmpg.addFeatures(out);	    
+	    Vector newvec = GFFFile.bumpGFF(tmpg);
+
+	    newseqs.addAll(newvec);
+
+	  }
+	}
+      }
+    }
+    addSequences(newseqs);
+  }
 
 }
 
