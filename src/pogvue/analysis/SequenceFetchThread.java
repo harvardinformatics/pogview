@@ -80,7 +80,8 @@ public class SequenceFetchThread extends Thread {
         Hashtable nameHash = viewport.getAlignment().getNameHash();
         // GappedFastaFile ff = GenomeInfoFactory.getRegion(regstr,human);
         System.out.println("Getting region int SequenceFetchThread" + r);
-        FastaFile ff = GenomeInfoFactory.getUngappedRegion(regstr);
+        //FastaFile ff = GenomeInfoFactory.getUngappedRegion(regstr);
+        FastaFile ff = GenomeInfoFactory.getUngappedRegion(r.getChr(),start,end);
 
         ff.parse();
 

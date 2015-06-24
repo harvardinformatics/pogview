@@ -5,7 +5,7 @@ import java.util.Vector;
 import pogvue.analysis.AlignSeq;
 import pogvue.datamodel.Sequence;
 import pogvue.datamodel.Sequence;
-
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -13,13 +13,15 @@ import java.util.StringTokenizer;
 
 public class FastaFile extends AlignFile {
 
-    public FastaFile(Sequence[] s) {
-	super(s);
-    }
+  public FastaFile(Sequence[] s) {
+    super(s);
+  }
   public FastaFile(String inStr) {
     super(inStr);
   }
-
+  public FastaFile(BufferedReader reader) throws IOException {
+    super(reader);
+  }
   public FastaFile(String inFile, String type) throws IOException {
     super(inFile,type,true);
   }
@@ -40,6 +42,7 @@ public class FastaFile extends AlignFile {
 
     try {
       while ((line = nextLine()) != null) {
+        //System.out.println("Line " + line);
 	if (line.length() > 0) {
 
 	  // Do we have an id line?
@@ -49,6 +52,8 @@ public class FastaFile extends AlignFile {
 	      if (sstart != 0) {
 		seqs.addElement(new Sequence(id,seq.toString().toUpperCase(),sstart,send));
 	      } else {
+                //System.out.println("ID " + id);
+                //System.out.println("Seq " + seq);
 		seqs.addElement(new Sequence(id,seq.toString().toUpperCase(),1,seq.length()));
 	      }
 	    }
@@ -95,7 +100,7 @@ public class FastaFile extends AlignFile {
       System.out.println("Exception parsing fastafile");
     }
 
-
+    System.out.println("SEQS " + seqs.size());
   }
 
   public static void write(OutputStream os,Sequence seq) throws IOException {

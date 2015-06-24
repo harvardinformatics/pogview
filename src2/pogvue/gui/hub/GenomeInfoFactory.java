@@ -17,7 +17,9 @@ import java.util.*;
 
 import pogvue.gui.menus.*;
 import pogvue.gui.renderer.GraphRenderer;
+
 import pogvue.datamodel.*;
+import java.io.InputStreamReader;
 
 /**
  * Created by IntelliJ IDEA. User: mclamp Date: Aug 11, 2007 Time: 4:55:46 PM To
@@ -65,8 +67,27 @@ public class GenomeInfoFactory {
     throws IOException {
     String regionStr = "query=" + chr + "&start=" + start + "&end=" + end
         + "&z=2";
-    
-    return getUngappedRegion(regionStr);
+     try {
+      System.out.println("REGIOASDFASDF " + chr + " " + start + " " + end);
+      Process p;
+      p = Runtime.getRuntime().exec("../pogperl/useful/get_maf46way.pl " + chr + " " + start + " " + end);
+      p.waitFor();
+
+      BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+
+
+      //String line = reader.readLine();
+      //while (line != null) {
+      //   System.out.println("LIJE " + line);
+      //   line = reader.readLine();
+     // }
+       FastaFile fp = new FastaFile(reader);
+       return fp;
+    } catch (InterruptedException ex) {
+       System.out.println("Interrupted " + ex);
+    } 
+    //return getUngappedRegion(regionStr);
+    return null;
   }
 
   //Used a lot 
@@ -95,11 +116,11 @@ public class GenomeInfoFactory {
     return fp;
   }
   public static FastaFile getUngappedRegion(String regionStr) throws IOException{
+
     String query    = fastaurlstub + regionStr;
-    //System.out.println("Query " + query);
-    FastaFile fp = new FastaFile(query,"URL",false);
-    
-    return fp;
+    System.out.println("Query " + query);
+
+    return null;
   }
 
 
@@ -329,7 +350,8 @@ public class GenomeInfoFactory {
     System.out.println("Getting dummy alignment for " + chr + " " + start + " "
         + end);
 
-    Alignment al = Alignment.getDummyAlignment("Human", chr, start, end);
+    //Alignment al = Alignment.getDummyAlignment("Human", chr, start, end);
+    Alignment al = Alignment.getDummyAlignment("hg19", chr, start, end);
 
     // Now add in the features
 

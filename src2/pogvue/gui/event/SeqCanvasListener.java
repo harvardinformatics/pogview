@@ -10,9 +10,9 @@ import java.text.*;
 import pogvue.analysis.*;
 import pogvue.gui.*;
 import pogvue.datamodel.*;
+import pogvue.datamodel.motif.*;
 import pogvue.gui.event.*;
 import pogvue.gui.renderer.ConsensusRenderer;
-import pogvue.gui.renderer.PercentIdentityRenderer;
 import pogvue.gui.renderer.CpGRenderer;
 import pogvue.gui.renderer.FrameMismatchRenderer;
 import pogvue.gui.renderer.GraphRenderer;
@@ -119,6 +119,7 @@ public class SeqCanvasListener implements MouseListener,
     	controller.handleStatusEvent(new StatusEvent(this,formattedNumber,StatusEvent.POSITION));
 
     }
+    av.showTree(newres);
 
   }
   
@@ -233,7 +234,7 @@ public class SeqCanvasListener implements MouseListener,
 
   	
   	if        (c == 'd') { av.decreaseTrackHeight();                              redraw = true;
-	  //} else if (c == 't') { av.showTrackSelectionFrame();                           redraw = true;
+  	} else if (c == 't') { av.showTrackSelectionFrame();                           redraw = true;
   	} else if (c == 'w') { av.writeGFFConfig();                                            redraw = true;
 	} else if (c == 'i') { av.increaseCharHeight();                                   redraw = true;
 	} else if (c == 'k') { av.setGFFHeightByScore(!av.getGFFHeightByScore());       redraw = true;
@@ -249,7 +250,6 @@ public class SeqCanvasListener implements MouseListener,
 	} else if (c == 'R') { av.setRenderer(new ConsensusRenderer());                      redraw = true;
 	} else if (c == 'g') { av.setRenderer(new CpGRenderer());                            redraw = true;
 	} else if (c == 'l') { av.setRenderer(new ConflateAlignRenderer());                    redraw = true;
-	} else if (c == 'p') { av.setRenderer(new PercentIdentityRenderer());                    redraw = true;
 	} else if (c == 'c') { av.hideTrack(av.getIndex(mousepos));                          redraw = true;
 	} else if (c == 'C') { av.showAllTracks();                                            redraw = true;
 	} else if (c == 'o') { av.collapseAllTracks();                                         redraw = true;
@@ -259,10 +259,10 @@ public class SeqCanvasListener implements MouseListener,
 	} else if (c == 'x') { av.hideGappySequences();                                           redraw = true;
 	} else if (c == 's') { av.toggleSequence();                                           redraw = true;
 	} else if (c == 'X') { av.expandRegion();                                          redraw = true;
-	  //} else if (c == 'y') { av.toggleTree();                                             redraw = true;
-	  //} else if (c == 'Y') { av.findMutations();                                            redraw = true;
-	  //} else if (c == 'O') { av.scanLogos();                                                redraw = true;
-	  //} else if (c == 'H') { av.showLogoLabels(!av.showLogoLabels());                         redraw = true;
+	} else if (c == 'y') { av.toggleTree();                                             redraw = true;
+	} else if (c == 'Y') { av.findMutations();                                            redraw = true;
+	} else if (c == 'O') { av.scanLogos();                                                redraw = true;
+        } else if (c == 'H') { av.showLogoLabels(!av.showLogoLabels());                         redraw = true;
 	} else if (c == 'q') { redraw = true;
 	} else if (c == 'X') { 
 	  // RegionFetchThread rft = new RegionFetchThread(sr.getChr(),sr.getStart(),sr.getEnd(),newfeat);

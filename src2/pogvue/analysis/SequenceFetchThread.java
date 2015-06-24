@@ -79,8 +79,9 @@ public class SequenceFetchThread extends Thread {
 
         Hashtable nameHash = viewport.getAlignment().getNameHash();
         // GappedFastaFile ff = GenomeInfoFactory.getRegion(regstr,human);
-        System.out.println("Getting region int SequenceFetchThread" + r);
-        FastaFile ff = GenomeInfoFactory.getUngappedRegion(regstr);
+        System.out.println("Getting region int SequenceFetchThread" + r + " " + r.getChr() + " " + start + " " + end);
+        FastaFile ff = GenomeInfoFactory.getUngappedRegion(r.getChr(),start,end);
+        //FastaFile ff = GenomeInfoFactory.getUngappedRegion(regstr);
 
         ff.parse();
 
@@ -96,7 +97,7 @@ public class SequenceFetchThread extends Thread {
         int len = newseqs.length;
 
         if (human) {
-          len = 1;
+          //len = 1;
         }
         while (j < len) {
           if (nameHash.containsKey(newseqs[j].getName())) {
@@ -145,6 +146,7 @@ public class SequenceFetchThread extends Thread {
           Sequence tmpseq = new Sequence(novseq.getName(), newseq, 1, newseq
               .length());
 
+          //System.out.println("Inserting " + novseq.getName());
           seqs.insertElementAt(tmpseq, lastseq);
 
           lastseq++;
