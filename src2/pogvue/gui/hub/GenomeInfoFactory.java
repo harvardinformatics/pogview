@@ -68,9 +68,10 @@ public class GenomeInfoFactory {
     String regionStr = "query=" + chr + "&start=" + start + "&end=" + end
         + "&z=2";
      try {
+      chr = "strCam." + chr;
       System.out.println("REGIOASDFASDF " + chr + " " + start + " " + end);
       Process p;
-      p = Runtime.getRuntime().exec("../pogperl/useful/get_maf46way.pl " + chr + " " + start + " " + end);
+      p = Runtime.getRuntime().exec("./perl/get_maf.pl " + chr + " " + start + " " + end);
       p.waitFor();
 
       BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
@@ -351,7 +352,8 @@ public class GenomeInfoFactory {
         + end);
 
     //Alignment al = Alignment.getDummyAlignment("Human", chr, start, end);
-    Alignment al = Alignment.getDummyAlignment("hg19", chr, start, end);
+    //Alignment al = Alignment.getDummyAlignment("hg19", chr, start, end);
+    Alignment al = Alignment.getDummyAlignment("strCam", chr, start, end);
 
     // Now add in the features
 

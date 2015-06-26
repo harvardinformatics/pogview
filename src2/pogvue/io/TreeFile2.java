@@ -7,7 +7,7 @@ import pogvue.gui.TreePanel;
 import java.awt.*;
 import java.io.IOException;
 
-public class TreeFile extends FileParse {
+public class TreeFile2 extends FileParse {
   private Tree tree;
 
   private SequenceNode maxdist;
@@ -19,15 +19,15 @@ public class TreeFile extends FileParse {
 
   private String line;
 
-  public TreeFile(SequenceNode sn) {
+  public TreeFile2(SequenceNode sn) {
     top = sn;
   }
 
-  public TreeFile(String inStr) {
+  public TreeFile2(String inStr) {
     parse();
   }
 
-  public TreeFile(String inFile, String type)  throws IOException {
+  public TreeFile2(String inFile, String type)  throws IOException {
     super(inFile,type);
     parse();
   }
@@ -42,7 +42,7 @@ public class TreeFile extends FileParse {
       ycount = 0;
 
       StringBuffer str = new StringBuffer();
-      String line;
+      String       line;
 
       while ((line = nextLine()) != null) {
 	  str.append(line);
@@ -216,191 +216,149 @@ public class TreeFile extends FileParse {
 
 	
     private SequenceNode readTree(String str) {
+      int nodenum   = 1;
+      int nodedepth = 1;
+      int pos        = 0;
 	
-	int pos = 0;
-	
-	SequenceNode curr_node;
-	SequenceNode top_node = null;
+      SequenceNode curr_node;
+      SequenceNode top_node = null;
+      
+      top_node   = new SequenceNode();
+      curr_node  = top_node;
+      
+      curr_node.num   = nodenum;
+      curr_node.depth = nodedepth;
 
-	curr_node = top_node;
+      while (pos < str.length()) {
 
-	while (pos < str.length()) {
+	String s = str.substring(pos,pos+1);
 
-	    String s = str.substring(pos,pos+1);
+	if (s.equals("(")) {
+	      
+	  // This takes us down a node
+	  //       |X
+	  // #-----|
+	  //       |
+	  
+	  
+	  // Add in a new left node
 
-	    //System.out.println();
+	  SequenceNode tmpnode = new SequenceNode();
+		  
+	  nodenum++;
 
+	  tmpnode.num    = nodenum;
+	  tmpnode.depth  = curr_node.depth + 1;
+	  tmpnode.parent = curr_node;
+		  
+	  if (curr_node.left() != null) {
+	    System.out.println("ERROR: Existing left node");
+	  }
 
-	    //System.out.println();
+	  curr_node.setLeft(tmpnode);
 
+	  curr_node = tmpnode;
 
-	    //System.out.println("String is " + s);
-	    //System.out.println("Full string is " + str.substring(0,pos+1));
+	  System.out.println("New left node " + tmpnode.num + " " + tmpnode.depth +  " Parent num " + tmpnode.parent.num);
+	      
+	  pos++;
 
-	    if (s.equals("(")) {
+	} else if (s.equals(",")) {
+	  // Move up and over to the right node
+	  
+	  //       |-----#
+	  //  -----|
+	  //       |X
+	  
+	  SequenceNode tmpnode     = new SequenceNode();
 
-		// This takes us down a node
-		//       |X
-		// #-----|
-		//       |
+	   nodenum++;
 
-		if (curr_node == null) {
+	   tmpnode.num    = nodenum;
+	   tmpnode.depth  = curr_node.depth + 1;
+	   tmpnode.parent = curr_node;
 
-		  //System.out.println("New top node");
-		    
-		    top_node   = new SequenceNode();
-		    curr_node  = top_node;
+	   if (curr_node.right() != null) {
+	     System.out.println("ERROR: Existing right node");
+	   }
 
-		} else {
+	   curr_node.setRight(tmpnode);
 
-		    // Add in a new left node
+	   curr_node = tmpnode;
 
-		    SequenceNode tmpnode = new SequenceNode();
+	   pos++;
 
-		    tmpnode.parent = curr_node;
-
-		    curr_node.setLeft(tmpnode);
-		    curr_node = tmpnode;
-
-		    //System.out.println("New left node");
-		    
-		}
-		
-		pos++;
-
-	    } else if (s.equals(",")) {
-		// Move up and over to the right node
-
-		//       |-----#
-		//  -----|
-		//       |X
-
-		SequenceNode parent_node = (SequenceNode)curr_node.parent;
-		SequenceNode tmpnode     = new SequenceNode();
-
-		// If no parent node - we are moving the top - create new top
-
-		if (parent_node == null) {
-
-		  //System.out.println("New top node for ,");
-		    SequenceNode tmp = new SequenceNode();
-
-		    curr_node.parent = tmp;
-		    top_node         = tmp;
-		    parent_node      = tmp;
-		    
-		    top_node.setLeft(curr_node);
-		}
-		
-		tmpnode.parent = parent_node;
-		parent_node.setRight(tmpnode);
-
-		curr_node = tmpnode;
-
-		pos++;
-
-		//System.out.println("New right node");
-
-	    } else if (s.equals(":")) {
-
-		pos++;
-
-		// Read the distance
-
-		StringBuffer diststr = new StringBuffer();
-		
-		while (! (str.substring(pos,pos+1).equals(",") ||
-			  str.substring(pos,pos+1).equals(")"))) {
-		    
-		    diststr.append(str.substring(pos,pos+1));
-		    
-		    pos++;
-		}
-
-		//System.out.println("Adding distance " + diststr);
-
-		double dist = Double.parseDouble(diststr.toString());
-
-		// Set current nodes distance
-
-		curr_node.dist = (float)dist;
-
-	    } else if (s.equals(")")) {
-		
-		// Move up to the parent
-
-		//       |------#
-		// ------X
-		//       |
-
-		SequenceNode parent_node = (SequenceNode)curr_node.parent;
-
-		// If no parent node - we are moving the top - create new top
-
-		if (parent_node == null) {
-		    SequenceNode tmp = new SequenceNode();
-
-		    curr_node.parent = tmp;
-		    top_node         = tmp;
-
-		    top_node.setRight(curr_node);
+	   System.out.println("New right node " + tmpnode.num + " " + tmpnode.depth +  " Parent num " + tmpnode.parent.num);
 
 
-		    //  System.out.println("Resetting top node");
-		}
+	 } else if (s.equals(":")) {
 
-		curr_node = parent_node;
-		//print_node(curr_node);
-		
-		//System.out.println("Up to parent");
-		
+	   pos++;
 
-		pos++;
+	   // Read the distance
 
-	    } else if (s.equals(";")) {
-	      //System.out.println("Pos is " + pos);
+	   StringBuffer diststr = new StringBuffer();
 
+	   while (! (str.substring(pos,pos+1).equals(",") ||
+		     str.substring(pos,pos+1).equals(")"))) {
 
-	      //System.out.println("Top " + top_node.left());
-	      //System.out.println("Top " + top_node.right());
+	     diststr.append(str.substring(pos,pos+1));
 
-	      //System.out.println("Top " + top_node.dist);
+	     pos++;
+	   }
 
+	   System.out.println("Adding distance " + diststr);
 
-	      //print_node(top_node);
-	      //	checkNode(top_node);
-		return top_node;
-	    } else if (! s.equals(" ")) {
+	   double dist = Double.parseDouble(diststr.toString());
 
-		// Read org name
-		StringBuffer org = new StringBuffer();
-		
-		while (! (str.substring(pos,pos+1).equals(":") ||
-			  str.substring(pos,pos+1).equals(";"))) {
+		 // Set current nodes distance
 
+	   curr_node.dist = (float)dist;
 
+	   // Move up to the parent
 
-		    org.append(str.substring(pos,pos+1));
-		    
-		    pos++;
-		}
+	   //       |------#
+	   // ------X
+	   //       |
 
-		System.out.println("Org " + org);
-		// Set node id and isLeaf
+	   SequenceNode parent_node = (SequenceNode)curr_node.parent;
 
-		curr_node.setName(org.toString());
-		curr_node.setElement(new Sequence(org.toString(),"",0,0));
-		curr_node.setLeft(null);
-		curr_node.setRight(null);
+	   System.out.println("Current char is " + str.substring(pos,pos+1));
 
+	   curr_node = parent_node;
 
-	    } else {
-	    	pos++;
-            }
-	    //System.out.println("Pos " + pos);
+	   System.out.println("Up to parent " + curr_node.num);
+
+	} else if (s.equals(")")) {
+	  System.out.println("Skipping bracket");
+	  pos++;
+	} else if (s.equals(";")) {
+	  return top_node;
+	} else if (! s.equals(" ")) {
+
+	  // Read org name
+	  StringBuffer org = new StringBuffer();
+	  
+	  while (! (str.substring(pos,pos+1).equals(":") ||
+		    str.substring(pos,pos+1).equals(";"))) {
+	    
+	    org.append(str.substring(pos,pos+1));
+	    
+	    pos++;
+	  }
+	      
+	  System.out.println("Org " + org);
+
+	      
+	  curr_node.setName(org.toString());
+	  curr_node.setElement(new Sequence(org.toString(),"",0,0));
+	  curr_node.setLeft(null);
+	  curr_node.setRight(null);
+	      
+	} else {
+	  pos++;
 	}
-
-
+      }
 
 	return top_node;
     }
@@ -447,7 +405,7 @@ public class TreeFile extends FileParse {
   }
     public static void main(String[] args) {
 	try {
-	  TreeFile tf = new TreeFile(args[0],"File");
+	  TreeFile2 tf = new TreeFile2(args[0],"File");
 	  Tree tree = tf.getTree();
 
 	  tree.printNode(tree.getTopNode());

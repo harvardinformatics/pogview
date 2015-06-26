@@ -199,7 +199,7 @@ public final class TreeCanvas extends Panel implements MouseListener,
 	g.setColor(Color.pink);
 	g.fillRect((xstart+xend)/2 - 5,ypos-5,10,10);
       } 
-      System.out.println("Mutationcount " + node.mutationCount);
+      //System.out.println("Mutationcount " + node.mutationCount);
       if (node.mutationCount > 0) {
 	g.setColor(Color.pink);
 	g.fillRect((xstart+xend)/2 - 5,ypos-5,10,10);
@@ -298,9 +298,10 @@ public final class TreeCanvas extends Panel implements MouseListener,
 
       int ystart = offy + 10;
       int yend   = offy + 10;
+
       try {
-	  ystart = (int)(((BinaryNode)node.left()) .ycount * chunk) + offy;
-	  yend   = (int)(((BinaryNode)node.right()).ycount * chunk) + offy;
+	ystart = (int)(((BinaryNode)node.left()) .ycount * chunk) + offy;
+	yend   = (int)(((BinaryNode)node.right()).ycount * chunk) + offy;
       } catch (Exception e) {
 	  e.printStackTrace();
       }

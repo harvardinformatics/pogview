@@ -453,7 +453,7 @@ public class Tree {
 
     int i = site;
     initMutationCount(getTopNode());
-    while (i < site+10) {
+    while (i < site+4) {
       removeProbs(i);
       calcLikelihood(getTopNode(),Q,background,i);
       assignBases(getTopNode(),i);

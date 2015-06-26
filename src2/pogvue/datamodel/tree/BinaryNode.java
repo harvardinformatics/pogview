@@ -21,6 +21,9 @@ public class BinaryNode {
   public float height;
   public double mutationCount = 0;
 
+  public int num;
+  public int depth;
+
   public Color color = Color.black;
 
 

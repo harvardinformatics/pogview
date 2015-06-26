@@ -914,7 +914,8 @@ public final class AlignViewport implements ActionListener, KeyListener {
 
     if (tree == null) {
       try {
-	TreeFile tf = new TreeFile("http://www.broad.mit.edu/~mclamp/pogvue/hiram.nh","URL");
+	//TreeFile tf = new TreeFile("http://www.broad.mit.edu/~mclamp/pogvue/hiram.nh","URL");
+	TreeFile2 tf = new TreeFile2("tree1.nh","File");
 	tree = tf.getTree();
       } catch (IOException e) {
 	e.printStackTrace();
