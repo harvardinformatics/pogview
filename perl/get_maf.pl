@@ -13,11 +13,8 @@ BEGIN {
 
 use Maf2;
 my $maf2 = new Maf2("strCam",
-		   "/Users/mclamp/ratites/",
-		   "/Users/mclamp/ratites/orgfile.dat");
-#my $maf2 = new Maf2("hg19",
-#		   "/Users/mclamp/multiz46way/maf/",
-#		   "/Users/mclamp/multiz46way/orgfile.dat");
+		   "./maf/",
+		   "./maf/orgfile.dat");
 
 my $chr = "";
 my $start = "";

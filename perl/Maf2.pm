@@ -96,11 +96,11 @@ sub index {
 
 	    while ($line = <$fh>) {
 
-		if ($line =~ /^a +/) {
+		if ($line =~ /^a/) {
 		    $pos = tell($fh) - length($line);
 		    $line = <$fh>;
 
-		    if ($line =~ /^s +(\S+) +(\S+) +(\S+)/) {
+		    if ($line =~ /^s\t(\S+)\t(\S+)\t(\S+)/) {
 			print OUT $2 . "\t" . $3 . "\t" . ($pos) . "\n";
 		    } else {
 			print "Line $line\n";

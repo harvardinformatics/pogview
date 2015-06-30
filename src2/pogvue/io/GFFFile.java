@@ -194,7 +194,38 @@ public class GFFFile extends AlignFile {
 
     return out;
   }
+  public boolean isDouble(String str) {
 
+    try {
+        Double.parseDouble(str);
+        return true;
+    } catch(NumberFormatException nfe) {
+        return false;
+    }
+  }
+  public boolean IsInt_ByJonas(String str) {
+    if (str == null) {
+            return false;
+    }
+    int length = str.length();
+    if (length == 0) {
+            return false;
+    }
+    int i = 0;
+    if (str.charAt(0) == '-') {
+            if (length == 1) {
+                    return false;
+            }
+            i = 1;
+    }
+    for (; i < length; i++) {
+            char c = str.charAt(i);
+            if (c <= '/' || c >= ':') {
+                    return false;
+            }
+    }
+    return true;
+  }
   public void parse() {
     feat = new Vector<SequenceFeature>();
     String line;
@@ -213,7 +244,15 @@ public class GFFFile extends AlignFile {
 	    String type2 = str.nextToken();
 	    int start = Integer.parseInt(str.nextToken());
 	    int end = Integer.parseInt(str.nextToken());
-	    double score = Double.parseDouble(str.nextToken());
+
+            double score = 0.0;
+
+            String scorestr = str.nextToken();
+
+            if (isDouble(scorestr)) {
+  	      score = Double.parseDouble(scorestr);
+            }
+
 	    String strand = str.nextToken();
 	    String phase = str.nextToken();
 		  
