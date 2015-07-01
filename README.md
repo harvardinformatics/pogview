@@ -6,7 +6,7 @@ Genome scale multiple alignment tool
 
 For distribution
 
-tar cvf  - jars/pogvue.jar pogview README.md perl/Maf2.pm perl/index_maf perl/get_maf.pl data/strCam.* maf data/ratites.nh|gzip -c > pogview.tgz
+tar cvf  - jars/pogvue.jar pogview README.md perl/Maf2.pm perl/index_maf perl/get_maf.pl data/strCam.* maf/orgfile.dat data/ratites.nh|gzip -c > pogview.tgz
 
 1. tar zxvf pogview.tgz
 

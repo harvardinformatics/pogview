@@ -102,7 +102,7 @@ public final class TreeCanvas extends Panel implements MouseListener,
 	int i = 0;
 	int xpos = size().width - 11*12;
 
-	while (i < 10) {
+	while (i < 4) {
 	  int c  = node.getMaxChar(site+i);
 	  
 	  if (c == 0) {
@@ -120,40 +120,40 @@ public final class TreeCanvas extends Panel implements MouseListener,
 
 	  } else if (c == 1) {
 	    if (node.isLeaf()) {
-	      g.setColor(darkBlue);
+	      g.setColor(darkRed);
 	      g.fillRect(xpos,ypos-6,12,12);
 
 	      g.setColor(Color.white);
 	      g.drawString("C",xpos,ypos+6);
 
 	    } else {
-	      g.setColor(darkBlue);
+	      g.setColor(darkRed);
 	      //g.drawString("C",xend+2 + (i*14),ypos+7);
 	    }
 
 
 	  } else if (c == 2) {
 	    if (node.isLeaf()) {
-	      g.setColor(darkYellow);
+	      g.setColor(darkBlue);
 	      g.fillRect(xpos,ypos-6,12,12);
 
 	      g.setColor(Color.black);
 	      g.drawString("G",xpos,ypos+6);
 	    } else {
-	      g.setColor(darkYellow);
+	      g.setColor(darkBlue);
 	      //g.drawString("G",xend+2+ (i*14),ypos+7);	      
 	    }
 
 
 	  } else if (c == 3) {
 	    if (node.isLeaf()) {
-	      g.setColor(darkRed);
+	      g.setColor(darkYellow);
 	      g.fillRect(xpos,ypos-6,12,12);
 	      g.setColor(Color.white);
 	      //g.drawString("T",xend+2 + (i*14),ypos+5);
 	      g.drawString("T",xpos,ypos+6);
 	    } else {
-	      g.setColor(darkRed);
+	      g.setColor(darkYellow);
 	      //g.drawString("T",xend+2 + (i*14),ypos+5);	      
 	    }
 
