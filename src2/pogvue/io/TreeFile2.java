@@ -215,6 +215,18 @@ public class TreeFile2 extends FileParse {
 	    
 
 	
+  public String printTree(SequenceNode node) {
+
+    String out = printTree_recursive(node);
+
+    
+    return out;
+  }
+
+  public String printTree_recursive(SequenceNode node) {
+
+    return "";
+  }
     private SequenceNode readTree(String str) {
       int nodenum   = 1;
       int nodedepth = 1;
@@ -232,6 +244,8 @@ public class TreeFile2 extends FileParse {
       while (pos < str.length()) {
 
 	String s = str.substring(pos,pos+1);
+
+	System.out.println("String is " + str.substring(0,pos+1));
 
 	if (s.equals("(")) {
 	      
