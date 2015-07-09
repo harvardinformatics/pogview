@@ -516,11 +516,18 @@ sub read_piece {
 	    
 	    my $org;
 	    my $chr;
-	    
-	    if ($tmporg =~ /(\S+)\.(\S+)/) {
-		$org = $1;
-		$chr = $2;
+
+	    #print $tmporg."\n"; 
+            #my @tmpp = split(/\./,$tmporg);
+            #print "TMPP " . scalar(@tmpp) . " " . $tmpp[0] . " " . $tmpp[1] . "\n";
+            #if (scalar(@tmpp) > 1) {
+	    if ($tmporg =~ /^(\S+?)\.(\S+)/) {
+		#$org = $tmpp[0];
+		#$chr = $tmpp[1];
+                $org = $1;
+                $chr = $2;
 	    }
+            #print "OPRG $org : $chr\n";
 	    if ($dum eq "s") {
 		$piece{$org}{chr}    = $chr;
 		$piece{$org}{start}  = $coord+1;
@@ -608,12 +615,14 @@ sub print_piece {
 
     my %piece = %$piece;
     my @orgs = $self->get_orgs();
-
+    
     foreach my $org (@orgs) {
-
+        
 	if (defined($piece{$org})) {
 	    printf("%12s\t%12d\t%12d\t%s\t%s\n", $org, $piece{$org}{start}, $piece{$org}{end}, substr($piece{$org}{string},0,40), substr($piece{$org}{string},-40,40));
-	}
+	} else {
+            print "Can['t find peice for $org\n";
+        }
     }
 }
 
