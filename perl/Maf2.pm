@@ -127,7 +127,7 @@ sub get_align {
     my $index = $indexdir . "$chr.maf.index";
 
     my $ass   = $self->{reforg};
-
+    #print "ASSembly $ass\n";
     my %index;
 
     if (! -e $index) {
@@ -140,7 +140,7 @@ sub get_align {
     sysseek(\*IN, 0, 2);                     # Find filesize
     my $filesize = systell(\*IN);
 
-    #print "File size is $filesize\n";
+    #print "File size is $filesize - finding pos for $start\n";
 
     # Find the nearest position in the index file for the start coord
 

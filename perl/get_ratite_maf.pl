@@ -12,9 +12,9 @@ BEGIN {
 }
 
 use Maf2;
-my $maf2 = new Maf2("galGal",
-		   "./maf/galGal4/",
-		   "./maf/galGal4/orgfile.dat");
+my $maf2 = new Maf2("strCam",
+		   "./maf/",
+		   "./maf/orgfile.dat");
 
 my $chr = "";
 my $start = "";
@@ -29,8 +29,6 @@ if ($ARGV[0] =~ /(.*):(\d+)-(\d+)/) {
    $start = $ARGV[1];
    $end   = $ARGV[2];
 }
-
-#print "Getting align for $chr : $start = $end\n";
 my %aln = $maf2->get_align($chr,$start,$end);
 
 my @orgs = $maf2->get_orgs();
