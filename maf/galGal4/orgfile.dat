@@ -1,35 +1,37 @@
-galGal	galGal	galGal
-anaPla	anaPla	anaPla
-aptFor	aptFor	aptFor
-aptHaa	aptHaa	aptHaa
-aptOwe	aptOwe	aptOwe
-aptRow	aptRow	aptRow
-balReg	balReg	balReg
-calAnn	calAnn	calAnn
-casCas	casCas	casCas
-chaPel	chaPel	chaPel
-chaVoc	chaVoc	chaVoc
-colLiv	colLiv	colLiv
-corBra	corBra	corBra
-cryCin	cryCin	cryCin
-cucCan	cucCan	cucCan
-droNov	droNov	droNov
-eudEle	eudEle	eudEle
-falPer	falPer	falPer
-ficAlb	ficAlb	ficAlb
-fulGla	fulGla	fulGla
-halLeu	halLeu	halLeu
-lepDis	lepDis	lepDis
-melGal	melGal	melGal
-melUnd	melUnd	melUnd
-mesUni	mesUni	mesUni
-nipNip	nipNip	nipNip
-notPer	notPer	notPer
-picPub	picPub	picPub
-pseHum	pseHum	pseHum
-pygAde	pygAde	pygAde
-rheAme	rheAme	rheAme
-rhePen	rhePen	rhePen
-strCam	strCam	strCam
-taeGut	taeGut	taeGut
-tinGut	tinGut	tinGut
+galGal	galGal	galGal Chicken
+melGal	melGal	melGal Turkey
+anaPla	anaPla	anaPla Mallard
+mesUni	mesUni	mesUni Brown_Roatelo
+colLiv	colLiv	colLiv RockDove
+cucCan	cucCan	cucCan Cuckoo
+chaPel	chaPel	chaPel Plover
+calAnn	calAnn	calAnn Hummingbird
+chaVoc	chaVoc	chaVoc Kildeer
+balReg	balReg	balReg Grey_Crowned-Crane
+nipNip	nipNip	nipNip Crested_Ibis
+fulGla	fulGla	fulGla Northern_Fulmar
+pygAde	pygAde	pygAde Adelie_Penguin
+aptFor	aptFor	aptFor Emperor_Penguin
+halLeu	halLeu	halLeu BaldEagle
+lepDis	lepDis	lepDis Cuckoo_Roller
+picPub	picPub	picPub Downy_Woodpecker
+falPer	falPer	falPer Peregrine_Falcon
+melUnd	melUnd	melUnd Budgerigar
+corBra	corBra	corBra American_Crow
+ficAlb	ficAlb	ficAlb Collared_Flycatcher
+taeGut	taeGut	taeGut Zebra_Finch
+pseHum	pseHum	pseHum Tibetan_Ground-Tit
+aptHaa	aptHaa	aptHaa Great_Spotted_Kiwi
+aptOwe	aptOwe	aptOwe Little_Spotted_Kiwi
+aptRow	aptRow	aptRow Brown_Kiwi
+casCas	casCas	casCas Southern_Cassowary
+droNov	droNov	droNov Emu
+cryCin	cryCin	cryCin Brushland_Tinamou
+tinGut	tinGut	tinGut White-Throated_Tinamou
+eudEle	eudEle	eudEle Crested_Tinamou
+notPer	notPer	notPer Chilean_Tinamou
+rheAme	rheAme	rheAme American_Rhea
+rhePen	rhePen	rhePen Lesser_Rhea
+strCam	strCam	strCam Ostrich
+
+
