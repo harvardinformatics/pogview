@@ -79,7 +79,7 @@ public class FileMenu extends PanelMenu implements ActionListener {
       	jibbleprint(file,true);
       }
     } else if (e.getSource() == find) {
-      //asp.getAlignmentPanel2().getAlignViewport().search();
+      asp.getAlignmentPanel2().getAlignViewport().search();
     }
   }
   

@@ -1,7 +1,7 @@
 package pogvue.io;
 
 import pogvue.datamodel.Sequence;
-
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.Vector;
@@ -16,7 +16,11 @@ public abstract class AlignFile extends FileParse {
   
   private long start;
   private long end;
-  
+ 
+  public AlignFile(BufferedReader reader) throws IOException {
+    super(reader);
+    initData();
+  }  
   public AlignFile(String inFile, String type, boolean parse) throws IOException {
     super(inFile,type);
     

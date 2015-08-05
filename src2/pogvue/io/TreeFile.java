@@ -449,6 +449,7 @@ public class TreeFile extends FileParse {
 	try {
 	  TreeFile tf = new TreeFile(args[0],"File");
 	  Tree tree = tf.getTree();
+
 	  tree.printNode(tree.getTopNode());
 
 	  TreePanel p = new TreePanel(null,tree);

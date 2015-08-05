@@ -7,6 +7,7 @@ import pogvue.io.*;
 import pogvue.gui.hub.*;
 import pogvue.analysis.*;
 import pogvue.datamodel.*;
+import pogvue.datamodel.motif.*;
 import pogvue.gui.event.*;
 
 import java.awt.*;
@@ -17,12 +18,14 @@ import javax.swing.*;
 
 public class TrackRenderer {
 
+  private static final LogoRenderer      lr  = new LogoRenderer();
   private static final GFFBaseRenderer   gf  = new GFFBaseRenderer();
   private static final GraphBaseRenderer gbr = new GraphBaseRenderer();
   private static final GraphRenderer     gr  = new GraphRenderer();
   private static final CpGRenderer       cp  = new CpGRenderer();
   private static final ConsensusRenderer cr  = new ConsensusRenderer();
   private static final BaseRenderer      br  = new BaseRenderer();
+  private static final PiRenderer        pr  = new PiRenderer();
   private static final ScoreRenderer     scr = new ScoreRenderer();
   private static final ConservedBaseRenderer cbr = new ConservedBaseRenderer();
   private static final FrameMismatchRenderer fmr = new FrameMismatchRenderer();
@@ -56,6 +59,9 @@ public class TrackRenderer {
     
     RendererI sr = av.getRenderer();
 
+    //sr = scr;
+    sr = gr;
+    //System.out.println("Renderer ******* " + sr);
     Vector tmpseq = new Vector();
     Vector hide = av.hiddenSequences();
 
@@ -84,6 +90,7 @@ public class TrackRenderer {
 				      50,x1,x2);
     }
 
+
     // av.getEndSeq());
 
     if (y2 > starty && y1 < av.getEndSeq()) {
@@ -106,6 +113,19 @@ public class TrackRenderer {
             }
           } else if (i == 0) {
             r = av.getRenderer();
+          }
+
+          if (seq.getName().indexOf("Logo") == 0
+              || seq.getName().equals("Transfac")
+              || seq.getName().equals("motif")) {
+            r = lr;
+          }
+
+	  if (seq instanceof GFF && seq.getName().equals("PWM")) {
+	      r = lr;
+	  }
+          if (seq.getName().indexOf("30mamm.pi") == 0) {
+            r = pr;
           }
 
           if (i % 2 == 0) {

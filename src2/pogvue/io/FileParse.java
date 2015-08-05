@@ -32,7 +32,13 @@ public class FileParse {
   private long pos = 0;
 
   public FileParse() {}
-  
+ 
+
+  public FileParse(BufferedReader reader) throws IOException {
+        this.inFile = "Reader";
+        this.bufReader = reader;
+        this.type      = "Reader";
+  } 
   public FileParse(String fileStr, String type) throws MalformedURLException, IOException {
   	this(fileStr,type, 0,0);
   }
@@ -79,7 +85,7 @@ public class FileParse {
       inStream  = new GZIPInputStream(url.openStream(),16384);
       InputStreamReader zis = new InputStreamReader(inStream);
       bufReader = new BufferedReader(zis,16384);
-      
+
     } else {
       System.out.println("Unknown FileParse inType " + type);
     }
