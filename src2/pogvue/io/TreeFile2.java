@@ -410,14 +410,14 @@ public class TreeFile2 extends FileParse {
     }
 		
 		
-  public float max(float l, float r) {
-    if (l > r) {
-      return l;
+    public float max(float l, float r) {
+    	if (l > r) {
+    		return l;
     } else {
       return r;
     }
   }
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 	try {
 	  TreeFile2 tf = new TreeFile2(args[0],"File");
 	  Tree tree = tf.getTree();
