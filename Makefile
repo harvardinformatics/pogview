@@ -2,7 +2,7 @@ CLASSROOT= /Users/mclamp/git/harvardinformatics/pogview/classfiles2
 JARFILES = /Users/mclamp/git/harvardinformatics/pogview/jars
 JAVA = /usr/
 
-CLASSPATH=.:$(CLASSROOT):$(JARFILES)/patbinfree153.jar:$(JARFILES)/looks-1.3.1.jar:$(JARFILES)/forms-1.1.0.jar:$(JARFILES)/epsgraphics.jar:$(JARFILES)/colt.jar:$(JARFILES)/concurrent.jar:$(JARFILES)/swing-worker-1.2.jar
+CLASSPATH=.:$(CLASSROOT):$(JARFILES)/patbinfree153.jar:$(JARFILES)/looks-1.3.1.jar:$(JARFILES)/forms-1.1.0.jar:$(JARFILES)/epsgraphics.jar:$(JARFILES)/colt.jar:$(JARFILES)/concurrent.jar:$(JARFILES)/swing-worker-1.2.jar:$(JARFILES)/picard.jar
 
 install: all
 
