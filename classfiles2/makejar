@@ -4,6 +4,7 @@ jar xvf ../jars/patbinfree153.jar
 jar xvf ../jars/forms-1.1.0.jar
 jar xvf ../jars/concurrent.jar
 jar xvf ../jars/colt.jar
+jar xvf ../jars/picard.jar
 
 jar cfm ../jars/pogvue.jar \
 manifest.mf \
