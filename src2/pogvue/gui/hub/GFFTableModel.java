@@ -460,7 +460,7 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
 
 			Alignment      al = rft.getOutput();
 			ChrRegion sr = al.getChrRegion();
-
+                        
 			updateFrame(al,sr.getStart(),sr.getStart(),sr.getEnd());
 		}
 	}
@@ -516,16 +516,12 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
     int    start = Integer.valueOf((Integer)tm.getValueAt(row,2));
     int    end   = Integer.valueOf((Integer)tm.getValueAt(row,3));
     
-    int tmpstart = start;
-    int tmpend   = end;
+    int tmpstart = start - 200000;
+    int tmpend   = end   + 200000;
 
     ChrRegion sr = new ChrRegion(chr,tmpstart,tmpend);
     
     if (col == 7) {	
-      if (end-start < 500000) { 
-      tmpstart = start - 20000  - 1;
-      tmpend   = end   + 20000;
-      } 
       if (tmpstart < 1) {
       	tmpstart = 1;
       }
@@ -589,6 +585,7 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
   }
   
   public void updateFrame(Alignment al, int offset, int start, int end) {
+    System.out.println("Updating frame ***** " + offset + " " + start + " " + end + " " + (end-start+1));
     int width  = 1500;
     int height = 1000;
     
@@ -666,6 +663,7 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
       asp.setVisible(true);
     }
     System.out.println("Done8");
+    asp.repaint();
   }
   
   public void mouseEntered(MouseEvent e) {

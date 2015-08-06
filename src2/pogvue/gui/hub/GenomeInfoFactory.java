@@ -1,8 +1,11 @@
 package pogvue.gui.hub;
 
 import pogvue.io.AlignFile;
+
+import pogvue.io.BamFile;
 import pogvue.io.FastaFile;
 import pogvue.io.FileParse;
+import pogvue.datamodel.GFF;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -173,7 +176,7 @@ public class GenomeInfoFactory {
       throws IOException {
     String query = AlignViewport.getGFFURL() + regionStr;
 
-    System.out.println("Query string " + query);
+    System.out.println("Query pog string " + query);
 
     GFFFile gff = new GFFFile(query, "URL", false);
     gff.setEstimatedSize(20000);
@@ -339,9 +342,6 @@ public class GenomeInfoFactory {
 
     Vector inputFeat = new Vector();
 
-    if (feat != null) {
-      inputFeat = SequenceFeature.hashFeatures(feat, start-1, typeorder, true);
-    }
 
     int regionlen = end - start + 1;
 
@@ -356,10 +356,27 @@ public class GenomeInfoFactory {
     //Alignment al = Alignment.getDummyAlignment("hg19", chr, start, end);
     //Alignment al = Alignment.getDummyAlignment("strCam", chr, start, end);
     Alignment al = Alignment.getDummyAlignment("galGal", chr, start, end);
+    if (feat != null) {
+      inputFeat = SequenceFeature.hashFeatures(feat, start-1, typeorder, true);
+     
+      for (int i = 0; i < inputFeat.size(); i++) { 
+         
+         GFF tmpgff = (GFF)inputFeat.elementAt(i);
+         System.out.println("Grouping " + tmpgff.getFeatures().size());
+         Vector tmpfeat = GFFFile.groupFeatures(tmpgff.getFeatures(),true);
+         System.out.println("Grouped " + tmpfeat.size());
+         tmpfeat = SequenceFeature.hashFeatures(tmpfeat, 0, typeorder, true);
+         al.addSequences(tmpfeat);
+       }
+    }
+
 
     // Now add in the features
 
-    al.addSequences(inputFeat);
+    System.out.println("Feat " + inputFeat.size()); 
+    //Vector tmpgenefeat = GFFFile.extractFeatures(input.getFeatures(), "gene");
+    //inputFeat = GFFFile.groupFeatures(feat,true);
+    //al.addSequences(inputFeat);
 
     try {
 
@@ -370,69 +387,87 @@ public class GenomeInfoFactory {
       // System.out.println("Getting gff");
 
       //GFFFile gff = GenomeInfoFactory.getLocalRegionFeatures(regstr, l);
-      GFFFile gff = GenomeInfoFactory.getLocalRegionFeatures(chr,start,end, l);
-      GraphFile grf = GenomeInfoFactory.getRegionGraph(regstr,l);
-      BlatFile blt = GenomeInfoFactory.getBlatFile(regstr, l);
+      //GFFFile gff = GenomeInfoFactory.getLocalRegionFeatures(chr,start,end, l);
+      //GraphFile grf = GenomeInfoFactory.getRegionGraph(regstr,l);
+      //BlatFile blt = GenomeInfoFactory.getBlatFile(regstr, l);
 
-      gff.parse();
+      
+      GFF bamgff = BamFile.getRegion("/Users/mclamp/ruobo/S1L1/S1L1/tophat_out/accepted_hits.bam", chr, start, end);
+      Vector<SequenceFeature> bamfeat = bamgff.getFeatures();
+      System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
+      Iterator iter = bamfeat.iterator();
+      while (iter.hasNext()) {
+    	  SequenceFeature sf = (SequenceFeature)iter.next();
+    	  sf.setStart(sf.getStart()-start+1);
+    	  sf.setEnd(sf.getEnd()-start+1);
+    	  System.out.println(sf.getStart()+  " " + sf.getEnd());
+      }
+      bamfeat = SequenceFeature.hashFeatures(bamfeat, 0, typeorder, true);
+      iter = bamfeat.iterator();
+      while (iter.hasNext()) {
+      	  GFF gff = (GFF)iter.next();
+      //Vector tmpfeat = gff.getFeatures();
+    //	  System.out.println(gff.getStart()+  " " + gff.getEnd());
+      }
+      System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
+      
+      //gff.parse();
 
-      grf.parse();
+      //grf.parse();
 
       // System.out.println("Parsing blat");
-      blt.parse();
+      //blt.parse();
 
       // Group into features and subfeatures by hitname
-      Vector tmpgenefeat = GFFFile.extractFeatures(gff.getFeatures(), "gene");
-
-      // Vector tmpfeat = GFFFile.groupFeatures(gff.getFeatures(),true);
-
-      Vector tmpfeat = gff.getFeatures();
-      // System.out.println("Tmp feat " + tmpgenefeat.size());
+      //Vector tmpgenefeat = GFFFile.extractFeatures(gff.getFeatures(), "gene");
+      //Vector tmpfeat = GFFFile.groupFeatures(gff.getFeatures(),true);
+      //Vector tmpfeat = gff.getFeatures();
+      //System.out.println("Tmp feat " + tmpgenefeat.size());
 
       // find the 'proper' gene name for each gene
 
-      // GenomeInfoFactory.assignNames(genes,tmpgenefeat);
-      tmpgenefeat = GFFFile.groupFeatures(tmpgenefeat, true);
+      //GenomeInfoFactory.assignNames(genes,tmpgenefeat);
+      //tmpgenefeat = GFFFile.groupFeatures(tmpgenefeat, true);
 
       // System.out.println("Tmp feat" + tmpgenefeat.size());
       // System.out.println("Hashing gff");
 
-      Vector featfeat = new Vector();
+      //Vector featfeat = new Vector();
       
-      if (feat != null) {
-        featfeat = SequenceFeature.hashFeatures(feat, 0, typeorder, false);
-      }
+      //if (feat != null) {
+        //featfeat = SequenceFeature.hashFeatures(feat, 0, typeorder, false);
+      //}
       
-      al.addSequences(featfeat);
+      //al.addSequences(featfeat);
       
-      Vector geneFeat = SequenceFeature.hashFeatures(tmpgenefeat, 0, typeorder, true);
-      Vector gffFeat = SequenceFeature.hashFeatures(tmpfeat, 0, typeorder,false);
+      //Vector geneFeat = SequenceFeature.hashFeatures(tmpgenefeat, 0, typeorder, true);
+      //Vector gffFeat = SequenceFeature.hashFeatures(tmpfeat, 0, typeorder,false);
 
-      for (int i = 0; i < gffFeat.size(); i++) {
-        GFF gff2 = (GFF) gffFeat.elementAt(i);
-      }
-      System.out.println("Hashing grf");
+      //for (int i = 0; i < gffFeat.size(); i++) {
+       // GFF gff2 = (GFF) gffFeat.elementAt(i);
+      //}
+      //System.out.println("Hashing grf");
 
-      Vector grfFeat = null;
+      //Vector grfFeat = null;
 
-      grfFeat = SequenceFeature.hashFeatures(grf.getFeatures(), 0, typeorder,false);
+      //grfFeat = SequenceFeature.hashFeatures(grf.getFeatures(), 0, typeorder,false);
 
       // System.out.println("Hashing blat " + blt.getFeatures().size());
 
-      Vector bltFeat = SequenceFeature.hashFeatures(blt.getFeatures(), 0,typeorder, true);
+      //Vector bltFeat = SequenceFeature.hashFeatures(blt.getFeatures(), 0,typeorder, true);
 
       // System.out.println("Adding genes " + geneFeat.size());
-      al.addSequences(geneFeat, 1);
+      //al.addSequences(geneFeat, 1);
 
       // System.out.println("Adding gff " + gffFeat.size());
 
-      al.addSequences(gffFeat);
-
+      //al.addSequences(gffFeat);
+      al.addSequences(bamfeat);
       
-      al.addSequences(grfFeat, 5);
+      //al.addSequences(grfFeat, 5);
 
       // System.out.println("Adding blat " + bltFeat.size());
-      al.addSequences(bltFeat);
+      //al.addSequences(bltFeat);
 
     } catch (IOException e) {
       e.printStackTrace();

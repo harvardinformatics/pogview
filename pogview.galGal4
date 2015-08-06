@@ -2,6 +2,7 @@
 
 export POGHOME=./
 
-export CLASSPATH=${POGHOME}:${POGHOME}/classfiles2:${POGHOME}/jars/looks-1.3.1.jar:${POGHOME}/jars/epsgraphics.jar:${POGHOME}/jars/forms-1.1.0.jar:${POGHOME}/jars/pal-cvs.jar:${POGHOME}/jars/colt.jar:${POGHOME}/jars/concurrent.jar
+export CLASSPATH=${POGHOME}:${POGHOME}/classfiles2:${POGHOME}/jars/looks-1.3.1.jar:${POGHOME}/jars/epsgraphics.jar:${POGHOME}/jars/forms-1.1.0.jar:${POGHOME}/jars/pal-cvs.jar:${POGHOME}/jars/colt.jar:${POGHOME}/jars/concurrent.jar:${POGHOME}/jars/picard.jar
 
-java -jar jars/pogvue.jar -Xmx8096M pogvue.gui.hub.GFFTableModel -lenfile data/galGal4.over100k.chrlen -bandfile data/galGal4.cytoband.txt -gfffile $1
+#java -jar jars/pogvue.jar -Xmx8096M pogvue.gui.hub.GFFTableModel -lenfile data/galGal4.over100k.chrlen -bandfile data/galGal4.cytoband.txt -gfffile $1
+java -Xmx8096M pogvue.gui.hub.GFFTableModel -lenfile data/galGal4.over100k.chrlen -bandfile data/galGal4.cytoband.txt -gfffile $1

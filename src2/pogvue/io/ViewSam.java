@@ -57,11 +57,6 @@ import java.util.List;
  *
  * @author tfennell@broad.mit.edu
  */
-@CommandLineProgramProperties(
-        usage = "Prints a SAM or BAM file to the screen.",
-        usageShort = "Prints a SAM or BAM file to the screen",
-        programGroup = SamOrBam.class
-)
 public class ViewSam extends CommandLineProgram {
     public static enum AlignmentStatus {Aligned, Unaligned, All}
 
