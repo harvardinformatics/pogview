@@ -129,7 +129,7 @@ public class GFFBaseRenderer implements RendererI {
 	      // Draw the connecting lines and strand info if this is a subfeature
 	      if (sftmp.getFeatures() != null) {       // Has sub features
 	      	
-	      	if (j > 0 && (sftmp.getType().equals("gene") || sftmp.getType().equals("non_coding") || sftmp.getType().equals("blat") || sftmp.getType().equals("est"))) {
+	      	if (j > 0 && (sftmp.getType().equals("gene") || sftmp.getType().equals("non_coding") || sftmp.getType().equals("blat") || sftmp.getType().equals("est") || sftmp.getType().equals("BAM"))) {
 		  SequenceFeature prev = (SequenceFeature)tmpf.elementAt(j-1);
 		  
 		  int tmpstart = prev.getEnd();

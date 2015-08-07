@@ -516,8 +516,8 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
     int    start = Integer.valueOf((Integer)tm.getValueAt(row,2));
     int    end   = Integer.valueOf((Integer)tm.getValueAt(row,3));
     
-    int tmpstart = start - 200000;
-    int tmpend   = end   + 200000;
+    int tmpstart = start - 500000;
+    int tmpend   = end   + 500000;
 
     ChrRegion sr = new ChrRegion(chr,tmpstart,tmpend);
     

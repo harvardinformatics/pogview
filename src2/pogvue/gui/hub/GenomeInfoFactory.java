@@ -361,13 +361,14 @@ public class GenomeInfoFactory {
      
       for (int i = 0; i < inputFeat.size(); i++) { 
          
-         GFF tmpgff = (GFF)inputFeat.elementAt(i);
-         System.out.println("Grouping " + tmpgff.getFeatures().size());
-         Vector tmpfeat = GFFFile.groupFeatures(tmpgff.getFeatures(),true);
-         System.out.println("Grouped " + tmpfeat.size());
-         tmpfeat = SequenceFeature.hashFeatures(tmpfeat, 0, typeorder, true);
-         al.addSequences(tmpfeat);
+        GFF tmpgff = (GFF)inputFeat.elementAt(i);
+        System.out.println("Grouping " + tmpgff.getFeatures().size());
+        Vector tmpfeat = GFFFile.groupFeatures(tmpgff.getFeatures(),true);
+        System.out.println("Grouped " + tmpfeat.size());
+        tmpfeat = SequenceFeature.hashFeatures(tmpfeat, 0, typeorder, true);
+        al.addSequences(tmpfeat);
        }
+       //al.addSequences(inputFeat);
     }
 
 
@@ -392,7 +393,7 @@ public class GenomeInfoFactory {
       //BlatFile blt = GenomeInfoFactory.getBlatFile(regstr, l);
 
       
-      GFF bamgff = BamFile.getRegion("/Users/mclamp/ruobo/S1L1/S1L1/tophat_out/accepted_hits.bam", chr, start, end);
+      GFF bamgff = BamFile.getRegion("/Users/mclamp/S11L1.bam", chr, start, end);
       Vector<SequenceFeature> bamfeat = bamgff.getFeatures();
       System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
       Iterator iter = bamfeat.iterator();
@@ -400,15 +401,28 @@ public class GenomeInfoFactory {
     	  SequenceFeature sf = (SequenceFeature)iter.next();
     	  sf.setStart(sf.getStart()-start+1);
     	  sf.setEnd(sf.getEnd()-start+1);
-    	  System.out.println(sf.getStart()+  " " + sf.getEnd());
+          sf.setType("BAM2");
       }
+      System.out.println("Ungrouped BAM " + bamfeat.size());
+      bamfeat = GFFFile.groupFeatures(bamfeat,true);
+      System.out.println("Grouped BAM " + bamfeat.size());
       bamfeat = SequenceFeature.hashFeatures(bamfeat, 0, typeorder, true);
-      iter = bamfeat.iterator();
+      al.addSequences(bamfeat);
+
+      GFF bamgff = BamFile.getRegion("/Users/mclamp/S1L1.bam", chr, start, end);
+      Vector<SequenceFeature> bamfeat = bamgff.getFeatures();
+      System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
+      Iterator iter = bamfeat.iterator();
       while (iter.hasNext()) {
-      	  GFF gff = (GFF)iter.next();
-      //Vector tmpfeat = gff.getFeatures();
-    //	  System.out.println(gff.getStart()+  " " + gff.getEnd());
+    	  SequenceFeature sf = (SequenceFeature)iter.next();
+    	  sf.setStart(sf.getStart()-start+1);
+    	  sf.setEnd(sf.getEnd()-start+1);
       }
+      System.out.println("Ungrouped BAM " + bamfeat.size());
+      bamfeat = GFFFile.groupFeatures(bamfeat,true);
+      System.out.println("Grouped BAM " + bamfeat.size());
+      bamfeat = SequenceFeature.hashFeatures(bamfeat, 0, typeorder, true);
+      al.addSequences(bamfeat);
       System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
       
       //gff.parse();
@@ -462,7 +476,7 @@ public class GenomeInfoFactory {
       // System.out.println("Adding gff " + gffFeat.size());
 
       //al.addSequences(gffFeat);
-      al.addSequences(bamfeat);
+      //al.addSequences(bamfeat);
       
       //al.addSequences(grfFeat, 5);
 

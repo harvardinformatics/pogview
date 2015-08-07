@@ -28,6 +28,7 @@ import htsjdk.samtools.SAMRecord;
 
 import htsjdk.samtools.SamReader;
 import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.AlignmentBlock;
 import htsjdk.samtools.util.CloseableIterator;
 import htsjdk.samtools.util.Interval;
 import htsjdk.samtools.util.IntervalList;
@@ -111,22 +112,39 @@ public class BamFile {
         while (samRecordsIterator.hasNext()) {
             final SAMRecord rec = samRecordsIterator.next();
             //System.out.println(rec.getSAMString());
-            GFF gff = new GFF(rec.getReadName(),rec.getReadBases().toString(),rec.getStart(),rec.getEnd());
-            SequenceFeature sf = new SequenceFeature(null, "BAM", rec.getStart(), rec.getEnd(),"BAM");
-            		
- 
-            sf.setId(rec.getReadName());
-            sf.setScore(rec.getMappingQuality());
-            boolean negstrand = rec.getReadNegativeStrandFlag();
-            if (negstrand) {
+
+            GFF                  gff    = new GFF(rec.getReadName(),rec.getReadBases().toString(),rec.getStart(),rec.getEnd());
+            List<AlignmentBlock> blocks = rec.getAlignmentBlocks();
+
+            for (int i = 0;i < blocks.size(); i++) {
+              AlignmentBlock block = (AlignmentBlock)blocks.get(i);
+
+              int refstart = block.getReferenceStart();
+              int refend   = refstart + block.getLength() - 1;
+
+              int hitstart = block.getReadStart();
+              int hitend   = hitstart + block.getLength() - 1;
+
+              //SequenceFeature sf = new SequenceFeature(null, "BAM", rec.getStart(), rec.getEnd(),"BAM");
+              SequenceFeature sf = new SequenceFeature(null, "BAM", refstart,refend,"BAM");
+              SequenceFeature sf2 = new SequenceFeature(null, "BAM", hitstart,hitend,"BAM");
+              sf2.setId(rec.getReadName()); 
+              sf.setId(rec.getReadName());
+              sf.setScore(rec.getMappingQuality());
+              sf.setHitFeature(sf2);
+              boolean negstrand = rec.getReadNegativeStrandFlag();
+
+              if (negstrand) {
             	sf.setStrand(-1);
-            } else {
+              } else {
             	sf.setStrand(1);
-            }
-            sf.setType2("BAM");
-            sf.setPhase(".");
-            sf.setAlignString(rec.getReadBases().toString());
-            feat.addElement(sf);
+              }
+
+              sf.setType2("BAM");
+              sf.setPhase(".");
+              sf.setAlignString(rec.getReadString().substring(hitstart-1,hitend));
+              feat.addElement(sf);
+           }
         }
         GFF gff = new GFF(chr,"",start,end);
         gff.addFeatures(feat);
