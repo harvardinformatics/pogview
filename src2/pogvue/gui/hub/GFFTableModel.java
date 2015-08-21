@@ -221,6 +221,7 @@ public class GFFTableModel extends AbstractTableModel implements ActionListener,
       String lenfile     = null;
       String gfffile     = null;	  
       String bandfile    = null;
+      String bamfile     = null;
       boolean dens     = false;
       boolean linked   = false;
 
@@ -244,6 +245,10 @@ public class GFFTableModel extends AbstractTableModel implements ActionListener,
       }        
       if (opts.containsKey("-binsize")) {
       	binsize = Integer.parseInt((String)opts.get("-binsize"));
+      }
+      if (opts.containsKey("-bamfile")) {
+      	bamfile = (String)opts.get("-bamfile");
+        GlobalSettings.bamfiles.addElement(bamfile);
       }
       
       // First the chromosomes
@@ -641,7 +646,7 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
     
     System.out.println("Done5");
     int mid = al.getWidth()/2;
-    
+   
     asp.getAlignmentPanel2().getAlignViewport().setStartRes(mid - (width-150)/(2*3));
     asp.getAlignmentPanel1().getAlignViewport().setCharWidth(cw,"set");
     asp.getAlignmentPanel2().getAlignViewport().setCharWidth(3,"set");
@@ -656,6 +661,7 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
     System.out.println("Done6");
 
     AlignViewport av = asp.getAlignmentPanel2().getAlignViewport();
+
 
     System.out.println("Done7");
     

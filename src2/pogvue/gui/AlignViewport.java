@@ -44,6 +44,7 @@ public final class AlignViewport implements ActionListener, KeyListener {
   public Sequence[] tffasta = null;
 
   public Vector hide;
+  public Vector bamfiles = new Vector();
 
   private int startRes;
   private int endRes;
@@ -117,6 +118,10 @@ public final class AlignViewport implements ActionListener, KeyListener {
    //private static final String blt_url   = "http://localhost:8080/~mclamp/fetch_mrna.php?";
    //private static final String info_url   = "http://localhost:8080/~mclamp/fetch_geneinfo.php?";
 
+
+  public void addBamFile(String file) {
+      this.bamfiles.addElement(file);
+  }
   public boolean useImage = true;
 
     public AlignViewport(Alignment da) {

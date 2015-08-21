@@ -13,6 +13,7 @@ import java.io.InterruptedIOException;
 import java.net.MalformedURLException;
 import pogvue.io.*;
 import pogvue.gui.*;
+import pogvue.datamodel.GlobalSettings;
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
@@ -392,39 +393,29 @@ public class GenomeInfoFactory {
       //GraphFile grf = GenomeInfoFactory.getRegionGraph(regstr,l);
       //BlatFile blt = GenomeInfoFactory.getBlatFile(regstr, l);
 
-      
-      GFF bamgff = BamFile.getRegion("/Users/mclamp/S11L1.bam", chr, start, end);
-      Vector<SequenceFeature> bamfeat = bamgff.getFeatures();
-      System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
-      Iterator iter = bamfeat.iterator();
-      while (iter.hasNext()) {
-    	  SequenceFeature sf = (SequenceFeature)iter.next();
-    	  sf.setStart(sf.getStart()-start+1);
-    	  sf.setEnd(sf.getEnd()-start+1);
-          sf.setType("BAM2");
-      }
-      System.out.println("Ungrouped BAM " + bamfeat.size());
-      bamfeat = GFFFile.groupFeatures(bamfeat,true);
-      System.out.println("Grouped BAM " + bamfeat.size());
-      bamfeat = SequenceFeature.hashFeatures(bamfeat, 0, typeorder, true);
-      al.addSequences(bamfeat);
+     
+      for (int i = 0; i < GlobalSettings.bamfiles.size(); i++) { 
+          String bamfile                  = (String)(GlobalSettings.bamfiles.elementAt(i));
+          GFF bamgff                      = BamFile.getRegion(bamfile, chr, start, end);
+          Vector<SequenceFeature> bamfeat = bamgff.getFeatures();
 
-      GFF bamgff2 = BamFile.getRegion("/Users/mclamp/S1L1.bam", chr, start, end);
-      Vector<SequenceFeature> bamfeat2 = bamgff2.getFeatures();
-      System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat2.size());
-      Iterator iter2 = bamfeat2.iterator();
-      while (iter2.hasNext()) {
-    	  SequenceFeature sf2 = (SequenceFeature)iter2.next();
-    	  sf2.setStart(sf2.getStart()-start+1);
-    	  sf2.setEnd(sf2.getEnd()-start+1);
+          System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
+
+          Iterator iter = bamfeat.iterator();
+
+          while (iter.hasNext()) {
+      	     SequenceFeature sf = (SequenceFeature)iter.next();
+    	     sf.setStart(sf.getStart()-start+1);
+    	     sf.setEnd(sf.getEnd()-start+1);
+             sf.setType("BAM2");
+          }
+          System.out.println("Ungrouped BAM " + bamfeat.size());
+          //bamfeat = GFFFile.groupFeatures(bamfeat,true);
+          //System.out.println("Grouped BAM " + bamfeat.size());
+          bamfeat = SequenceFeature.hashFeatures(bamfeat, 0, typeorder, true);
+          al.addSequences(bamfeat);
       }
-      System.out.println("Ungrouped BAM " + bamfeat2.size());
-      bamfeat2 = GFFFile.groupFeatures(bamfeat2,true);
-      System.out.println("Grouped BAM " + bamfeat2.size());
-      bamfeat2 = SequenceFeature.hashFeatures(bamfeat2, 0, typeorder, true);
-      al.addSequences(bamfeat2);
-      System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat2.size());
-      
+
       //gff.parse();
 
       //grf.parse();
