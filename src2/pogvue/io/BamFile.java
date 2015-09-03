@@ -110,6 +110,7 @@ public class BamFile {
         Vector<SequenceFeature> feat = new Vector();
         
         while (samRecordsIterator.hasNext()) {
+            try {
             final SAMRecord rec = samRecordsIterator.next();
             //System.out.println(rec.getSAMString());
 
@@ -145,6 +146,9 @@ public class BamFile {
               sf.setAlignString(rec.getReadString().substring(hitstart-1,hitend));
               feat.addElement(sf);
            }
+          } catch (Exception ex) {
+             System.out.println("Exception reading bamfile : " + ex);
+          }
         }
         GFF gff = new GFF(chr,"",start,end);
         gff.addFeatures(feat);
