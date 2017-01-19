@@ -410,8 +410,8 @@ public class GenomeInfoFactory {
              sf.setType("BAM2");
           }
           System.out.println("Ungrouped BAM " + bamfeat.size());
-          //bamfeat = GFFFile.groupFeatures(bamfeat,true);
-          //System.out.println("Grouped BAM " + bamfeat.size());
+          bamfeat = GFFFile.groupFeatures(bamfeat,true);
+          System.out.println("Grouped BAM " + bamfeat.size());
           bamfeat = SequenceFeature.hashFeatures(bamfeat, 0, typeorder, true);
           al.addSequences(bamfeat);
       }

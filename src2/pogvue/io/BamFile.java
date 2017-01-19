@@ -53,26 +53,26 @@ public class BamFile {
 	public static void main(String[] args) {
 		try {
 			
-			if (args.length != 4) {
-				System.out.println("Usage: java pogvue.io.BamFile <bamfile> <chr> <start> <end>");
-				System.exit(0);
-			}
+  		  if (args.length != 4) {
+		     System.out.println("Usage: java pogvue.io.BamFile <bamfile> <chr> <start> <end>");
+	             System.exit(0);
+		  }
 			
-			final String filename         = args[0];
-	    	final String chr              = args[1];
-	    	final int    start            = Integer.parseInt(args[2]);
-	    	final int    end              = Integer.parseInt(args[3]);
+	  	  final String filename         = args[0];
+	    	  final String chr              = args[1];
+	    	  final int    start            = Integer.parseInt(args[2]);
+	    	  final int    end              = Integer.parseInt(args[3]);
 	    		
-			GFF gff = BamFile.getRegion(filename,chr,start,end);
+		  GFF gff = BamFile.getRegion(filename,chr,start,end);
 			
-			System.out.println(gff.getName() + " " + gff.getStart() + " " + gff.getEnd() + " " + gff.getSequence());
-			Iterator<SequenceFeature> sfiter = gff.getFeatures().iterator();
+		  System.out.println(gff.getName() + " " + gff.getStart() + " " + gff.getEnd() + " " + gff.getSequence());
+		  Iterator<SequenceFeature> sfiter = gff.getFeatures().iterator();
 				
-			while(sfiter.hasNext()) {
-				SequenceFeature sf = (SequenceFeature)sfiter.next();
-				System.out.println(sf.toGFFString());
-			}
-			System.out.println("Done");
+		  while(sfiter.hasNext()) {
+			SequenceFeature sf = (SequenceFeature)sfiter.next();
+			System.out.println(sf.toGFFString());
+		  }
+		  System.out.println("Done");
 						
 		} catch (IOException e) {
 			System.out.println("ERROR: " + e);

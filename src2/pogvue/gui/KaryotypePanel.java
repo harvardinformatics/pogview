@@ -285,6 +285,9 @@ public final class KaryotypePanel extends JPanel implements MouseListener, Actio
       g.setColor(Color.black);
       g.drawString(chr.getName(),xpos - 15,(int)(ystart + 20));//0.07*height));
 
+      // Draw the chromosome outline
+      g.setColor(Color.black);
+      g.drawRect(xpos-4,yoffset,chrwidth,chrheight);
       // Now the feature density
 
       int maxbin      = chr.getLength()/chr.getBinSize() + 1;

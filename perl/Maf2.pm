@@ -129,7 +129,7 @@ sub get_align {
     my $ass   = $self->{reforg};
     #print "ASSembly $ass\n";
     my %index;
-
+    print "Looking for index [$index]\n";
     if (! -e $index) {
 	print "No index file $index\n";
 	return;
