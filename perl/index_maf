@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+use strict;
+use Maf2;
+
+use FileHandle;
+
+
+#my $maf2 = new Maf2('strCam','../maf/','../maf/orgfile.dat');
+my $maf2 = new Maf2('galGal','../maf/galGal4/','../maf/galGal4/orgfile.dat');
+
+$maf2->index();
+
