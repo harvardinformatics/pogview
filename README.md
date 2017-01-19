@@ -78,3 +78,6 @@ The display is a bit effed on my machine (I haven’t run this since 2009 or so)
 
 It may be too buggy to use for too long in its current state.  It needs some TLC.
 
+
+# Initializing keystore (github password)
+keytool -genkey -alias mydomain -keyalg RSA -keystore KeyStore.jks -keysize 2048

@@ -333,18 +333,14 @@ public class GenomeInfoFactory {
  
 
   // Used in RegionFetchThread and AlignmentPanel and GFF2PS
-  public static Alignment requestRegion(String chr, int start, int end,
-      Vector feat, ActionListener l) {
+  public static Alignment requestRegion(String chr, int start, int end, Vector feat, ActionListener l) {
 
     // Hash the input features by type - farm out
 
-    LinkedHashMap typeorder = AlignViewport.readGFFConfig(
-        "data/gff.conf", "File");
+    LinkedHashMap typeorder = AlignViewport.readGFFConfig("data/gff.conf", "File");
 
     Vector inputFeat = new Vector();
-
-
-    int regionlen = end - start + 1;
+    int    regionlen = end - start + 1;
 
     // This is the generic regions string for querying the website
 
@@ -356,7 +352,9 @@ public class GenomeInfoFactory {
     //Alignment al = Alignment.getDummyAlignment("Human", chr, start, end);
     //Alignment al = Alignment.getDummyAlignment("hg19", chr, start, end);
     //Alignment al = Alignment.getDummyAlignment("strCam", chr, start, end);
+    
     Alignment al = Alignment.getDummyAlignment("galGal", chr, start, end);
+    
     if (feat != null) {
       inputFeat = SequenceFeature.hashFeatures(feat, start-1, typeorder, true);
      
@@ -396,10 +394,10 @@ public class GenomeInfoFactory {
      
       for (int i = 0; i < GlobalSettings.bamfiles.size(); i++) { 
           String bamfile                  = (String)(GlobalSettings.bamfiles.elementAt(i));
-          GFF bamgff                      = BamFile.getRegion(bamfile, chr, start, end);
+          GFF    bamgff                   = BamFile.getRegion(bamfile, chr, start, end);
           Vector<SequenceFeature> bamfeat = bamgff.getFeatures();
 
-          System.out.println("HASDFHASHDFHASHDFAHSDF " + bamfeat.size());
+          System.out.println("Number of BAM features " + bamfeat.size());
 
           Iterator iter = bamfeat.iterator();
 

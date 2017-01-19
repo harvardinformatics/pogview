@@ -16,7 +16,8 @@ CC      = $(JAVA)/bin/javac -sourcepath ./:./src2/ -classpath $(CLASSPATH) -d $(
 all:	datamodel io gui guihub guievent guimenus guischemes analysis renderer expression motif tree util math feature jar
 
 jar:
-	cd classfiles2 ; ./makejar ; cd .. ; echo poggywog | jarsigner jars/pogvue.jar pogview
+	#cd classfiles2 ; ./makejar ; cd .. ; echo poggywog | jarsigner jars/pogvue.jar pogview
+	cd classfiles2 ; ./makejar ; cd .. ; echo 98isag76 |jarsigner -keystore KeyStore.jks jars/pogvue.jar mydomain
 
 
 io:	$(IOCLASS)

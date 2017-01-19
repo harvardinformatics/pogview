@@ -177,7 +177,7 @@ public class GFFTableModel extends AbstractTableModel implements ActionListener,
   public void setTable(JTable t) {
     this.table = t;
   }
-  
+
   public Vector getFeatures() {
     System.out.println("Selection " + fsel.getFeatures());
     
@@ -521,8 +521,8 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
     int    start = Integer.valueOf((Integer)tm.getValueAt(row,2));
     int    end   = Integer.valueOf((Integer)tm.getValueAt(row,3));
     
-    int tmpstart = start - 500000;
-    int tmpend   = end   + 500000;
+    int tmpstart = start - 5000000;
+    int tmpend   = end   + 5000000;
 
     ChrRegion sr = new ChrRegion(chr,tmpstart,tmpend);
     
@@ -549,16 +549,28 @@ class GFFTableButtonMouseListener implements MouseListener, ActionListener {
         }
       }
       
-      tmpfeat = sr.overlaps(tm.getFeatures());
+      tmpfeat = sr.overlaps(tm.getAllFeatures());
       newfeat = new Vector();
+
+      int minstart = -1;
+      int maxend   = -1;
       
       for (int i = 0; i < tmpfeat.size(); i++) {
         SequenceFeature sf1 = (SequenceFeature)tmpfeat.elementAt(i);
         SequenceFeature sf2 = sf1.clone();
-        
+
+	if (sf2.getStart() != -1 && sf2.getStart() < minstart) {
+	    minstart = sf2.getStart();
+	}
+	if (sf2.getEnd() != -1 && sf2.getEnd() > maxend) {
+	    maxend = sf2.getEnd();
+	}
         newfeat.addElement(sf2);
       }
 
+      System.out.println("New feat " + newfeat.size());
+      System.out.println("Start/end of feature overlaps " + minstart + " " + maxend);
+      
       // Hmm - not here
       // Start off a fetch
       // Send a 'new region event'  to the Controller

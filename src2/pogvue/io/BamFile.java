@@ -88,7 +88,8 @@ public class BamFile {
     public static GFF getRegion(String filename,String chr, int start, int end) throws IOException {
     	
     	final File input = new File(filename);
-    	
+
+	System.out.println("File is " + filename);
         // Generate the headers from the sam file
     	
         final SAMFileHeader         header                = new SAMFileHeader();
@@ -108,7 +109,9 @@ public class BamFile {
         
         final CloseableIterator<SAMRecord> samRecordsIterator = new SamRecordIntervalIteratorFactory().makeSamRecordIntervalIterator(samReader, intervalList.getIntervals(), samReader.hasIndex());
         Vector<SequenceFeature> feat = new Vector();
-        
+
+	System.out.println("In BamFile getting region " + chr + " " + start + " " + end);
+	
         while (samRecordsIterator.hasNext()) {
             try {
             final SAMRecord rec = samRecordsIterator.next();
